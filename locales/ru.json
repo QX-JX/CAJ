@@ -1,0 +1,266 @@
+{
+  "main_window": {
+    "title": "Конвертер CAJ",
+    "subtitle": "Продукт Kunqiong AI",
+    "brand_text": "Продукт Kunqiong AI",
+    "version": "Версия: V{version}",
+    "customize": "Настройка ПО/Связаться с нами",
+    "feedback": "Обратная связь",
+    "menu": {
+      "settings": "Общие настройки",
+      "tutorial": "Руководство",
+      "update": "Проверить обновления",
+      "about": "О нас"
+    },
+    "tutorial": {
+      "title": "Руководство",
+      "content": "Функция руководства находится в разработке...\n\nОсновные шаги:\n1. Выберите тип конвертации (CAJ в другое/CAJ в изображение/Другое в CAJ)\n2. Добавьте файлы для конвертации\n3. Установите формат и директорию вывода\n4. Нажмите «Начать конвертацию»"
+    },
+    "update_dialog": {
+      "found_title": "Найдена новая версия",
+      "found_message": "Найдена новая версия V{version}. Обновить сейчас?",
+      "fail_title": "Ошибка обновления",
+      "no_update_title": "Проверка обновлений",
+      "no_update_message": "Текущая версия: V{version}\n\nУ вас уже установлена последняя версия!",
+      "check_fail_title": "Ошибка проверки обновлений"
+    },
+    "about": {
+      "title": "О нас",
+      "app_name": "Конвертер CAJ",
+      "version_prefix": "Версия: V",
+      "desc": "Профессиональный инструмент для конвертации файлов CAJ",
+      "features_title": "Возможности:",
+      "feature_list": "<li>CAJ в PDF, DOC, DOCX, TXT</li><li>CAJ в JPG, PNG, BMP</li><li>PDF, Word, изображения в CAJ</li>",
+      "copyright": "© 2024 Kunqiong AI | KunqiongAI"
+    },
+    "errors": {
+      "feedback_fail": "Не удалось загрузить страницу обратной связи. Проверьте соединение.",
+      "customize_fail": "Не удалось получить ссылку на настройку. Проверьте соединение.",
+      "login_flow_fail": "Не удалось запустить процесс входа. Проверьте соединение.",
+      "browser_open_fail": "Не удалось открыть браузер: {error}"
+    },
+    "home": {
+      "title_prefix": "Обработка CAJ в один клик",
+      "title_highlight": "Эффективная конвертация",
+      "cards": {
+        "caj_to_other": {
+          "title": "CAJ в другое",
+          "desc": "Конвертация CAJ в PDF, DOC,\nDOCX, TXT"
+        },
+        "caj_to_image": {
+          "title": "CAJ в изображение",
+          "desc": "Конвертация CAJ в JPG, PNG,\nBMP"
+        },
+        "other_to_caj": {
+          "title": "Другое в CAJ",
+          "desc": "Конвертация PDF, Word, TXT,\nизображений в формат CAJ"
+        }
+      }
+    },
+    "settings": {
+      "title": "Общие настройки",
+      "file_count": "Одновременных файлов",
+      "auto_folder": "Автоматически создавать папку программы\nв директории вывода после обработки",
+      "cancel": "Отмена",
+      "confirm": "Подтвердить",
+      "language": "Language"
+    },
+    "languages": {
+      "ar": "阿拉伯语 (Arabic)",
+      "bn": "孟加拉语 (Bengali)",
+      "de": "德语 (German)",
+      "en": "英语 (English)",
+      "es": "西班牙语 (Spanish)",
+      "fa": "波斯语 (Farsi/Persian)",
+      "fr": "法语 (French)",
+      "he": "希伯来语 (Hebrew)",
+      "hi": "印地语 (Hindi)",
+      "id": "印度尼西亚语 (Indonesian)",
+      "it": "意大利语 (Italian)",
+      "ja": "日语 (Japanese)",
+      "ko": "韩语 (Korean)",
+      "ms": "马来语 (Malay)",
+      "nl": "荷兰语 (Dutch)",
+      "pl": "波兰语 (Polish)",
+      "pt": "葡萄牙语 (Portuguese)",
+      "pt_BR": "巴西葡萄牙语 (Brazilian Portuguese)",
+      "ru": "俄语 (Russian)",
+      "sw": "斯瓦希里语 (Swahili)",
+      "ta": "泰米尔语 (Tamil)",
+      "th": "泰语 (Thai)",
+      "tl": "他加禄语 (Tagalog)",
+      "tr": "土耳其语 (Turkish)",
+      "uk": "乌克兰语 (Ukrainian)",
+      "ur": "乌尔都语 (Urdu)",
+      "vi": "越南语 (Vietnamese)",
+      "zh_CN": "简体中文 (Simplified Chinese)",
+      "zh_TW": "繁体中文 (Traditional Chinese)"
+    }
+  },
+  "login": {
+    "user_button": {
+      "default_nickname": "Пользователь",
+      "login_text": "Войти",
+      "logged_in": "В сети",
+      "logout_text": "Выйти"
+    },
+    "dialog": {
+      "title": "Вход пользователя",
+      "waiting": "Ожидание входа...",
+      "remaining_time": "Оставшееся время: {time}с",
+      "cancel": "Отмена",
+      "cancel_login": "Отменить вход",
+      "browser_login": "Войти через браузер",
+      "instructions": "Нажмите кнопку ниже, чтобы открыть страницу входа в браузере.\nПосле входа программа автоматически синхронизирует ваш статус.",
+      "error_start": "Не удалось запустить вход, проверьте соединение",
+      "error_browser": "Не удалось открыть браузер: {error}",
+      "success": "Вход выполнен успешно!",
+      "failure": "Ошибка входа",
+      "logging_in_title": "Выполняется вход",
+      "logging_in_message": "Браузер открыт, пожалуйста, выполните вход.\n\nПрограмма автоматически обнаружит ваш статус..."
+    },
+    "logout": {
+      "confirm_title": "Подтверждение выхода",
+      "confirm_message": "Вы уверены, что хотите выйти из аккаунта?",
+      "title": "Выход",
+      "success": "Выход выполнен успешно.",
+      "stale": "Сессия истекла, данные аккаунта очищены."
+    }
+  },
+  "auth": {
+    "dialog": {
+      "title": "Инструментарий Kunqiong AI · Активация",
+      "instructions": "Установленный инструмент является частью экосистемы Kunqiong AI.\nЕго необходимо активировать кодом для доступа ко всем функциям.",
+      "input_placeholder": "Введите код авторизации",
+      "verify_button": "Проверить",
+      "no_code": "Нет кода?",
+      "get_code": "Нажмите, чтобы получить",
+      "success": "Активация выполнена успешно!",
+      "failure": "Неверный или просроченный код, введите снова",
+      "error": "Ошибка проверки кода: {error}",
+      "page_error": "Не удалось получить ссылку на страницу активации",
+      "page_failure": "Ошибка страницы активации: {error}",
+      "timeout": "Тайм-аут сети, проверьте соединение",
+      "open_error": "Ошибка открытия страницы: {error}"
+    }
+  },
+  "convert": {
+    "page": {
+      "sidebar": {
+        "home": "Главная",
+        "caj_to_other": "CAJ в другое",
+        "caj_to_image": "CAJ в изображение",
+        "other_to_caj": "Другое в CAJ"
+      },
+      "drop_zone": {
+        "hint": "Нажмите, чтобы добавить / Перетащите файлы сюда",
+        "caj_to_other_support": "Поддержка CAJ в PDF, DOC, DOCX, TXT",
+        "caj_to_image_support": "Поддержка CAJ в JPG, PNG, BMP",
+        "other_to_caj_support": "Поддержка PDF, Word, TXT, изобр. в CAJ"
+      },
+      "steps": {
+        "step1_title": "Добавить файлы",
+        "step1_desc": "Поддержка перетаскивания или пакетов",
+        "step2_title": "Настройки",
+        "step2_desc": "Задайте формат и путь",
+        "step3_title": "Начать",
+        "step3_desc": "Эффективная конвертация в один клик"
+      },
+      "toolbar": {
+        "add_files": "Добавить файлы",
+        "add_folder": "Добавить папку",
+        "clear_all": "Очистить всё"
+      },
+      "bottom": {
+        "output_format": "Формат",
+        "output_dir": "Папка вывода",
+        "change_dir": "Изменить",
+        "open_dir": "Открыть",
+        "start_convert": "Конвертировать",
+        "quality": "Качество",
+        "high": "Высокое",
+        "medium": "Среднее",
+        "low": "Низкое",
+        "long_image": "Экспорт в длинное изображение"
+      },
+      "dialogs": {
+        "select_files": "Выберите файлы",
+        "select_folder": "Выберите папку",
+        "no_files": "Подходящие файлы не найдены"
+      },
+      "list_header": {
+        "name": "Имя файла",
+        "size": "Размер",
+        "pages": "Страниц",
+        "page_select": "Диапазон",
+        "status": "Статус",
+        "operation": "Действие"
+      },
+      "all_pages": "Все",
+      "first_pages": "Первые ",
+      "pages_unit": " страниц",
+      "custom_range": "Свой:",
+      "custom_placeholder": "напр., 1-5,8,10-12",
+      "hint": "Формат: 1-5, 8, 10-12",
+      "cancel": "Отмена",
+      "confirm": "ОК",
+      "all": "Все",
+      "first_n_pages": "Первые {num} стр.",
+      "status_pending": "В очереди",
+      "status_converting": "Конвертация {percent}%",
+      "status_success": "Успешно ✓",
+      "status_failure": "Ошибка",
+      "status_waiting": "Ожидание",
+      "wait_pages": "Пожалуйста, подождите загрузки страниц",
+      "unknown_size": "Неизвестно",
+      "total_pages": "Выберите диапазон (всего {total})",
+      "output_same_as_source": "Как в источнике",
+      "output_custom": "Своя папка",
+      "select_output_dir": "Выберите директорию вывода",
+      "no_files_added": "Сначала добавьте файлы",
+      "convert_complete": "Готово",
+      "convert_success_msg": "Все файлы ({count}) успешно конвертированы!\nПапка: {dir}",
+      "convert_result_msg": "Конвертация завершена\nУспешно: {success}\nОшибка: {fail}",
+      "step1_title": "Добавить",
+      "step1_desc": "Пакетное добавление файлов",
+      "step2_title": "Конфигурация",
+      "step2_desc": "Настройте формат или папку",
+      "step3_title": "Старт",
+      "step3_desc": "Нажмите и ждите завершения"
+    }
+  },
+  "converter": {
+    "error_not_found": "Файл CAJ не найден",
+    "error_extract_pdf": "Не удалось извлечь PDF",
+    "error_unsupported_format": "Неподдерживаемый формат: {format}",
+    "success": "Успешно",
+    "failure": "Ошибка: {error}",
+    "error_import": "Ошибка импорта модуля: {error}",
+    "error_pdf_failed": "Ошибка генерации PDF",
+    "error_caj2pdf_import": "Не удалось импортировать caj2pdf",
+    "error_missing_lib": "Библиотека не найдена: {error}",
+    "error_pdf2docx_import": "pdf2docx не найден",
+    "error_pymupdf_missing": "PyMuPDF не найден",
+    "error_java_missing": "Java не найдена, установите JDK 17+",
+    "error_timeout": "Тайм-аут конвертации",
+    "txt_page_header": "--- Стр. {page} ---",
+    "long_image_suffix": "_ДлинноеИзобр",
+    "long_image_suffix_n": "_ДлинноеИзобр_{index}"
+  },
+  "common": {
+    "error": "Ошибка",
+    "success": "Успешно",
+    "hint": "Подсказка"
+  },
+  "ad": {
+    "loading": "Загрузка рекламы...",
+    "fallback_text": "Рекламное изобр.",
+    "fallback_position": "Место для рекламы"
+  },
+  "update": {
+    "error_format": "Неверный формат данных сервера",
+    "error_check_failed": "Ошибка проверки: {error}",
+    "error_updater_not_found": "Обновление не найдено: {path}",
+    "error_start_failed": "Не удалось запустить обновление: {error}"
+  }
+}

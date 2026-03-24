@@ -1,0 +1,266 @@
+{
+  "main_window": {
+    "title": "CAJ Converter",
+    "subtitle": "Een product van Kunqiong AI",
+    "brand_text": "Een product van Kunqiong AI",
+    "version": "Versie: V{version}",
+    "customize": "Softwareaanpassing/Contact",
+    "feedback": "Feedback",
+    "menu": {
+      "settings": "Algemene instellingen",
+      "tutorial": "Tutorial",
+      "update": "Controleren op updates",
+      "about": "Over ons"
+    },
+    "tutorial": {
+      "title": "Tutorial",
+      "content": "De tutorial-functie is in ontwikkeling...\n\nBasisstappen:\n1. Selecteer conversietype (CAJ naar andere/CAJ naar afbeelding/Andere naar CAJ)\n2. Voeg bestanden toe\n3. Stel formaat en map in\n4. Klik op Start conversie"
+    },
+    "update_dialog": {
+      "found_title": "Nieuwe versie gevonden",
+      "found_message": "Nieuwe versie V{version} gevonden, nu updaten?",
+      "fail_title": "Update mislukt",
+      "no_update_title": "Update-controle",
+      "no_update_message": "Huidige versie: V{version}\n\nU gebruikt al de nieuwste versie!",
+      "check_fail_title": "Controle mislukt"
+    },
+    "about": {
+      "title": "Over ons",
+      "app_name": "CAJ Converter",
+      "version_prefix": "Versie: V",
+      "desc": "Een professionele tool voor CAJ-bestandsconversie",
+      "features_title": "Kenmerken:",
+      "feature_list": "<li>CAJ naar PDF, DOC, DOCX, TXT</li><li>CAJ naar JPG, PNG, BMP</li><li>PDF, Word, afbeeldingen naar CAJ</li>",
+      "copyright": "© 2024 Kunqiong AI | KunqiongAI"
+    },
+    "errors": {
+      "feedback_fail": "Feedbackpagina kon niet worden geladen. Controleer uw verbinding.",
+      "customize_fail": "Aanpassingslink kon niet worden geladen.",
+      "login_flow_fail": "Inlogproces kon niet worden gestart.",
+      "browser_open_fail": "Browser kon niet worden geopend: {error}"
+    },
+    "home": {
+      "title_prefix": "CAJ-verwerking in één klik",
+      "title_highlight": "Efficiënte conversie",
+      "cards": {
+        "caj_to_other": {
+          "title": "CAJ naar Andere",
+          "desc": "Converteer CAJ naar PDF, DOC,\nDOCX, TXT formaten"
+        },
+        "caj_to_image": {
+          "title": "CAJ naar Afbeelding",
+          "desc": "Converteer CAJ naar JPG, PNG,\nBMP formaten"
+        },
+        "other_to_caj": {
+          "title": "Andere naar CAJ",
+          "desc": "Converteer PDF, Word, TXT,\nafbeeldingen naar CAJ"
+        }
+      }
+    },
+    "settings": {
+      "title": "Algemene instellingen",
+      "file_count": "Gelijktijdige bestanden",
+      "auto_folder": "Maak automatisch een map aan in de\nuitvoermap na verwerking",
+      "cancel": "Annuleren",
+      "confirm": "Bevestigen",
+      "language": "Language"
+    },
+    "languages": {
+      "ar": "阿拉伯语 (Arabic)",
+      "bn": "孟加拉语 (Bengali)",
+      "de": "德语 (German)",
+      "en": "英语 (English)",
+      "es": "西班牙语 (Spanish)",
+      "fa": "波斯语 (Farsi/Persian)",
+      "fr": "法语 (French)",
+      "he": "希伯来语 (Hebrew)",
+      "hi": "印地语 (Hindi)",
+      "id": "印度尼西亚语 (Indonesian)",
+      "it": "意大利语 (Italian)",
+      "ja": "日语 (Japanese)",
+      "ko": "韩语 (Korean)",
+      "ms": "马来语 (Malay)",
+      "nl": "荷兰语 (Dutch)",
+      "pl": "波兰语 (Polish)",
+      "pt": "葡萄牙语 (Portuguese)",
+      "pt_BR": "巴西葡萄牙语 (Brazilian Portuguese)",
+      "ru": "俄语 (Russian)",
+      "sw": "斯瓦希里语 (Swahili)",
+      "ta": "泰米尔语 (Tamil)",
+      "th": "泰语 (Thai)",
+      "tl": "他加禄语 (Tagalog)",
+      "tr": "土耳其语 (Turkish)",
+      "uk": "乌克兰语 (Ukrainian)",
+      "ur": "乌尔都语 (Urdu)",
+      "vi": "越南语 (Vietnamese)",
+      "zh_CN": "简体中文 (Simplified Chinese)",
+      "zh_TW": "繁体中文 (Traditional Chinese)"
+    }
+  },
+  "login": {
+    "user_button": {
+      "default_nickname": "Gebruiker",
+      "login_text": "Inloggen",
+      "logged_in": "Ingelogd",
+      "logout_text": "Uitloggen"
+    },
+    "dialog": {
+      "title": "Gebruikerslogin",
+      "waiting": "Wachten op login...",
+      "remaining_time": "Resterende tijd: {time}s",
+      "cancel": "Annuleren",
+      "cancel_login": "Login annuleren",
+      "browser_login": "Inloggen via browser",
+      "instructions": "Klik hieronder om de inlogpagina in uw browser te openen.\nNa inloggen wordt uw status automatisch gesynchroniseerd.",
+      "error_start": "Start mislukt, controleer uw netwerk",
+      "error_browser": "Browser kon niet worden geopend: {error}",
+      "success": "Login succesvol!",
+      "failure": "Login mislukt",
+      "logging_in_title": "Inloggen bezig",
+      "logging_in_message": "Browser is geopend. Voltooi de login daar.\n\nDe software herkent uw status automatisch..."
+    },
+    "logout": {
+      "confirm_title": "Uitloggen bevestigen",
+      "confirm_message": "Weet u zeker dat u wilt uitloggen?",
+      "title": "Uitloggen",
+      "success": "Succesvol uitgelogd.",
+      "stale": "Sessie verlopen, lokale gegevens gewist."
+    }
+  },
+  "auth": {
+    "dialog": {
+      "title": "Kunqiong AI Toolbox · Activering",
+      "instructions": "Deze tool is een applicatie van de Kunqiong AI Toolbox.\nActivering via een code is vereist voor alle functies.",
+      "input_placeholder": "Voer autorisatiecode in",
+      "verify_button": "Controleren",
+      "no_code": "Geen code?",
+      "get_code": "Code aanvragen",
+      "success": "Activering succesvol!",
+      "failure": "Code ongeldig of verlopen",
+      "error": "Fout bij controle: {error}",
+      "page_error": "Link naar activeringspagina niet gevonden",
+      "page_failure": "Fout bij laden pagina: {error}",
+      "timeout": "Netwerk time-out",
+      "open_error": "Fout bij openen pagina: {error}"
+    }
+  },
+  "convert": {
+    "page": {
+      "sidebar": {
+        "home": "Home",
+        "caj_to_other": "CAJ naar Andere",
+        "caj_to_image": "CAJ naar Afbeelding",
+        "other_to_caj": "Andere naar CAJ"
+      },
+      "drop_zone": {
+        "hint": "Klik om toe te voegen / Sleep bestanden hierheen",
+        "caj_to_other_support": "Ondersteunt CAJ naar PDF, DOC, DOCX, TXT",
+        "caj_to_image_support": "Ondersteunt CAJ naar JPG, PNG, BMP",
+        "other_to_caj_support": "Ondersteunt PDF, Word, TXT, afbeeldingen naar CAJ"
+      },
+      "steps": {
+        "step1_title": "Bestanden toevoegen",
+        "step1_desc": "Sleep bestanden of voeg ze in batch toe",
+        "step2_title": "Instellingen",
+        "step2_desc": "Stel formaat en pad in",
+        "step3_title": "Starten",
+        "step3_desc": "Efficiënte conversie in één klik"
+      },
+      "toolbar": {
+        "add_files": "Bestanden toevoegen",
+        "add_folder": "Map toevoegen",
+        "clear_all": "Alles wissen"
+      },
+      "bottom": {
+        "output_format": "Formaat",
+        "output_dir": "Uitvoermap",
+        "change_dir": "Wijzigen",
+        "open_dir": "Openen",
+        "start_convert": "Converteren",
+        "quality": "Kwaliteit",
+        "high": "Hoog",
+        "medium": "Gemiddeld",
+        "low": "Laag",
+        "long_image": "Exporteren als lange afbeelding"
+      },
+      "dialogs": {
+        "select_files": "Bestanden kiezen",
+        "select_folder": "Map kiezen",
+        "no_files": "Geen passende bestanden gevonden"
+      },
+      "list_header": {
+        "name": "Bestandsnaam",
+        "size": "Grootte",
+        "pages": "Pagina's",
+        "page_select": "Bereik",
+        "status": "Status",
+        "operation": "Actie"
+      },
+      "all_pages": "Alle",
+      "first_pages": "Eerste ",
+      "pages_unit": " pagina's",
+      "custom_range": "Aangepast:",
+      "custom_placeholder": "bijv. 1-5,8,10-12",
+      "hint": "Formaat: 1-5, 8, 10-12",
+      "cancel": "Annuleren",
+      "confirm": "OK",
+      "all": "Alle",
+      "first_n_pages": "Eerste {num} pagina's",
+      "status_pending": "In wachtrij",
+      "status_converting": "Converteren {percent}%",
+      "status_success": "Succes ✓",
+      "status_failure": "Mislukt",
+      "status_waiting": "Wachten",
+      "wait_pages": "Pagina's worden geladen...",
+      "unknown_size": "Onbekend",
+      "total_pages": "Selecteer paginabereik (Totaal {total})",
+      "output_same_as_source": "Zelfde als bron",
+      "output_custom": "Eigen map",
+      "select_output_dir": "Uitvoermap kiezen",
+      "no_files_added": "Voeg eerst bestanden toe",
+      "convert_complete": "Klaar",
+      "convert_success_msg": "{count} bestanden succesvol geconverteerd!\nUitvoer: {dir}",
+      "convert_result_msg": "Conversie voltooid\nSucces: {success}\nFouten: {fail}",
+      "step1_title": "Toevoegen",
+      "step1_desc": "Bestanden in batch toevoegen",
+      "step2_title": "Uitvoer",
+      "step2_desc": "Formaat of map kiezen",
+      "step3_title": "Start",
+      "step3_desc": "Klik en wacht"
+    }
+  },
+  "converter": {
+    "error_not_found": "CAJ-bestand niet gevonden",
+    "error_extract_pdf": "PDF-extractie mislukt",
+    "error_unsupported_format": "Niet-ondersteund formaat: {format}",
+    "success": "Succes",
+    "failure": "Fout: {error}",
+    "error_import": "Import mislukt: {error}",
+    "error_pdf_failed": "PDF-generatie mislukt",
+    "error_caj2pdf_import": "caj2pdf kon niet worden geïmporteerd",
+    "error_missing_lib": "Bibliotheek ontbreekt: {error}",
+    "error_pdf2docx_import": "pdf2docx ontbreekt",
+    "error_pymupdf_missing": "PyMuPDF ontbreekt",
+    "error_java_missing": "Java ontbreekt, installeer JDK 17+",
+    "error_timeout": "Time-out bij conversie",
+    "txt_page_header": "--- Pagina {page} ---",
+    "long_image_suffix": "_LangeAfbeelding",
+    "long_image_suffix_n": "_LangeAfbeelding_{index}"
+  },
+  "common": {
+    "error": "Fout",
+    "success": "Succes",
+    "hint": "Tip"
+  },
+  "ad": {
+    "loading": "Advertentie laadt...",
+    "fallback_text": "Advertentie-afbeelding",
+    "fallback_position": "Advertentieplaats"
+  },
+  "update": {
+    "error_format": "Ongeldig gegevensformaat",
+    "error_check_failed": "Controle mislukt: {error}",
+    "error_updater_not_found": "Updater niet gevonden: {path}",
+    "error_start_failed": "Update-start mislukt: {error}"
+  }
+}

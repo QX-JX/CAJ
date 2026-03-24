@@ -1,0 +1,266 @@
+{
+  "main_window": {
+    "title": "Kigeuzi cha CAJ",
+    "subtitle": "Bidhaa ya Kunqiong AI",
+    "brand_text": "Bidhaa ya Kunqiong AI",
+    "version": "Toleo: V{version}",
+    "customize": "Urekebishaji wa Programu/Wasiliana Nasi",
+    "feedback": "Maoni",
+    "menu": {
+      "settings": "Mipangilio ya Jumla",
+      "tutorial": "Mafunzo",
+      "update": "Angalia Sasisho",
+      "about": "Kuhusu Sisi"
+    },
+    "tutorial": {
+      "title": "Mafunzo",
+      "content": "Kazi ya mafunzo inatengenezwa...\n\nHatua za msingi:\n1. Chagua aina ya uongofu (CAJ kwenda nyingine/CAJ kwenda picha/Nyingine kwenda CAJ)\n2. Ongeza faili za kubadilishwa\n3. Weka muundo wa pato na saraka\n4. Bonyeza Anza Uongofu"
+    },
+    "update_dialog": {
+      "found_title": "Toleo Jipya Limepatikana",
+      "found_message": "Toleo jipya V{version} limepatikana, sasisha sasa?",
+      "fail_title": "Sasisho Imeshindwa",
+      "no_update_title": "Angalia Sasisho",
+      "no_update_message": "Toleo la sasa: V{version}\n\nTayari unatumia toleo jipya zaidi!",
+      "check_fail_title": "Ukaguzi wa Sasisho Umeshindwa"
+    },
+    "about": {
+      "title": "Kuhusu Sisi",
+      "app_name": "Kigeuzi cha CAJ",
+      "version_prefix": "Toleo: V",
+      "desc": "Zana ya kitaalamu ya uongofu wa faili za CAJ",
+      "features_title": "Vipengele:",
+      "feature_list": "<li>CAJ kwenda PDF, DOC, DOCX, TXT</li><li>CAJ kwenda picha za JPG, PNG, BMP</li><li>PDF, Word, Picha kwenda CAJ</li>",
+      "copyright": "© 2024 Kunqiong AI | KunqiongAI"
+    },
+    "errors": {
+      "feedback_fail": "Imeshindwa kupata ukurasa wa maoni, tafadhali angalia mtandao wako.",
+      "customize_fail": "Imeshindwa kupata kiungo cha urekebishaji.",
+      "login_flow_fail": "Imeshindwa kuanza mchakato wa kuingia.",
+      "browser_open_fail": "Imeshindwa kufungua kivinjari: {error}"
+    },
+    "home": {
+      "title_prefix": "Usindikaji wa CAJ kwa mbofyo mmoja",
+      "title_highlight": "Uongofu Wenye Ufanisi",
+      "cards": {
+        "caj_to_other": {
+          "title": "CAJ kwenda Nyingine",
+          "desc": "Badilisha CAJ kwenda PDF, DOC,\nDOCX, TXT, miundo ya"
+        },
+        "caj_to_image": {
+          "title": "CAJ kwenda Picha",
+          "desc": "Badilisha CAJ kwenda miundo ya JPG,\nPNG, BMP"
+        },
+        "other_to_caj": {
+          "title": "Nyingine kwenda CAJ",
+          "desc": "Badilisha PDF, Word, TXT, Picha\nkwenda muundo wa CAJ"
+        }
+      }
+    },
+    "settings": {
+      "title": "Mipangilio ya Jumla",
+      "file_count": "Faili zinazofanana",
+      "auto_folder": "Unda otomatiki folda ya programu\nkwenye saraka ya pato baada ya usindikaji",
+      "cancel": "Ghairi",
+      "confirm": "Thibitisha",
+      "language": "Language"
+    },
+    "languages": {
+      "ar": "阿拉伯语 (Arabic)",
+      "bn": "孟加拉语 (Bengali)",
+      "de": "德语 (German)",
+      "en": "英语 (English)",
+      "es": "西班牙语 (Spanish)",
+      "fa": "波斯语 (Farsi/Persian)",
+      "fr": "法语 (French)",
+      "he": "希伯来语 (Hebrew)",
+      "hi": "印地语 (Hindi)",
+      "id": "印度尼西亚语 (Indonesian)",
+      "it": "意大利语 (Italian)",
+      "ja": "日语 (Japanese)",
+      "ko": "韩语 (Korean)",
+      "ms": "马来语 (Malay)",
+      "nl": "荷兰语 (Dutch)",
+      "pl": "波兰语 (Polish)",
+      "pt": "葡萄牙语 (Portuguese)",
+      "pt_BR": "巴西葡萄牙语 (Brazilian Portuguese)",
+      "ru": "俄语 (Russian)",
+      "sw": "斯瓦希里语 (Swahili)",
+      "ta": "泰米尔语 (Tamil)",
+      "th": "泰语 (Thai)",
+      "tl": "他加禄语 (Tagalog)",
+      "tr": "土耳其语 (Turkish)",
+      "uk": "乌克兰语 (Ukrainian)",
+      "ur": "乌尔都语 (Urdu)",
+      "vi": "越南语 (Vietnamese)",
+      "zh_CN": "简体中文 (Simplified Chinese)",
+      "zh_TW": "繁体中文 (Traditional Chinese)"
+    }
+  },
+  "login": {
+    "user_button": {
+      "default_nickname": "Mtumiaji",
+      "login_text": "Ingia",
+      "logged_in": "Umeingia",
+      "logout_text": "Ondoka"
+    },
+    "dialog": {
+      "title": "Ingia kwa Mtumiaji",
+      "waiting": "Inasubiri kuingia...",
+      "remaining_time": "Muda uliosalia: sekunde {time}",
+      "cancel": "Ghairi",
+      "cancel_login": "Ghairi Kuingia",
+      "browser_login": "Ingia kupitia Kivinjari",
+      "instructions": "Bonyeza kitufe hapa chini ili kufungua ukurasa wa kuingia kwenye kivinjari chako.\nBaada ya kuingia, programu itasawazisha hali yako otomatiki.",
+      "error_start": "Imeshindwa kuanza kuingia, tafadhali angalia mtandao wako",
+      "error_browser": "Imeshindwa kufungua kivinjari: {error}",
+      "success": "Umeingia kwa mafanikio!",
+      "failure": "Imeshindwa kuingia",
+      "logging_in_title": "Inaingia",
+      "logging_in_message": "Kivinjari kimefunguliwa, tafadhali kamilisha kuingia kwenye kivinjari.\n\nProgramu itagundua hali yako otomatiki..."
+    },
+    "logout": {
+      "confirm_title": "Thibitisha Kuondoka",
+      "confirm_message": "Je, una uhakika unataka kuondoka?",
+      "title": "Ondoka",
+      "success": "Umeondoka kwa mafanikio.",
+      "stale": "Kipindi cha kuingia kimeisha, maelezo ya akaunti ya ndani yamefutwa."
+    }
+  },
+  "auth": {
+    "dialog": {
+      "title": "Sanduku la Zana la Kunqiong AI · Uwezeshaji",
+      "instructions": "Zana iliyosakinishwa ni programu ya Sanduku la Zana la Kunqiong AI.\nInahitaji kuwezeshwa kupitia nambari ya idhini ili kuwezesha vipengele kamili.",
+      "input_placeholder": "Tafadhali ingiza nambari ya idhini",
+      "verify_button": "Thibitisha",
+      "no_code": "Huna nambari?",
+      "get_code": "Bonyeza ili kupata",
+      "success": "Uwezeshaji umefaulu!",
+      "failure": "Nambari ya idhini batili au muda wake umeisha, tafadhali jaribu tena",
+      "error": "Hitilafu wakati wa kuthibitisha nambari: {error}",
+      "page_error": "Imeshindwa kupata kiungo cha ukurasa wa uwezeshaji",
+      "page_failure": "Ukurasa wa uwezeshaji umeshindwa: {error}",
+      "timeout": "Muda wa mtandao umeisha, tafadhali angalia unganisho lako",
+      "open_error": "Hitilafu wakati wa kufungua ukurasa: {error}"
+    }
+  },
+  "convert": {
+    "page": {
+      "sidebar": {
+        "home": "Nyumbani",
+        "caj_to_other": "CAJ kwenda Nyingine",
+        "caj_to_image": "CAJ kwenda Picha",
+        "other_to_caj": "Nyingine kwenda CAJ"
+      },
+      "drop_zone": {
+        "hint": "Bonyeza ili kuongeza / Buruta faili hapa",
+        "caj_to_other_support": "Inasaidia CAJ kwenda PDF, DOC, DOCX, TXT",
+        "caj_to_image_support": "Inasaidia CAJ kwenda JPG, PNG, BMP",
+        "other_to_caj_support": "Inasaidia PDF, Word, TXT, Picha kwenda CAJ"
+      },
+      "steps": {
+        "step1_title": "Ongeza Faili",
+        "step1_desc": "Inasaidia kuburuta na kudondosha au kuongeza kwa wingi",
+        "step2_title": "Mipangilio ya Pato",
+        "step2_desc": "Weka muundo na njia ya kuhifadhi",
+        "step3_title": "Anza Uongofu",
+        "step3_desc": "Uongofu wenye ufanisi kwa mbofyo mmoja"
+      },
+      "toolbar": {
+        "add_files": "Ongeza Faili",
+        "add_folder": "Ongeza Folda",
+        "clear_all": "Futa Zote"
+      },
+      "bottom": {
+        "output_format": "Muundo",
+        "output_dir": "Saraka ya Pato",
+        "change_dir": "Badilisha",
+        "open_dir": "Fungua",
+        "start_convert": "Badilisha Sasa",
+        "quality": "Ubora",
+        "high": "Juu",
+        "medium": "Kati",
+        "low": "Chini",
+        "long_image": "Hamisha kama picha ndefu"
+      },
+      "dialogs": {
+        "select_files": "Chagua Faili",
+        "select_folder": "Chagua Folda",
+        "no_files": "Hakuna faili zinazolingana zilizopatikana"
+      },
+      "list_header": {
+        "name": "Jina la Faili",
+        "size": "Ukubwa",
+        "pages": "Kurasa",
+        "page_select": "Masafa",
+        "status": "Hali",
+        "operation": "Kitendo"
+      },
+      "all_pages": "Zote",
+      "first_pages": "Za kwanza ",
+      "pages_unit": " kurasa",
+      "custom_range": "Maalum:",
+      "custom_placeholder": "mfano, 1-5,8,10-12",
+      "hint": "Muundo: 1-5, 8, 10-12",
+      "cancel": "Ghairi",
+      "confirm": "Sawa",
+      "all": "Zote",
+      "first_n_pages": "Kurasa {num} za kwanza",
+      "status_pending": "Inasubiri",
+      "status_converting": "Inabadilisha {percent}%",
+      "status_success": "Mafanikio ✓",
+      "status_failure": "Imeshindwa",
+      "status_waiting": "Inasubiri",
+      "wait_pages": "Tafadhali subiri upakiaji wa idadi ya kurasa",
+      "unknown_size": "Haijulikani",
+      "total_pages": "Chagua Masafa ya Kurasa (Jumla ya kurasa {total})",
+      "output_same_as_source": "Sawa na folda chanzo",
+      "output_custom": "Folda maalum",
+      "select_output_dir": "Chagua saraka ya pato",
+      "no_files_added": "Tafadhali ongeza faili kwanza",
+      "convert_complete": "Imekamilika",
+      "convert_success_msg": "Faili zote {count} zimebadilishwa kwa mafanikio!\nSaraka ya pato: {dir}",
+      "convert_result_msg": "Uongofu umekamilika\nMafanikio: {success}\nZilizoshindwa: {fail}",
+      "step1_title": "Ongeza",
+      "step1_desc": "Kuongeza faili kwa wingi",
+      "step2_title": "Usanidi",
+      "step2_desc": "Sanidi muundo au folda",
+      "step3_title": "Anza",
+      "step3_desc": "Bonyeza kitufe na usubiri hadi mwisho"
+    }
+  },
+  "converter": {
+    "error_not_found": "Faili ya CAJ haipo",
+    "error_extract_pdf": "Imeshindwa kutoa PDF iliyoingizwa",
+    "error_unsupported_format": "Muundo hauauniwi: {format}",
+    "success": "Mafanikio",
+    "failure": "Imeshindwa: {error}",
+    "error_import": "Imeshindwa kuingiza moduli ya uongofu: {error}",
+    "error_pdf_failed": "Uundaji wa faili ya PDF umeshindwa",
+    "error_caj2pdf_import": "Imeshindwa kuingiza maktaba ya caj2pdf: {error}",
+    "error_missing_lib": "Maktaba inayohitajika haijapatikana: {error}",
+    "error_pdf2docx_import": "pdf2docx haijapatikana",
+    "error_pymupdf_missing": "Maktaba ya PyMuPDF haijapatikana",
+    "error_java_missing": "Mazingira ya Java hayajapatikana, tafadhali sakinisha JDK 17 au zaidi",
+    "error_timeout": "Muda wa uongofu umeisha",
+    "txt_page_header": "--- Ukurasa {page} ---",
+    "long_image_suffix": "_PichaNdefu",
+    "long_image_suffix_n": "_PichaNdefu_{index}"
+  },
+  "common": {
+    "error": "Hitilafu",
+    "success": "Mafanikio",
+    "hint": "Dokezo"
+  },
+  "ad": {
+    "loading": "Tangazo linapakia...",
+    "fallback_text": "Picha ya tangazo",
+    "fallback_position": "Nafasi ya tangazo"
+  },
+  "update": {
+    "error_format": "Muundo batili wa data kutoka kwa seva",
+    "error_check_failed": "Ukaguzi wa sasisho umeshindwa: {error}",
+    "error_updater_not_found": "Programu ya kusasisha haijapatikana: {path}",
+    "error_start_failed": "Imeshindwa kuanza sasisho: {error}"
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "main_window": {
+    "title": "محول CAJ",
+    "subtitle": "منتج من شركة Kunqiong AI",
+    "brand_text": "منتج من شركة Kunqiong AI",
+    "version": "الإصدار: V{version}",
+    "customize": "تخصيص البرنامج / اتصل بنا",
+    "feedback": "ملاحظات",
+    "menu": {
+      "settings": "الإعدادات العامة",
+      "tutorial": "دروس تعليمية",
+      "update": "التحقق من التحديثات",
+      "about": "حول التطبيق"
+    },
+    "tutorial": {
+      "title": "دروس تعليمية",
+      "content": "وظيفة الدروس التعليمية قيد التطوير...\n\nالخطوات الأساسية:\n1. اختر نوع التحويل (CAJ إلى آخر / CAJ إلى صورة / آخر إلى CAJ)\n2. أضف الملفات المراد تحويلها\n3. حدد تنسيق الإخراج والمجلد\n4. انقر فوق بدء التحويل"
+    },
+    "update_dialog": {
+      "found_title": "تم العثور على إصدار جديد",
+      "found_message": "تم العثور على إصدار جديد V{version}، هل تريد التحديث الآن؟",
+      "fail_title": "فشل التحديث",
+      "no_update_title": "التحقق من التحديثات",
+      "no_update_message": "الإصدار الحالي: V{version}\n\nأنت تستخدم أحدث إصدار بالفعل!",
+      "check_fail_title": "فشل التحقق من التحديث"
+    },
+    "about": {
+      "title": "حول التطبيق",
+      "app_name": "محول CAJ",
+      "version_prefix": "الإصدار: V",
+      "desc": "أداة احترافية لتحويل تنسيق ملفات CAJ",
+      "features_title": "الميزات:",
+      "feature_list": "<li>CAJ إلى PDF، DOC، DOCX، TXT</li><li>CAJ إلى JPG، PNG، BMP</li><li>PDF، Word، صورة إلى CAJ</li>",
+      "copyright": "© 2024 Kunqiong AI | KunqiongAI"
+    },
+    "errors": {
+      "feedback_fail": "فشل الحصول على صفحة الملاحظات، يرجى التحقق من الاتصال أو المحاولة لاحقاً.",
+      "customize_fail": "فشل الحصول على رابط التخصيص، يرجى التحقق من الاتصال.",
+      "login_flow_fail": "فشل بدء عملية تسجيل الدخول، يرجى التحقق من الاتصال.",
+      "browser_open_fail": "فشل فتح المتصفح: {error}"
+    },
+    "home": {
+      "title_prefix": "معالجة CAJ بنقرة واحدة",
+      "title_highlight": "تحويل فعال",
+      "cards": {
+        "caj_to_other": {
+          "title": "CAJ إلى آخر",
+          "desc": "تحويل CAJ إلى PDF، DOC،\nDOCX، TXT"
+        },
+        "caj_to_image": {
+          "title": "CAJ إلى صورة",
+          "desc": "تحويل CAJ إلى تنسيقات JPG، PNG،\nوBMP"
+        },
+        "other_to_caj": {
+          "title": "آخر إلى CAJ",
+          "desc": "تحويل PDF، Word، TXT، وصورة\nإلى تنسيق CAJ"
+        }
+      }
+    },
+    "settings": {
+      "title": "الإعدادات العامة",
+      "file_count": "الملفات المتزامنة",
+      "auto_folder": "إنشاء مجلد للبرنامج تلقائياً\nفي مجلد الإخراج بعد المعالجة",
+      "cancel": "إلغاء",
+      "confirm": "تأكيد",
+      "language": "Language"
+    },
+    "languages": {
+      "ar": "阿拉伯语 (Arabic)",
+      "bn": "孟加拉语 (Bengali)",
+      "de": "德语 (German)",
+      "en": "英语 (English)",
+      "es": "西班牙语 (Spanish)",
+      "fa": "波斯语 (Farsi/Persian)",
+      "fr": "法语 (French)",
+      "he": "希伯来语 (Hebrew)",
+      "hi": "印地语 (Hindi)",
+      "id": "印度尼西亚语 (Indonesian)",
+      "it": "意大利语 (Italian)",
+      "ja": "日语 (Japanese)",
+      "ko": "韩语 (Korean)",
+      "ms": "马来语 (Malay)",
+      "nl": "荷兰语 (Dutch)",
+      "pl": "波兰语 (Polish)",
+      "pt": "葡萄牙语 (Portuguese)",
+      "pt_BR": "巴西葡萄牙语 (Brazilian Portuguese)",
+      "ru": "俄语 (Russian)",
+      "sw": "斯瓦希里语 (Swahili)",
+      "ta": "泰米尔语 (Tamil)",
+      "th": "泰语 (Thai)",
+      "tl": "他加禄语 (Tagalog)",
+      "tr": "土耳其语 (Turkish)",
+      "uk": "乌克兰语 (Ukrainian)",
+      "ur": "乌尔都语 (Urdu)",
+      "vi": "越南语 (Vietnamese)",
+      "zh_CN": "简体中文 (Simplified Chinese)",
+      "zh_TW": "繁体中文 (Traditional Chinese)"
+    }
+  },
+  "login": {
+    "user_button": {
+      "default_nickname": "مستخدم",
+      "login_text": "تسجيل الدخول",
+      "logged_in": "تم تسجيل الدخول",
+      "logout_text": "تسجيل الخروج"
+    },
+    "dialog": {
+      "title": "تسجيل دخول المستخدم",
+      "waiting": "في انتظار تسجيل الدخول...",
+      "remaining_time": "الوقت المتبقي: {time} ثانية",
+      "cancel": "إلغاء",
+      "cancel_login": "إلغاء تسجيل الدخول",
+      "browser_login": "تسجيل الدخول عبر المتصفح",
+      "instructions": "انقر على الزر أدناه لفتح صفحة تسجيل الدخول في المتصفح.\nبعد تسجيل الدخول، سيقوم البرنامج بمزامنة حالتك تلقائياً.",
+      "error_start": "فشل بدء تسجيل الدخول، يرجى التحقق من الاتصال",
+      "error_browser": "فشل فتح المتصفح: {error}",
+      "success": "تم تسجيل الدخول بنجاح!",
+      "failure": "فشل تسجيل الدخول",
+      "logging_in_title": "جاري تسجيل الدخول",
+      "logging_in_message": "تم فتح المتصفح، يرجى إكمال تسجيل الدخول فيه.\n\nسيقوم البرنامج باكتشاف حالتك تلقائياً..."
+    },
+    "logout": {
+      "confirm_title": "تأكيد تسجيل الخروج",
+      "confirm_message": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+      "title": "تسجيل الخروج",
+      "success": "تم تسجيل الخروج بنجاح.",
+      "stale": "انتهت جلسة تسجيل الدخول، تم مسح بيانات الحساب."
+    }
+  },
+  "auth": {
+    "dialog": {
+      "title": "صندوق أدوات Kunqiong AI · التفعيل",
+      "instructions": "الأداة المثبتة هي تطبيق ضمن صندوق أدوات Kunqiong AI.\nيجب تفعيلها باستخدام رمز ترخيص لتمكين جميع الميزات.",
+      "input_placeholder": "يرجى إدخال رمز الترخيص",
+      "verify_button": "تحقق",
+      "no_code": "ليس لديك رمز؟",
+      "get_code": "انقر للحصول عليه",
+      "success": "تم التفعيل بنجاح!",
+      "failure": "رمز ترخيص غير صالح أو منتهي الصلاحية، يرجى المحاولة ثانية",
+      "error": "خطأ في التحقق من الرمز: {error}",
+      "page_error": "فشل الحصول على رابط صفحة التفعيل",
+      "page_failure": "فشل صفحة التفعيل: {error}",
+      "timeout": "انتهت مهلة الشبكة، يرجى التحقق من الاتصال",
+      "open_error": "خطأ في فتح الصفحة: {error}"
+    }
+  },
+  "convert": {
+    "page": {
+      "sidebar": {
+        "home": "الرئيسية",
+        "caj_to_other": "CAJ إلى آخر",
+        "caj_to_image": "CAJ إلى صورة",
+        "other_to_caj": "آخر إلى CAJ"
+      },
+      "drop_zone": {
+        "hint": "انقر للإضافة / اسحب الملفات هنا",
+        "caj_to_other_support": "يدعم تحويل CAJ إلى PDF، DOC، DOCX، TXT",
+        "caj_to_image_support": "يدعم تحويل CAJ إلى JPG، PNG، BMP",
+        "other_to_caj_support": "يدعم تحويل PDF، Word، TXT، صورة إلى CAJ"
+      },
+      "steps": {
+        "step1_title": "إضافة الملفات",
+        "step1_desc": "يدعم السحب والإفلات أو الإضافة الجماعية",
+        "step2_title": "إعدادات الإخراج",
+        "step2_desc": "تحديد التنسيق ومسار الحفظ",
+        "step3_title": "بدء التحويل",
+        "step3_desc": "تحويل فعال بنقرة واحدة"
+      },
+      "toolbar": {
+        "add_files": "إضافة ملفات",
+        "add_folder": "إضافة مجلد",
+        "clear_all": "مسح الكل"
+      },
+      "bottom": {
+        "output_format": "التنسيق",
+        "output_dir": "مجلد الإخراج",
+        "change_dir": "تغيير",
+        "open_dir": "فتح",
+        "start_convert": "تحويل الآن",
+        "quality": "الجودة",
+        "high": "عالية",
+        "medium": "متوسطة",
+        "low": "منخفضة",
+        "long_image": "تصدير كصورة طويلة"
+      },
+      "dialogs": {
+        "select_files": "اختر الملفات",
+        "select_folder": "اختر المجلد",
+        "no_files": "لم يتم العثور على ملفات مطابقة"
+      },
+      "list_header": {
+        "name": "اسم الملف",
+        "size": "الحجم",
+        "pages": "الصفحات",
+        "page_select": "النطاق",
+        "status": "الحالة",
+        "operation": "الإجراء"
+      },
+      "all_pages": "الكل",
+      "first_pages": "الأولى ",
+      "pages_unit": " صفحات",
+      "custom_range": "مخصص:",
+      "custom_placeholder": "مثال: 1-5,8,10-12",
+      "hint": "التنسيق: 1-5, 8, 10-12",
+      "cancel": "إلغاء",
+      "confirm": "موافق",
+      "all": "الكل",
+      "first_n_pages": "أول {num} صفحات",
+      "status_pending": "قيد الانتظار",
+      "status_converting": "جاري التحويل {percent}%",
+      "status_success": "نجاح ✓",
+      "status_failure": "فشل",
+      "status_waiting": "انتظار",
+      "wait_pages": "يرجى الانتظار حتى تحميل عدد الصفحات",
+      "unknown_size": "غير معروف",
+      "total_pages": "اختر نطاق الصفحات (إجمالي {total} صفحات)",
+      "output_same_as_source": "نفس مجلد المصدر",
+      "output_custom": "مجلد مخصص",
+      "select_output_dir": "اختر مجلد الإخراج",
+      "no_files_added": "يرجى إضافة الملفات أولاً",
+      "convert_complete": "اكتمل",
+      "convert_success_msg": "تم تحويل جميع الملفات ({count}) بنجاح!\nمجلد الإخراج: {dir}",
+      "convert_result_msg": "انتهى التحويل\nناجح: {success}\nفاشل: {fail}",
+      "step1_title": "إضافة",
+      "step1_desc": "إضافة ملفات بشكل جماعي",
+      "step2_title": "تكوين",
+      "step2_desc": "تكوين التنسيق أو المجلد",
+      "step3_title": "بدء",
+      "step3_desc": "انقر وانتظر حتى الانتهاء"
+    }
+  },
+  "converter": {
+    "error_not_found": "ملف CAJ غير موجود",
+    "error_extract_pdf": "فشل استخراج ملف PDF المدمج",
+    "error_unsupported_format": "تنسيق غير مدعوم: {format}",
+    "success": "نجاح",
+    "failure": "فشل: {error}",
+    "error_import": "فشل استيراد وحدة التحويل: {error}",
+    "error_pdf_failed": "فشل إنشاء ملف PDF",
+    "error_caj2pdf_import": "فشل استيراد مكتبة caj2pdf: {error}",
+    "error_missing_lib": "المكتبة المطلوبة غير موجودة: {error}",
+    "error_pdf2docx_import": "مكتبة pdf2docx غير موجودة",
+    "error_pymupdf_missing": "مكتبة PyMuPDF غير موجودة",
+    "error_java_missing": "بيئة Java غير موجودة، يرجى تثبيت JDK 17 أو أعلى",
+    "error_timeout": "انتهت مهلة التحويل",
+    "txt_page_header": "--- صفحة {page} ---",
+    "long_image_suffix": "_صورة_طويلة",
+    "long_image_suffix_n": "_صورة_طويلة_{index}"
+  },
+  "common": {
+    "error": "خطأ",
+    "success": "نجاح",
+    "hint": "تلميح"
+  },
+  "ad": {
+    "loading": "جاري تحميل الإعلان...",
+    "fallback_text": "صورة الإعلان",
+    "fallback_position": "موقع الإعلان"
+  },
+  "update": {
+    "error_format": "تنسيق بيانات غير صالح من الخادم",
+    "error_check_failed": "فشل التحقق من التحديث: {error}",
+    "error_updater_not_found": "المحدث غير موجود: {path}",
+    "error_start_failed": "فشل بدء التحديث: {error}"
+  }
+}

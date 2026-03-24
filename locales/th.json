@@ -1,0 +1,266 @@
+{
+  "main_window": {
+    "title": "ตัวแปลง CAJ",
+    "subtitle": "ผลิตภัณฑ์ของ Kunqiong AI",
+    "brand_text": "ผลิตภัณฑ์ของ Kunqiong AI",
+    "version": "เวอร์ชัน: V{version}",
+    "customize": "ปรับแต่งซอฟต์แวร์/ติดต่อเรา",
+    "feedback": "ข้อเสนอแนะ",
+    "menu": {
+      "settings": "การตั้งค่าทั่วไป",
+      "tutorial": "บทช่วยสอน",
+      "update": "ตรวจสอบการอัปเดต",
+      "about": "เกี่ยวกับเรา"
+    },
+    "tutorial": {
+      "title": "บทช่วยสอน",
+      "content": "ฟังก์ชันบทช่วยสอนกำลังพัฒนา...\n\nขั้นตอนพื้นฐาน:\n1. เลือกประเภทการแปลง (CAJ เป็นอื่นๆ/CAJ เป็นรูปภาพ/อื่นๆ เป็น CAJ)\n2. เพิ่มไฟล์ที่ต้องการแปลง\n3. กำหนดรูปแบบเอาต์พุตและไดเรกทอรี\n4. คลิกเริ่มการแปลง"
+    },
+    "update_dialog": {
+      "found_title": "พบเวอร์ชันใหม่",
+      "found_message": "พบเวอร์ชัน V{version} ใหม่ ต้องการอัปเดตตอนนี้หรือไม่?",
+      "fail_title": "อัปเดตล้มเหลว",
+      "no_update_title": "ตรวจสอบการอัปเดต",
+      "no_update_message": "เวอร์ชันปัจจุบัน: V{version}\n\nคุณใช้เวอร์ชันล่าสุดแล้ว!",
+      "check_fail_title": "ตรวจสอบการอัปเดตล้มเหลว"
+    },
+    "about": {
+      "title": "เกี่ยวกับเรา",
+      "app_name": "ตัวแปลง CAJ",
+      "version_prefix": "เวอร์ชัน: V",
+      "desc": "เครื่องมือแปลงไฟล์ CAJ ระดับมืออาชีพ",
+      "features_title": "คุณสมบัติ:",
+      "feature_list": "<li>CAJ เป็น PDF, DOC, DOCX, TXT</li><li>CAJ เป็นรูปภาพ JPG, PNG, BMP</li><li>PDF, Word, รูปภาพ เป็น CAJ</li>",
+      "copyright": "© 2024 Kunqiong AI | KunqiongAI"
+    },
+    "errors": {
+      "feedback_fail": "ไม่สามารถดึงหน้าข้อเสนอแนะ โปรดตรวจสอบเครือข่าย",
+      "customize_fail": "ไม่สามารถดึงลิงก์ปรับแต่ง โปรดตรวจสอบเครือข่าย",
+      "login_flow_fail": "ไม่สามารถเริ่มกระบวนการเข้าสู่ระบบ โปรดตรวจสอบเครือข่าย",
+      "browser_open_fail": "ไม่สามารถเปิดเบราว์เซอร์: {error}"
+    },
+    "home": {
+      "title_prefix": "ประมวลผล CAJ ในคลิกเดียว",
+      "title_highlight": "การแปลงที่มีประสิทธิภาพ",
+      "cards": {
+        "caj_to_other": {
+          "title": "CAJ เป็นอื่นๆ",
+          "desc": "แปลง CAJ เป็นรูปแบบ PDF, DOC,\nDOCX, TXT"
+        },
+        "caj_to_image": {
+          "title": "CAJ เป็นรูปภาพ",
+          "desc": "แปลง CAJ เป็นรูปแบบ JPG, PNG,\nBMP"
+        },
+        "other_to_caj": {
+          "title": "อื่นๆ เป็น CAJ",
+          "desc": "แปลง PDF, Word, TXT, รูปภาพ\nเป็นรูปแบบ CAJ"
+        }
+      }
+    },
+    "settings": {
+      "title": "การตั้งค่าทั่วไป",
+      "file_count": "จำนวนไฟล์ที่ประมวลผลพร้อมกัน",
+      "auto_folder": "สร้างโฟลเดอร์ซอฟต์แวร์ในไดเรกทอรีเอาต์พุตโดยอัตโนมัติ\nหลังประมวลผลเสร็จสิ้น",
+      "cancel": "ยกเลิก",
+      "confirm": "ยืนยัน",
+      "language": "Language"
+    },
+    "languages": {
+      "ar": "阿拉伯语 (Arabic)",
+      "bn": "孟加拉语 (Bengali)",
+      "de": "德语 (German)",
+      "en": "英语 (English)",
+      "es": "西班牙语 (Spanish)",
+      "fa": "波斯语 (Farsi/Persian)",
+      "fr": "法语 (French)",
+      "he": "希伯来语 (Hebrew)",
+      "hi": "印地语 (Hindi)",
+      "id": "印度尼西亚语 (Indonesian)",
+      "it": "意大利语 (Italian)",
+      "ja": "日语 (Japanese)",
+      "ko": "韩语 (Korean)",
+      "ms": "马来语 (Malay)",
+      "nl": "荷兰语 (Dutch)",
+      "pl": "波兰语 (Polish)",
+      "pt": "葡萄牙语 (Portuguese)",
+      "pt_BR": "巴西葡萄牙语 (Brazilian Portuguese)",
+      "ru": "俄语 (Russian)",
+      "sw": "斯瓦希里语 (Swahili)",
+      "ta": "泰米尔语 (Tamil)",
+      "th": "泰语 (Thai)",
+      "tl": "他加禄语 (Tagalog)",
+      "tr": "土耳其语 (Turkish)",
+      "uk": "乌克兰语 (Ukrainian)",
+      "ur": "乌尔都语 (Urdu)",
+      "vi": "越南语 (Vietnamese)",
+      "zh_CN": "简体中文 (Simplified Chinese)",
+      "zh_TW": "繁体中文 (Traditional Chinese)"
+    }
+  },
+  "login": {
+    "user_button": {
+      "default_nickname": "ผู้ใช้",
+      "login_text": "เข้าสู่ระบบ",
+      "logged_in": "เข้าสู่ระบบแล้ว",
+      "logout_text": "ออกจากระบบ"
+    },
+    "dialog": {
+      "title": "เข้าสู่ระบบผู้ใช้",
+      "waiting": "กำลังรอการเข้าสู่ระบบ...",
+      "remaining_time": "เวลาที่เหลือ: {time} วินาที",
+      "cancel": "ยกเลิก",
+      "cancel_login": "ยกเลิกการเข้าสู่ระบบ",
+      "browser_login": "เข้าสู่ระบบผ่านเบราว์เซอร์",
+      "instructions": "คลิกปุ่มด้านล่างเพื่อเปิดหน้าเข้าสู่ระบบในเบราว์เซอร์\nหลังจากเข้าสู่ระบบ ซอฟต์แวร์จะซิงค์สถานะโดยอัตโนมัติ",
+      "error_start": "ไม่สามารถเริ่มการเข้าสู่ระบบ โปรดตรวจสอบเครือข่าย",
+      "error_browser": "ไม่สามารถเปิดเบราว์เซอร์: {error}",
+      "success": "เข้าสู่ระบบสำเร็จ!",
+      "failure": "เข้าสู่ระบบล้มเหลว",
+      "logging_in_title": "กำลังเข้าสู่ระบบ",
+      "logging_in_message": "เปิดเบราว์เซอร์แล้ว โปรดเข้าสู่ระบบในเบราว์เซอร์ให้เสร็จสมบูรณ์\n\nซอฟต์แวร์จะตรวจพบสถานะโดยอัตโนมัติ..."
+    },
+    "logout": {
+      "confirm_title": "ยืนยันการออกจากระบบ",
+      "confirm_message": "คุณแน่ใจหรือไม่ว่าต้องการออกจากระบบ?",
+      "title": "ออกจากระบบ",
+      "success": "ออกจากระบบสำเร็จ",
+      "stale": "เซสชันหมดอายุ ข้อมูลบัญชีท้องถิ่นถูกลบแล้ว"
+    }
+  },
+  "auth": {
+    "dialog": {
+      "title": "Kunqiong AI Toolbox · การเปิดใช้งาน",
+      "instructions": "เครื่องมือที่ติดตั้งเป็นแอปพลิเคชันของ Kunqiong AI Toolbox\nจำเป็นต้องเปิดใช้งานด้วยรหัสเพื่อใช้งานคุณสมบัติทั้งหมด",
+      "input_placeholder": "โปรดป้อนรหัสการอนุญาต",
+      "verify_button": "ตรวจสอบ",
+      "no_code": "ไม่มีรหัส?",
+      "get_code": "คลิกเพื่อรับรหัส",
+      "success": "เปิดใช้งานสำเร็จ!",
+      "failure": "รหัสไม่ถูกต้องหรือหมดอายุ โปรดลองอีกครั้ง",
+      "error": "เกิดข้อผิดพลาดในการตรวจสอบรหัส: {error}",
+      "page_error": "ไม่พบลิงก์หน้าการเปิดใช้งาน",
+      "page_failure": "หน้าการเปิดใช้งานล้มเหลว: {error}",
+      "timeout": "เครือข่ายหมดเวลา โปรดตรวจสอบการเชื่อมต่อ",
+      "open_error": "เกิดข้อผิดพลาดในการเปิดหน้า: {error}"
+    }
+  },
+  "convert": {
+    "page": {
+      "sidebar": {
+        "home": "หน้าแรก",
+        "caj_to_other": "CAJ เป็นอื่นๆ",
+        "caj_to_image": "CAJ เป็นรูปภาพ",
+        "other_to_caj": "อื่นๆ เป็น CAJ"
+      },
+      "drop_zone": {
+        "hint": "คลิกเพื่อเพิ่ม / ลากไฟล์มาที่นี่",
+        "caj_to_other_support": "รองรับ CAJ เป็น PDF, DOC, DOCX, TXT",
+        "caj_to_image_support": "รองรับ CAJ เป็น JPG, PNG, BMP",
+        "other_to_caj_support": "รองรับ PDF, Word, TXT, รูปภาพ เป็น CAJ"
+      },
+      "steps": {
+        "step1_title": "เพิ่มไฟล์",
+        "step1_desc": "รองรับการลากและวางหรือการเพิ่มแบบกลุ่ม",
+        "step2_title": "การตั้งค่าเอาต์พุต",
+        "step2_desc": "กำหนดรูปแบบและเส้นทางบันทึก",
+        "step3_title": "เริ่มการแปลง",
+        "step3_desc": "การแปลงที่มีประสิทธิภาพในคลิกเดียว"
+      },
+      "toolbar": {
+        "add_files": "เพิ่มไฟล์",
+        "add_folder": "เพิ่มโฟลเดอร์",
+        "clear_all": "ล้างทั้งหมด"
+      },
+      "bottom": {
+        "output_format": "รูปแบบ",
+        "output_dir": "ไดเรกทอรีเอาต์พุต",
+        "change_dir": "เปลี่ยน",
+        "open_dir": "เปิด",
+        "start_convert": "แปลงทันที",
+        "quality": "คุณภาพ",
+        "high": "สูง",
+        "medium": "ปานกลาง",
+        "low": "ต่ำ",
+        "long_image": "ส่งออกเป็นรูปภาพยาว"
+      },
+      "dialogs": {
+        "select_files": "เลือกไฟล์",
+        "select_folder": "เลือกโฟลเดอร์",
+        "no_files": "ไม่พบไฟล์ที่ตรงกัน"
+      },
+      "list_header": {
+        "name": "ชื่อไฟล์",
+        "size": "ขนาด",
+        "pages": "หน้า",
+        "page_select": "ช่วง",
+        "status": "สถานะ",
+        "operation": "การดำเนินการ"
+      },
+      "all_pages": "ทั้งหมด",
+      "first_pages": "หน้าแรกๆ ",
+      "pages_unit": " หน้า",
+      "custom_range": "กำหนดเอง:",
+      "custom_placeholder": "เช่น 1-5,8,10-12",
+      "hint": "รูปแบบ: 1-5, 8, 10-12",
+      "cancel": "ยกเลิก",
+      "confirm": "ตกลง",
+      "all": "ทั้งหมด",
+      "first_n_pages": "{num} หน้าแรก",
+      "status_pending": "รอดำเนินการ",
+      "status_converting": "กำลังแปลง {percent}%",
+      "status_success": "สำเร็จ ✓",
+      "status_failure": "ล้มเหลว",
+      "status_waiting": "กำลังรอ",
+      "wait_pages": "โปรดรอให้โหลดจำนวนหน้าเสร็จสิ้น",
+      "unknown_size": "ไม่ทราบ",
+      "total_pages": "เลือกช่วงหน้า (ทั้งหมด {total} หน้า)",
+      "output_same_as_source": "เหมือนโฟลเดอร์ต้นทาง",
+      "output_custom": "โฟลเดอร์ที่กำหนดเอง",
+      "select_output_dir": "เลือกไดเรกทอรีเอาต์พุต",
+      "no_files_added": "โปรดเพิ่มไฟล์ก่อน",
+      "convert_complete": "เสร็จสิ้น",
+      "convert_success_msg": "แปลงไฟล์ทั้งหมด {count} ไฟล์สำเร็จแล้ว!\nไดเรกทอรีเอาต์พุต: {dir}",
+      "convert_result_msg": "การแปลงเสร็จสิ้น\nสำเร็จ: {success}\nล้มเหลว: {fail}",
+      "step1_title": "เพิ่ม",
+      "step1_desc": "การเพิ่มไฟล์แบบกลุ่ม",
+      "step2_title": "การกำหนดค่า",
+      "step2_desc": "กำหนดรูปแบบหรือโฟลเดอร์",
+      "step3_title": "เริ่ม",
+      "step3_desc": "คลิกปุ่มและรอให้เสร็จสิ้น"
+    }
+  },
+  "converter": {
+    "error_not_found": "ไม่พบไฟล์ CAJ",
+    "error_extract_pdf": "ไม่สามารถดึงข้อมูล PDF ที่ฝังไว้",
+    "error_unsupported_format": "ไม่รองรับรูปแบบ: {format}",
+    "success": "สำเร็จ",
+    "failure": "ล้มเหลว: {error}",
+    "error_import": "การนำเข้าโมดูลการแปลงล้มเหลว: {error}",
+    "error_pdf_failed": "การสร้างไฟล์ PDF ล้มเหลว",
+    "error_caj2pdf_import": "ไม่สามารถนำเข้าคลัง caj2pdf: {error}",
+    "error_missing_lib": "ไม่พบคลังที่จำเป็น: {error}",
+    "error_pdf2docx_import": "ไม่พบคลัง pdf2docx",
+    "error_pymupdf_missing": "ไม่พบคลัง PyMuPDF",
+    "error_java_missing": "ไม่พบสภาพแวดล้อม Java โปรดติดตั้ง JDK 17 ขึ้นไป",
+    "error_timeout": "หมดเวลาการแปลง",
+    "txt_page_header": "--- หน้า {page} ---",
+    "long_image_suffix": "_รูปภาพยาว",
+    "long_image_suffix_n": "_รูปภาพยาว_{index}"
+  },
+  "common": {
+    "error": "ข้อผิดพลาด",
+    "success": "สำเร็จ",
+    "hint": "คำแนะนำ"
+  },
+  "ad": {
+    "loading": "กำลังโหลดโฆษณา...",
+    "fallback_text": "รูปภาพโฆษณา",
+    "fallback_position": "ตำแหน่งโฆษณา"
+  },
+  "update": {
+    "error_format": "รูปแบบข้อมูลไม่ถูกต้อง",
+    "error_check_failed": "ตรวจสอบล้มเหลว: {error}",
+    "error_updater_not_found": "ไม่พบตัวอัปเดต: {path}",
+    "error_start_failed": "เริ่มการอัปเดตล้มเหลว: {error}"
+  }
+}

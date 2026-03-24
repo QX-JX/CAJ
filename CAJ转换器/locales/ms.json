@@ -1,0 +1,266 @@
+{
+  "main_window": {
+    "title": "Penukar CAJ",
+    "subtitle": "Produk Kunqiong AI",
+    "brand_text": "Produk Kunqiong AI",
+    "version": "Versi: V{version}",
+    "customize": "Penyesuaian Perisian/Hubungi Kami",
+    "feedback": "Maklum Balas",
+    "menu": {
+      "settings": "Tetapan Umum",
+      "tutorial": "Tutorial",
+      "update": "Semak Kemas Kini",
+      "about": "Tentang Kami"
+    },
+    "tutorial": {
+      "title": "Tutorial",
+      "content": "Fungsi tutorial sedang dibangunkan...\n\nLangkah-langkah asas:\n1. Pilih jenis penukaran (CAJ ke lain/CAJ ke imej/Lain ke CAJ)\n2. Tambah fail untuk ditukar\n3. Tetapkan format output dan direktori\n4. Klik Mula Penukaran"
+    },
+    "update_dialog": {
+      "found_title": "Versi Baru Ditemui",
+      "found_message": "Versi baru V{version} ditemui, kemas kini sekarang?",
+      "fail_title": "Kemas Kini Gagal",
+      "no_update_title": "Semak Kemas Kini",
+      "no_update_message": "Versi semasa: V{version}\n\nAnda sudah menggunakan versi terkini!",
+      "check_fail_title": "Semakan Kemas Kini Gagal"
+    },
+    "about": {
+      "title": "Tentang Kami",
+      "app_name": "Penukar CAJ",
+      "version_prefix": "Versi: V",
+      "desc": "Alat penukaran format fail CAJ profesional",
+      "features_title": "Ciri-ciri:",
+      "feature_list": "<li>CAJ ke PDF, DOC, DOCX, TXT</li><li>CAJ ke imej JPG, PNG, BMP</li><li>PDF, Word, Imej ke CAJ</li>",
+      "copyright": "© 2024 Kunqiong AI | KunqiongAI"
+    },
+    "errors": {
+      "feedback_fail": "Gagal mendapatkan halaman maklum balas, sila semak rangkaian anda.",
+      "customize_fail": "Gagal mendapatkan pautan penyesuaian, sila semak rangkaian anda.",
+      "login_flow_fail": "Gagal memulakan proses log masuk, sila semak rangkaian anda.",
+      "browser_open_fail": "Tidak dapat membuka pelayar: {error}"
+    },
+    "home": {
+      "title_prefix": "Pemprosesan CAJ sekali klik",
+      "title_highlight": "Penukaran Cekap",
+      "cards": {
+        "caj_to_other": {
+          "title": "CAJ ke lain",
+          "desc": "Tukar CAJ ke format PDF, DOC,\nDOCX, TXT"
+        },
+        "caj_to_image": {
+          "title": "CAJ ke imej",
+          "desc": "Tukar CAJ ke format JPG, PNG,\nBMP"
+        },
+        "other_to_caj": {
+          "title": "Lain ke CAJ",
+          "desc": "Tukar PDF, Word, TXT, Imej\nke format CAJ"
+        }
+      }
+    },
+    "settings": {
+      "title": "Tetapan Umum",
+      "file_count": "Bilangan fail diproses bersama",
+      "auto_folder": "Secara automatik mencipta folder perisian\ndi direktori output selepas pemprosesan",
+      "cancel": "Batal",
+      "confirm": "Sahkan",
+      "language": "Language"
+    },
+    "languages": {
+      "ar": "阿拉伯语 (Arabic)",
+      "bn": "孟加拉语 (Bengali)",
+      "de": "德语 (German)",
+      "en": "英语 (English)",
+      "es": "西班牙语 (Spanish)",
+      "fa": "波斯语 (Farsi/Persian)",
+      "fr": "法语 (French)",
+      "he": "希伯来语 (Hebrew)",
+      "hi": "印地语 (Hindi)",
+      "id": "印度尼西亚语 (Indonesian)",
+      "it": "意大利语 (Italian)",
+      "ja": "日语 (Japanese)",
+      "ko": "韩语 (Korean)",
+      "ms": "马来语 (Malay)",
+      "nl": "荷兰语 (Dutch)",
+      "pl": "波兰语 (Polish)",
+      "pt": "葡萄牙语 (Portuguese)",
+      "pt_BR": "巴西葡萄牙语 (Brazilian Portuguese)",
+      "ru": "俄语 (Russian)",
+      "sw": "斯瓦希里语 (Swahili)",
+      "ta": "泰米尔语 (Tamil)",
+      "th": "泰语 (Thai)",
+      "tl": "他加禄语 (Tagalog)",
+      "tr": "土耳其语 (Turkish)",
+      "uk": "乌克兰语 (Ukrainian)",
+      "ur": "乌尔都语 (Urdu)",
+      "vi": "越南语 (Vietnamese)",
+      "zh_CN": "简体中文 (Simplified Chinese)",
+      "zh_TW": "繁体中文 (Traditional Chinese)"
+    }
+  },
+  "login": {
+    "user_button": {
+      "default_nickname": "Pengguna",
+      "login_text": "Log Masuk",
+      "logged_in": "Sudah log masuk",
+      "logout_text": "Log Keluar"
+    },
+    "dialog": {
+      "title": "Log Masuk Pengguna",
+      "waiting": "Menunggu log masuk...",
+      "remaining_time": "Masa berbaki: {time} saat",
+      "cancel": "Batal",
+      "cancel_login": "Batalkan Log Masuk",
+      "browser_login": "Log Masuk melalui Pelayar",
+      "instructions": "Klik butang di bawah untuk membuka halaman log masuk di pelayar.\nSelepas log masuk, perisian akan menyegerakkan status anda secara automatik.",
+      "error_start": "Gagal memulakan log masuk, sila semak rangkaian anda",
+      "error_browser": "Tidak dapat membuka pelayar: {error}",
+      "success": "Log masuk berjaya!",
+      "failure": "Log masuk gagal",
+      "logging_in_title": "Sedang log masuk",
+      "logging_in_message": "Pelayar telah dibuka, sila lengkapkan log masuk di pelayar.\n\nPerisian akan mengesan status anda secara automatik..."
+    },
+    "logout": {
+      "confirm_title": "Sahkan Log Keluar",
+      "confirm_message": "Adakah anda pasti ingin log keluar?",
+      "title": "Log Keluar",
+      "success": "Berjaya log keluar.",
+      "stale": "Sesi log masuk tamat, maklumat akaun tempatan dipadamkan."
+    }
+  },
+  "auth": {
+    "dialog": {
+      "title": "Kunqiong AI Toolbox · Pengaktifan",
+      "instructions": "Alat yang dipasang adalah aplikasi daripada Kunqiong AI Toolbox.\nPerlu diaktifkan dengan kod untuk membolehkan ciri penuh.",
+      "input_placeholder": "Sila masukkan kod kebenaran",
+      "verify_button": "Sahkan",
+      "no_code": "Tiada kod?",
+      "get_code": "Klik untuk mendapatkan",
+      "success": "Pengaktifan berjaya!",
+      "failure": "Kod tidak sah atau tamat tempoh, sila cuba lagi",
+      "error": "Ralat mengesahkan kod: {error}",
+      "page_error": "Tidak dapat mencari pautan halaman pengaktifan",
+      "page_failure": "Ralat halaman pengaktifan: {error}",
+      "timeout": "Masa tamat rangkaian, sila semak sambungan anda",
+      "open_error": "Ralat membuka halaman: {error}"
+    }
+  },
+  "convert": {
+    "page": {
+      "sidebar": {
+        "home": "Laman Utama",
+        "caj_to_other": "CAJ ke lain",
+        "caj_to_image": "CAJ ke imej",
+        "other_to_caj": "Lain ke CAJ"
+      },
+      "drop_zone": {
+        "hint": "Klik untuk menambah / Seret fail ke sini",
+        "caj_to_other_support": "Menyokong CAJ ke PDF, DOC, DOCX, TXT",
+        "caj_to_image_support": "Menyokong CAJ ke JPG, PNG, BMP",
+        "other_to_caj_support": "Menyokong PDF, Word, TXT, Imej ke CAJ"
+      },
+      "steps": {
+        "step1_title": "Tambah fail",
+        "step1_desc": "Menyokong seret dan lepas atau tambah pukal",
+        "step2_title": "Tetapan output",
+        "step2_desc": "Tetapkan format dan laluan simpan",
+        "step3_title": "Mula penukaran",
+        "step3_desc": "Penukaran cekap dalam satu klik"
+      },
+      "toolbar": {
+        "add_files": "Tambah fail",
+        "add_folder": "Tambah folder",
+        "clear_all": "Kosongkan semua"
+      },
+      "bottom": {
+        "output_format": "Format",
+        "output_dir": "Direktori output",
+        "change_dir": "Ubah",
+        "open_dir": "Buka",
+        "start_convert": "Tukar sekarang",
+        "quality": "Kualiti",
+        "high": "Tinggi",
+        "medium": "Sederhana",
+        "low": "Rendah",
+        "long_image": "Eksport sebagai imej panjang"
+      },
+      "dialogs": {
+        "select_files": "Pilih fail",
+        "select_folder": "Pilih folder",
+        "no_files": "Tiada fail yang sepadan ditemui"
+      },
+      "list_header": {
+        "name": "Nama fail",
+        "size": "Saiz",
+        "pages": "Halaman",
+        "page_select": "Julat",
+        "status": "Status",
+        "operation": "Tindakan"
+      },
+      "all_pages": "Semua",
+      "first_pages": "Beberapa halaman pertama ",
+      "pages_unit": " halaman",
+      "custom_range": "Tersuai:",
+      "custom_placeholder": "misal: 1-5,8,10-12",
+      "hint": "Format: 1-5, 8, 10-12",
+      "cancel": "Batal",
+      "confirm": "OK",
+      "all": "Semua",
+      "first_n_pages": "{num} halaman pertama",
+      "status_pending": "Tertunda",
+      "status_converting": "Sedang menukar {percent}%",
+      "status_success": "Berjaya ✓",
+      "status_failure": "Gagal",
+      "status_waiting": "Menunggu",
+      "wait_pages": "Sila tunggu pemuatan jumlah halaman",
+      "unknown_size": "Tidak diketahui",
+      "total_pages": "Pilih julat halaman (jumlah {total} halaman)",
+      "output_same_as_source": "Sama dengan folder sumber",
+      "output_custom": "Folder tersuai",
+      "select_output_dir": "Pilih direktori output",
+      "no_files_added": "Sila tambah fail terlebih dahulu",
+      "convert_complete": "Selesai",
+      "convert_success_msg": "Semua {count} fail berjaya ditukar!\nDirektori output: {dir}",
+      "convert_result_msg": "Penukaran selesai\nBerjaya: {success}\nGagal: {fail}",
+      "step1_title": "Tambah",
+      "step1_desc": "Penambahan fail secara pukal",
+      "step2_title": "Konfigurasi",
+      "step2_desc": "Konfigurasi format atau folder",
+      "step3_title": "Mula",
+      "step3_desc": "Klik butang dan tunggu sehingga selesai"
+    }
+  },
+  "converter": {
+    "error_not_found": "Fail CAJ tidak wujud",
+    "error_extract_pdf": "Gagal mengambil PDF yang terbenam",
+    "error_unsupported_format": "Format tidak disokong: {format}",
+    "success": "Berjaya",
+    "failure": "Gagal: {error}",
+    "error_import": "Gagal mengimport modul penukaran: {error}",
+    "error_pdf_failed": "Gagal menghasilkan fail PDF",
+    "error_caj2pdf_import": "Tidak dapat mengimport pustaka caj2pdf: {error}",
+    "error_missing_lib": "Pustaka yang diperlukan tidak ditemui: {error}",
+    "error_pdf2docx_import": "Tidak ditemui pustaka pdf2docx",
+    "error_pymupdf_missing": "Tidak ditemui pustaka PyMuPDF",
+    "error_java_missing": "Tidak ditemui persekitaran Java, sila pasang JDK 17 atau lebih tinggi",
+    "error_timeout": "Masa tamat penukaran",
+    "txt_page_header": "--- Halaman {page} ---",
+    "long_image_suffix": "_ImejPanjang",
+    "long_image_suffix_n": "_ImejPanjang_{index}"
+  },
+  "common": {
+    "error": "Ralat",
+    "success": "Berjaya",
+    "hint": "Petunjuk"
+  },
+  "ad": {
+    "loading": "Memuatkan iklan...",
+    "fallback_text": "Imej iklan",
+    "fallback_position": "Kedudukan iklan"
+  },
+  "update": {
+    "error_format": "Format data tidak sah daripada pelayan",
+    "error_check_failed": "Semakan kemas kini gagal: {error}",
+    "error_updater_not_found": "Program pengemas kini tidak ditemui: {path}",
+    "error_start_failed": "Gagal memulakan kemas kini: {error}"
+  }
+}

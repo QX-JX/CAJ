@@ -1,0 +1,266 @@
+{
+  "main_window": {
+    "title": "Tagasalin ng CAJ",
+    "subtitle": "Isang produkto ng Kunqiong AI",
+    "brand_text": "Isang produkto ng Kunqiong AI",
+    "version": "Bersyon: V{version}",
+    "customize": "Pagpapasadya ng Software/Makipag-ugnayan sa Amin",
+    "feedback": "Feedback",
+    "menu": {
+      "settings": "Mga Pangkalahatang Setting",
+      "tutorial": "Tutorial",
+      "update": "Suriin ang mga Update",
+      "about": "Tungkol sa Amin"
+    },
+    "tutorial": {
+      "title": "Tutorial",
+      "content": "Kasalukuyang ginagawa ang tutorial function...\n\nMga pangunahing hakbang:\n1. Pumili ng uri ng conversion (CAJ sa iba/CAJ sa imahe/Iba sa CAJ)\n2. Magdagdag ng mga file na isasalin\n3. Itakda ang format ng output at folder\n4. I-click ang Simulan ang Conversion"
+    },
+    "update_dialog": {
+      "found_title": "May Bagong Bersyon na Nahanap",
+      "found_message": "Nahanap ang bagong bersyong V{version}, i-update na ba ngayon?",
+      "fail_title": "Nabigo ang Pag-update",
+      "no_update_title": "Pagsusuri ng Update",
+      "no_update_message": "Kasalukuyang bersyon: V{version}\n\nNasa pinakabagong bersyon ka na!",
+      "check_fail_title": "Nabigo ang Pagsusuri ng Update"
+    },
+    "about": {
+      "title": "Tungkol sa Amin",
+      "app_name": "Tagasalin ng CAJ",
+      "version_prefix": "Bersyon: V",
+      "desc": "Isang propesyonal na tool sa pag-convert ng format ng CAJ file",
+      "features_title": "Mga Tampok:",
+      "feature_list": "<li>CAJ sa PDF, DOC, DOCX, TXT</li><li>CAJ sa mga imaheng JPG, PNG, BMP</li><li>PDF, Word, Imahe sa CAJ</li>",
+      "copyright": "© 2024 Kunqiong AI | KunqiongAI"
+    },
+    "errors": {
+      "feedback_fail": "Nabigong makuha ang pahina ng feedback, pakisuri ang iyong network.",
+      "customize_fail": "Nabigong makuha ang link ng pagpapasadya.",
+      "login_flow_fail": "Nabigong simulan ang proseso ng pag-log in.",
+      "browser_open_fail": "Hindi mabuksan ang browser: {error}"
+    },
+    "home": {
+      "title_prefix": "Isang-click na pagproseso ng CAJ",
+      "title_highlight": "Mahusay na Conversion",
+      "cards": {
+        "caj_to_other": {
+          "title": "CAJ sa Iba",
+          "desc": "I-convert ang CAJ sa mga format na PDF, DOC,\nDOCX, TXT"
+        },
+        "caj_to_image": {
+          "title": "CAJ sa Imahe",
+          "desc": "I-convert ang CAJ sa mga format na JPG, PNG,\nBMP"
+        },
+        "other_to_caj": {
+          "title": "Iba sa CAJ",
+          "desc": "I-convert ang PDF, Word, TXT, Imahe\nsa format na CAJ"
+        }
+      }
+    },
+    "settings": {
+      "title": "Mga Pangkalahatang Setting",
+      "file_count": "Sabay-sabay na mga file",
+      "auto_folder": "Awtomatikong lumikha ng folder ng software\nsa output folder pagkatapos ng pagproseso",
+      "cancel": "Kanselahin",
+      "confirm": "Kumpirmahin",
+      "language": "Language"
+    },
+    "languages": {
+      "ar": "阿拉伯语 (Arabic)",
+      "bn": "孟加拉语 (Bengali)",
+      "de": "德语 (German)",
+      "en": "英语 (English)",
+      "es": "西班牙语 (Spanish)",
+      "fa": "波斯语 (Farsi/Persian)",
+      "fr": "法语 (French)",
+      "he": "希伯来语 (Hebrew)",
+      "hi": "印地语 (Hindi)",
+      "id": "印度尼西亚语 (Indonesian)",
+      "it": "意大利语 (Italian)",
+      "ja": "日语 (Japanese)",
+      "ko": "韩语 (Korean)",
+      "ms": "马来语 (Malay)",
+      "nl": "荷兰语 (Dutch)",
+      "pl": "波兰语 (Polish)",
+      "pt": "葡萄牙语 (Portuguese)",
+      "pt_BR": "巴西葡萄牙语 (Brazilian Portuguese)",
+      "ru": "俄语 (Russian)",
+      "sw": "斯瓦希里语 (Swahili)",
+      "ta": "泰米尔语 (Tamil)",
+      "th": "泰语 (Thai)",
+      "tl": "他加禄语 (Tagalog)",
+      "tr": "土耳其语 (Turkish)",
+      "uk": "乌克兰语 (Ukrainian)",
+      "ur": "乌尔都语 (Urdu)",
+      "vi": "越南语 (Vietnamese)",
+      "zh_CN": "简体中文 (Simplified Chinese)",
+      "zh_TW": "繁体中文 (Traditional Chinese)"
+    }
+  },
+  "login": {
+    "user_button": {
+      "default_nickname": "User",
+      "login_text": "Mag-log in",
+      "logged_in": "Naka-log in",
+      "logout_text": "Mag-log out"
+    },
+    "dialog": {
+      "title": "Pag-log in ng User",
+      "waiting": "Naghihintay para sa pag-log in...",
+      "remaining_time": "Natitirang oras: {time}s",
+      "cancel": "Kanselahin",
+      "cancel_login": "Kanselahin ang Pag-log in",
+      "browser_login": "Mag-log in gamit ang Browser",
+      "instructions": "I-click ang button sa ibaba upang buksan ang pahina ng pag-log in sa iyong browser.\nPagkatapos mag-log in, awtomatikong isi-sync ng software ang iyong status.",
+      "error_start": "Nabigong simulan ang pag-log in, pakisuri ang iyong network",
+      "error_browser": "Hindi mabuksan ang browser: {error}",
+      "success": "Matagumpay ang pag-log in!",
+      "failure": "Nabigo ang pag-log in",
+      "logging_in_title": "Naglo-log in",
+      "logging_in_message": "Nakabukas na ang browser, pakikumpleto ang pag-log in sa browser.\n\nAwtomatikong matutukoy ng software ang iyong status..."
+    },
+    "logout": {
+      "confirm_title": "Kumpirmahin ang Pag-log out",
+      "confirm_message": "Sigurado ka bang gusto mong mag-log out?",
+      "title": "Mag-log out",
+      "success": "Matagumpay na naka-log out.",
+      "stale": "Nag-expire na ang session, nilinis na ang impormasyon ng account."
+    }
+  },
+  "auth": {
+    "dialog": {
+      "title": "Kunqiong AI Toolbox · Pag-activate",
+      "instructions": "Ang tool na iyong na-install ay isang application mula sa Kunqiong AI Toolbox.\nKailangang i-activate gamit ang authorization code upang paganahin ang lahat ng feature.",
+      "input_placeholder": "Pakilagay ang authorization code",
+      "verify_button": "I-verify",
+      "no_code": "Walang code?",
+      "get_code": "I-click upang makuha",
+      "success": "Matagumpay ang pag-activate!",
+      "failure": "Invalid o expired na code, pakisubukan muli",
+      "error": "Error sa pag-verify ng code: {error}",
+      "page_error": "Nabigong makuha ang link ng pahina ng pag-activate",
+      "page_failure": "Nabigo ang pahina ng pag-activate: {error}",
+      "timeout": "Network timeout, pakisuri ang iyong koneksyon",
+      "open_error": "Error sa pagbubukas ng pahina: {error}"
+    }
+  },
+  "convert": {
+    "page": {
+      "sidebar": {
+        "home": "Home",
+        "caj_to_other": "CAJ sa Iba",
+        "caj_to_image": "CAJ sa Imahe",
+        "other_to_caj": "Iba sa CAJ"
+      },
+      "drop_zone": {
+        "hint": "I-click upang magdagdag / I-drag ang mga file dito",
+        "caj_to_other_support": "Sinusuportahan ang CAJ sa PDF, DOC, DOCX, TXT",
+        "caj_to_image_support": "Sinusuportahan ang CAJ sa JPG, PNG, BMP",
+        "other_to_caj_support": "Sinusuportahan ang PDF, Word, TXT, Imahe sa CAJ"
+      },
+      "steps": {
+        "step1_title": "Magdagdag ng mga File",
+        "step1_desc": "Sinusuportahan ang drag and drop o batch add",
+        "step2_title": "Mga Setting ng Output",
+        "step2_desc": "Itakda ang format at folder ng pagse-save",
+        "step3_title": "Simulan ang Conversion",
+        "step3_desc": "Mahusay na conversion sa isang click"
+      },
+      "toolbar": {
+        "add_files": "Magdagdag ng mga File",
+        "add_folder": "Magdagdag ng Folder",
+        "clear_all": "Linisin Lahat"
+      },
+      "bottom": {
+        "output_format": "Format",
+        "output_dir": "Output Folder",
+        "change_dir": "Baguhin",
+        "open_dir": "Buksan",
+        "start_convert": "I-convert na Ngayon",
+        "quality": "Kalidad",
+        "high": "Mataas",
+        "medium": "Katamtaman",
+        "low": "Mababa",
+        "long_image": "I-export bilang mahabang imahe"
+      },
+      "dialogs": {
+        "select_files": "Pumili ng mga File",
+        "select_folder": "Pumili ng Folder",
+        "no_files": "Walang nahanap na mga tugmang file"
+      },
+      "list_header": {
+        "name": "Pangalan ng File",
+        "size": "Laki",
+        "pages": "Mga Pahina",
+        "page_select": "Saklaw",
+        "status": "Status",
+        "operation": "Aksyon"
+      },
+      "all_pages": "Lahat",
+      "first_pages": "Mga unang ",
+      "pages_unit": " pahina",
+      "custom_range": "Pasadyang:",
+      "custom_placeholder": "hal. 1-5,8,10-12",
+      "hint": "Format: 1-5, 8, 10-12",
+      "cancel": "Kanselahin",
+      "confirm": "OK",
+      "all": "Lahat",
+      "first_n_pages": "Unang {num} pahina",
+      "status_pending": "Nakabinbin",
+      "status_converting": "Nag-convert {percent}%",
+      "status_success": "Tagumpay ✓",
+      "status_failure": "Nabigo",
+      "status_waiting": "Naghihintay",
+      "wait_pages": "Pakihintay na matapos ang pag-load ng bilang ng pahina",
+      "unknown_size": "Hindi alam",
+      "total_pages": "Pumili ng Saklaw ng Pahina (Kabuuan {total} pahina)",
+      "output_same_as_source": "Pareho sa source folder",
+      "output_custom": "Pasadyang folder",
+      "select_output_dir": "Pumili ng output folder",
+      "no_files_added": "Mangyaring magdagdag muna ng mga file",
+      "convert_complete": "Tapos na",
+      "convert_success_msg": "Lahat ng {count} file ay matagumpay na na-convert!\nOutput folder: {dir}",
+      "convert_result_msg": "Tapos na ang conversion\nTagumpay: {success}\nNabigo: {fail}",
+      "step1_title": "Magdagdag",
+      "step1_desc": "Batch na pagdagdag ng mga file",
+      "step2_title": "Konpigurasyon",
+      "step2_desc": "I-konpigura ang format o folder",
+      "step3_title": "Simulan",
+      "step3_desc": "I-click ang button at hintayin ang matapos"
+    }
+  },
+  "converter": {
+    "error_not_found": "Hindi mahanap ang CAJ file",
+    "error_extract_pdf": "Nabigong i-extract ang embedded PDF",
+    "error_unsupported_format": "Hindi suportadong format: {format}",
+    "success": "Tagumpay",
+    "failure": "Nabigo: {error}",
+    "error_import": "Nabigong i-import ang conversion module: {error}",
+    "error_pdf_failed": "Nabigo ang pagbuo ng PDF",
+    "error_caj2pdf_import": "Hindi ma-import ang caj2pdf library: {error}",
+    "error_missing_lib": "Hindi nahanap ang kailangang library: {error}",
+    "error_pdf2docx_import": "Hindi nahanap ang pdf2docx library",
+    "error_pymupdf_missing": "Hindi nahanap ang PyMuPDF library",
+    "error_java_missing": "Hindi nahanap ang Java environment, paki-install ang JDK 17 o mas mataas",
+    "error_timeout": "Nag-timeout ang conversion",
+    "txt_page_header": "--- Pahina {page} ---",
+    "long_image_suffix": "_MahabangImahe",
+    "long_image_suffix_n": "_MahabangImahe_{index}"
+  },
+  "common": {
+    "error": "Error",
+    "success": "Tagumpay",
+    "hint": "Pahiwatig"
+  },
+  "ad": {
+    "loading": "Naglo-load ng ad...",
+    "fallback_text": "Imahe ng Ad",
+    "fallback_position": "Posisyon ng Ad"
+  },
+  "update": {
+    "error_format": "Invalid na format ng data mula sa server",
+    "error_check_failed": "Nabigo ang pagsusuri ng update: {error}",
+    "error_updater_not_found": "Hindi nahanap ang programang pang-update: {path}",
+    "error_start_failed": "Nabigong simulan ang pag-update: {error}"
+  }
+}

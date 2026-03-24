@@ -1,0 +1,266 @@
+{
+  "main_window": {
+    "title": "Bộ chuyển đổi CAJ",
+    "subtitle": "Một sản phẩm của Kunqiong AI",
+    "brand_text": "Một sản phẩm của Kunqiong AI",
+    "version": "Phiên bản: V{version}",
+    "customize": "Tùy chỉnh phần mềm/Liên hệ",
+    "feedback": "Phản hồi",
+    "menu": {
+      "settings": "Cài đặt chung",
+      "tutorial": "Hướng dẫn",
+      "update": "Kiểm tra cập nhật",
+      "about": "Giới thiệu"
+    },
+    "tutorial": {
+      "title": "Hướng dẫn",
+      "content": "Chức năng hướng dẫn đang được phát triển...\n\nCác bước cơ bản:\n1. Chọn loại chuyển đổi (CAJ sang khác/CAJ sang ảnh/Khác sang CAJ)\n2. Thêm tệp cần chuyển đổi\n3. Đặt định dạng đầu ra và thư mục\n4. Nhấp vào Bắt đầu chuyển đổi"
+    },
+    "update_dialog": {
+      "found_title": "Tìm thấy phiên bản mới",
+      "found_message": "Đã tìm thấy phiên bản V{version}, cập nhật ngay?",
+      "fail_title": "Cập nhật thất bại",
+      "no_update_title": "Kiểm tra cập nhật",
+      "no_update_message": "Phiên bản hiện tại: V{version}\n\nBạn đang sử dụng phiên bản mới nhất!",
+      "check_fail_title": "Kiểm tra thất bại"
+    },
+    "about": {
+      "title": "Giới thiệu",
+      "app_name": "Bộ chuyển đổi CAJ",
+      "version_prefix": "Phiên bản: V",
+      "desc": "Công cụ chuyển đổi định dạng tệp CAJ chuyên nghiệp",
+      "features_title": "Tính năng:",
+      "feature_list": "<li>CAJ sang PDF, DOC, DOCX, TXT</li><li>CAJ sang ảnh JPG, PNG, BMP</li><li>PDF, Word, Ảnh sang CAJ</li>",
+      "copyright": "© 2024 Kunqiong AI | KunqiongAI"
+    },
+    "errors": {
+      "feedback_fail": "Lấy trang phản hồi thất bại, kiểm tra mạng.",
+      "customize_fail": "Lấy liên kết tùy chỉnh thất bại, kiểm tra mạng.",
+      "login_flow_fail": "Khởi động quá trình đăng nhập thất bại, kiểm tra mạng.",
+      "browser_open_fail": "Không thể mở trình duyệt: {error}"
+    },
+    "home": {
+      "title_prefix": "Xử lý CAJ chỉ với một cú nhấp",
+      "title_highlight": "Chuyển đổi hiệu quả",
+      "cards": {
+        "caj_to_other": {
+          "title": "CAJ sang khác",
+          "desc": "Chuyển đổi CAJ sang định dạng PDF, DOC,\nDOCX, TXT"
+        },
+        "caj_to_image": {
+          "title": "CAJ sang ảnh",
+          "desc": "Chuyển đổi CAJ sang định dạng JPG, PNG,\nBMP"
+        },
+        "other_to_caj": {
+          "title": "Khác sang CAJ",
+          "desc": "Chuyển đổi PDF, Word, TXT, Ảnh\nsang định dạng CAJ"
+        }
+      }
+    },
+    "settings": {
+      "title": "Cài đặt chung",
+      "file_count": "Số tệp xử lý đồng thời",
+      "auto_folder": "Tự động tạo thư mục phần mềm\ntrong thư mục đầu ra sau khi xử lý",
+      "cancel": "Hủy",
+      "confirm": "Xác nhận",
+      "language": "Language"
+    },
+    "languages": {
+      "ar": "阿拉伯语 (Arabic)",
+      "bn": "孟加拉语 (Bengali)",
+      "de": "德语 (German)",
+      "en": "英语 (English)",
+      "es": "西班牙语 (Spanish)",
+      "fa": "波斯语 (Farsi/Persian)",
+      "fr": "法语 (French)",
+      "he": "希伯来语 (Hebrew)",
+      "hi": "印地语 (Hindi)",
+      "id": "印度尼西亚语 (Indonesian)",
+      "it": "意大利语 (Italian)",
+      "ja": "日语 (Japanese)",
+      "ko": "韩语 (Korean)",
+      "ms": "马来语 (Malay)",
+      "nl": "荷兰语 (Dutch)",
+      "pl": "波兰语 (Polish)",
+      "pt": "葡萄牙语 (Portuguese)",
+      "pt_BR": "巴西葡萄牙语 (Brazilian Portuguese)",
+      "ru": "俄语 (Russian)",
+      "sw": "斯瓦希里语 (Swahili)",
+      "ta": "泰米尔语 (Tamil)",
+      "th": "泰语 (Thai)",
+      "tl": "他加禄语 (Tagalog)",
+      "tr": "土耳其语 (Turkish)",
+      "uk": "乌克兰语 (Ukrainian)",
+      "ur": "乌尔都语 (Urdu)",
+      "vi": "越南语 (Vietnamese)",
+      "zh_CN": "简体中文 (Simplified Chinese)",
+      "zh_TW": "繁体中文 (Traditional Chinese)"
+    }
+  },
+  "login": {
+    "user_button": {
+      "default_nickname": "Người dùng",
+      "login_text": "Đăng nhập",
+      "logged_in": "Đã đăng nhập",
+      "logout_text": "Đăng xuất"
+    },
+    "dialog": {
+      "title": "Đăng nhập người dùng",
+      "waiting": "Đang chờ đăng nhập...",
+      "remaining_time": "Thời gian còn lại: {time}s",
+      "cancel": "Hủy",
+      "cancel_login": "Hủy đăng nhập",
+      "browser_login": "Đăng nhập qua trình duyệt",
+      "instructions": "Nhấp vào nút dưới đây để mở trang đăng nhập trong trình duyệt.\nSau khi đăng nhập, phần mềm sẽ tự động đồng bộ trạng thái.",
+      "error_start": "Không thể khởi động đăng nhập, kiểm tra mạng",
+      "error_browser": "Không thể mở trình duyệt: {error}",
+      "success": "Đăng nhập thành công!",
+      "failure": "Đăng nhập thất bại",
+      "logging_in_title": "Đang đăng nhập",
+      "logging_in_message": "Trình duyệt đã mở, vui lòng hoàn tất đăng nhập trong trình duyệt.\n\nPhần mềm sẽ tự động phát hiện trạng thái..."
+    },
+    "logout": {
+      "confirm_title": "Xác nhận đăng xuất",
+      "confirm_message": "Bạn có chắc chắn muốn đăng xuất?",
+      "title": "Đăng xuất",
+      "success": "Đã đăng xuất thành công.",
+      "stale": "Phiên đăng nhập hết hạn, thông tin tài khoản đã bị xóa."
+    }
+  },
+  "auth": {
+    "dialog": {
+      "title": "Hộp công cụ Kunqiong AI · Kích hoạt",
+      "instructions": "Công cụ đã cài đặt là một ứng dụng của Hộp công cụ Kunqiong AI.\nCần được kích hoạt bằng mã để sử dụng đầy đủ các tính năng.",
+      "input_placeholder": "Vui lòng nhập mã ủy quyền",
+      "verify_button": "Xác minh",
+      "no_code": "Không có mã?",
+      "get_code": "Nhấp để lấy",
+      "success": "Kích hoạt thành công!",
+      "failure": "Mã không hợp lệ hoặc đã hết hạn, vui lòng thử lại",
+      "error": "Lỗi xác minh mã: {error}",
+      "page_error": "Không tìm thấy liên kết trang kích hoạt",
+      "page_failure": "Lỗi trang kích hoạt: {error}",
+      "timeout": "Hết thời gian mạng, kiểm tra kết nối",
+      "open_error": "Lỗi mở trang kích hoạt: {error}"
+    }
+  },
+  "convert": {
+    "page": {
+      "sidebar": {
+        "home": "Trang chủ",
+        "caj_to_other": "CAJ sang khác",
+        "caj_to_image": "CAJ sang ảnh",
+        "other_to_caj": "Khác sang CAJ"
+      },
+      "drop_zone": {
+        "hint": "Nhấp để thêm / Kéo tệp vào đây",
+        "caj_to_other_support": "Hỗ trợ CAJ sang PDF, DOC, DOCX, TXT",
+        "caj_to_image_support": "Hỗ trợ CAJ sang JPG, PNG, BMP",
+        "other_to_caj_support": "Hỗ trợ PDF, Word, TXT, Ảnh sang CAJ"
+      },
+      "steps": {
+        "step1_title": "Thêm tệp",
+        "step1_desc": "Hỗ trợ kéo thả hoặc thêm hàng loạt",
+        "step2_title": "Cài đặt đầu ra",
+        "step2_desc": "Đặt định dạng và đường dẫn lưu",
+        "step3_title": "Bắt đầu",
+        "step3_desc": "Chuyển đổi hiệu quả chỉ với một cú nhấp"
+      },
+      "toolbar": {
+        "add_files": "Thêm tệp",
+        "add_folder": "Thêm thư mục",
+        "clear_all": "Xóa tất cả"
+      },
+      "bottom": {
+        "output_format": "Định dạng",
+        "output_dir": "Thư mục đầu ra",
+        "change_dir": "Thay đổi",
+        "open_dir": "Mở",
+        "start_convert": "Chuyển đổi",
+        "quality": "Chất lượng",
+        "high": "Cao",
+        "medium": "Trung bình",
+        "low": "Thấp",
+        "long_image": "Xuất dưới dạng ảnh dài"
+      },
+      "dialogs": {
+        "select_files": "Chọn tệp",
+        "select_folder": "Chọn thư mục",
+        "no_files": "Không tìm thấy tệp phù hợp"
+      },
+      "list_header": {
+        "name": "Tên tệp",
+        "size": "Kích thước",
+        "pages": "Số trang",
+        "page_select": "Phạm vi",
+        "status": "Trạng thái",
+        "operation": "Hành động"
+      },
+      "all_pages": "Tất cả",
+      "first_pages": "Các trang đầu ",
+      "pages_unit": " trang",
+      "custom_range": "Tùy chỉnh:",
+      "custom_placeholder": "vd: 1-5,8,10-12",
+      "hint": "Định dạng: 1-5, 8, 10-12",
+      "cancel": "Hủy",
+      "confirm": "OK",
+      "all": "Tất cả",
+      "first_n_pages": "{num} trang đầu",
+      "status_pending": "Đang chờ",
+      "status_converting": "Đang chuyển đổi {percent}%",
+      "status_success": "Thành công ✓",
+      "status_failure": "Thất bại",
+      "status_waiting": "Đang đợi",
+      "wait_pages": "Vui lòng chờ tải số trang",
+      "unknown_size": "Không xác định",
+      "total_pages": "Chọn phạm vi trang (Tổng cộng {total} trang)",
+      "output_same_as_source": "Giống thư mục nguồn",
+      "output_custom": "Thư mục tùy chỉnh",
+      "select_output_dir": "Chọn thư mục đầu ra",
+      "no_files_added": "Vui lòng thêm tệp trước",
+      "convert_complete": "Hoàn tất",
+      "convert_success_msg": "Tất cả {count} tệp đã chuyển đổi thành công!\nĐầu ra: {dir}",
+      "convert_result_msg": "Chuyển đổi hoàn tất\nThành công: {success}\nThất bại: {fail}",
+      "step1_title": "Thêm",
+      "step1_desc": "Thêm tệp hàng loạt",
+      "step2_title": "Cấu hình",
+      "step2_desc": "Cấu hình định dạng hoặc thư mục",
+      "step3_title": "Bắt đầu",
+      "step3_desc": "Nhấp nút và chờ hoàn tất"
+    }
+  },
+  "converter": {
+    "error_not_found": "Tệp CAJ không tồn tại",
+    "error_extract_pdf": "Lấy PDF nhúng thất bại",
+    "error_unsupported_format": "Định dạng không được hỗ trợ: {format}",
+    "success": "Thành công",
+    "failure": "Thất bại: {error}",
+    "error_import": "Nhập mô-đun chuyển đổi thất bại: {error}",
+    "error_pdf_failed": "Tạo tệp PDF thất bại",
+    "error_caj2pdf_import": "Không thể nhập caj2pdf",
+    "error_missing_lib": "Thiếu thư viện yêu cầu: {error}",
+    "error_pdf2docx_import": "Không tìm thấy pdf2docx",
+    "error_pymupdf_missing": "Không tìm thấy PyMuPDF",
+    "error_java_missing": "Không tìm thấy Java, vui lòng cài đặt JDK 17+",
+    "error_timeout": "Hết thời gian chuyển đổi",
+    "txt_page_header": "--- Trang {page} ---",
+    "long_image_suffix": "_AnhDai",
+    "long_image_suffix_n": "_AnhDai_{index}"
+  },
+  "common": {
+    "error": "Lỗi",
+    "success": "Thành công",
+    "hint": "Gợi ý"
+  },
+  "ad": {
+    "loading": "Đang tải quảng cáo...",
+    "fallback_text": "Ảnh quảng cáo",
+    "fallback_position": "Vị trí quảng cáo"
+  },
+  "update": {
+    "error_format": "Định dạng dữ liệu không hợp lệ",
+    "error_check_failed": "Kiểm tra thất bại: {error}",
+    "error_updater_not_found": "Không tìm thấy trình cập nhật: {path}",
+    "error_start_failed": "Khởi động cập nhật thất bại: {error}"
+  }
+}

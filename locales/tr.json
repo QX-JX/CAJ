@@ -1,0 +1,266 @@
+{
+  "main_window": {
+    "title": "CAJ Dönüştürücü",
+    "subtitle": "Bir Kunqiong AI ürünü",
+    "brand_text": "Bir Kunqiong AI ürünü",
+    "version": "Sürüm: V{version}",
+    "customize": "Yazılım Özelleştirme/Bize Ulaşın",
+    "feedback": "Geri Bildirim",
+    "menu": {
+      "settings": "Genel Ayarlar",
+      "tutorial": "Eğitim",
+      "update": "Güncellemeleri Denetle",
+      "about": "Hakkımızda"
+    },
+    "tutorial": {
+      "title": "Eğitim",
+      "content": "Eğitim işlevi geliştirilme aşamasındadır...\n\nTemel adımlar:\n1. Dönüştürme türünü seçin (CAJ'dan diğerine/CAJ'dan görsele/Diğerinden CAJ'a)\n2. Dönüştürülecek dosyaları ekleyin\n3. Çıktı biçimini ve dizini ayarlayın\n4. Dönüştürmeyi Başlat'a tıklayın"
+    },
+    "update_dialog": {
+      "found_title": "Yeni Sürüm Bulundu",
+      "found_message": "V{version} sürümü bulundu, şimdi güncellensin mi?",
+      "fail_title": "Güncelleme Başarısız",
+      "no_update_title": "Güncelleme Kontrolü",
+      "no_update_message": "Mevcut sürüm: V{version}\n\nZaten en son sürümü kullanıyorsunuz!",
+      "check_fail_title": "Kontrol Başarısız"
+    },
+    "about": {
+      "title": "Hakkımızda",
+      "app_name": "CAJ Dönüştürücü",
+      "version_prefix": "Sürüm: V",
+      "desc": "Profesyonel bir CAJ dosya biçimi dönüştürme aracı",
+      "features_title": "Özellikler:",
+      "feature_list": "<li>CAJ'dan PDF, DOC, DOCX, TXT'ye</li><li>CAJ'dan JPG, PNG, BMP görsellerine</li><li>PDF, Word, Görselden CAJ'a</li>",
+      "copyright": "© 2024 Kunqiong AI | KunqiongAI"
+    },
+    "errors": {
+      "feedback_fail": "Geri bildirim sayfası alınamadı, ağınızı kontrol edin.",
+      "customize_fail": "Özelleştirme bağlantısı alınamadı, ağınızı kontrol edin.",
+      "login_flow_fail": "Giriş işlemi başlatılamadı, ağınızı kontrol edin.",
+      "browser_open_fail": "Tarayıcı açılamadı: {error}"
+    },
+    "home": {
+      "title_prefix": "Tek tıkla CAJ işleme",
+      "title_highlight": "Verimli Dönüştürme",
+      "cards": {
+        "caj_to_other": {
+          "title": "CAJ'dan Diğerine",
+          "desc": "CAJ'ı PDF, DOC,\nDOCX, TXT biçimlerine dönüştürür"
+        },
+        "caj_to_image": {
+          "title": "CAJ'dan Görsele",
+          "desc": "CAJ'ı JPG, PNG,\nBMP biçimlerine dönüştürür"
+        },
+        "other_to_caj": {
+          "title": "Diğerinden CAJ'a",
+          "desc": "PDF, Word, TXT, Görselleri\nCAJ biçimine dönüştürür"
+        }
+      }
+    },
+    "settings": {
+      "title": "Genel Ayarlar",
+      "file_count": "Aynı anda işlenen dosyalar",
+      "auto_folder": "İşlem bittikten sonra çıktı dizininde\notomatik olarak yazılım klasörü oluştur",
+      "cancel": "İptal",
+      "confirm": "Onayla",
+      "language": "Language"
+    },
+    "languages": {
+      "ar": "阿拉伯语 (Arabic)",
+      "bn": "孟加拉语 (Bengali)",
+      "de": "德语 (German)",
+      "en": "英语 (English)",
+      "es": "西班牙语 (Spanish)",
+      "fa": "波斯语 (Farsi/Persian)",
+      "fr": "法语 (French)",
+      "he": "希伯来语 (Hebrew)",
+      "hi": "印地语 (Hindi)",
+      "id": "印度尼西亚语 (Indonesian)",
+      "it": "意大利语 (Italian)",
+      "ja": "日语 (Japanese)",
+      "ko": "韩语 (Korean)",
+      "ms": "马来语 (Malay)",
+      "nl": "荷兰语 (Dutch)",
+      "pl": "波兰语 (Polish)",
+      "pt": "葡萄牙语 (Portuguese)",
+      "pt_BR": "巴西葡萄牙语 (Brazilian Portuguese)",
+      "ru": "俄语 (Russian)",
+      "sw": "斯瓦希里语 (Swahili)",
+      "ta": "泰米尔语 (Tamil)",
+      "th": "泰语 (Thai)",
+      "tl": "他加禄语 (Tagalog)",
+      "tr": "土耳其语 (Turkish)",
+      "uk": "乌克兰语 (Ukrainian)",
+      "ur": "乌尔都语 (Urdu)",
+      "vi": "越南语 (Vietnamese)",
+      "zh_CN": "简体中文 (Simplified Chinese)",
+      "zh_TW": "繁体中文 (Traditional Chinese)"
+    }
+  },
+  "login": {
+    "user_button": {
+      "default_nickname": "Kullanıcı",
+      "login_text": "Giriş Yap",
+      "logged_in": "Giriş yapıldı",
+      "logout_text": "Çıkış Yap"
+    },
+    "dialog": {
+      "title": "Kullanıcı Girişi",
+      "waiting": "Giriş bekleniyor...",
+      "remaining_time": "Kalan süre: {time}s",
+      "cancel": "İptal",
+      "cancel_login": "Girişi İptal Et",
+      "browser_login": "Tarayıcı ile Giriş Yap",
+      "instructions": "Tarayıcıda giriş sayfasını açmak için aşağıdaki düğmeye tıklayın.\nGiriş yaptıktan sonra yazılım durumunuzu otomatik olarak senkronize edecektir.",
+      "error_start": "Giriş başlatılamadı, lütfen ağınızı kontrol edin",
+      "error_browser": "Tarayıcı açılamadı: {error}",
+      "success": "Giriş başarılı!",
+      "failure": "Giriş başarısız",
+      "logging_in_title": "Giriş yapılıyor",
+      "logging_in_message": "Tarayıcı açıldı, lütfen tarayıcıda girişi tamamlayın.\n\nYazılım durumunuzu otomatik olarak algılayacaktır..."
+    },
+    "logout": {
+      "confirm_title": "Çıkışı Onayla",
+      "confirm_message": "Çıkış yapmak istediğinizden emin misiniz?",
+      "title": "Çıkış Yap",
+      "success": "Başarıyla çıkış yapıldı.",
+      "stale": "Giriş oturumu sona erdi, yerel bilgiler temizlendi."
+    }
+  },
+  "auth": {
+    "dialog": {
+      "title": "Kunqiong AI Araç Kutusu · Etkinleştirme",
+      "instructions": "Yüklü olan araç Kunqiong AI Araç Kutusu uygulamasıdır.\nTüm özellikleri etkinleştirmek için bir kodla etkinleştirilmelidir.",
+      "input_placeholder": "Lütfen yetkilendirme kodunu girin",
+      "verify_button": "Doğrula",
+      "no_code": "Kodunuz yok mu?",
+      "get_code": "Almak için tıklayın",
+      "success": "Etkinleştirme başarılı!",
+      "failure": "Geçersiz veya süresi dolmuş kod, tekrar deneyin",
+      "error": "Kod doğrulanırken hata oluştu: {error}",
+      "page_error": "Etkinleştirme sayfası bağlantısı bulunamadı",
+      "page_failure": "Sayfa yüklenirken hata oluştu: {error}",
+      "timeout": "Ağ zaman aşımı, bağlantınızı kontrol edin",
+      "open_error": "Sayfa açılırken hata oluştu: {error}"
+    }
+  },
+  "convert": {
+    "page": {
+      "sidebar": {
+        "home": "Ana Sayfa",
+        "caj_to_other": "CAJ'dan Diğerine",
+        "caj_to_image": "CAJ'dan Görsele",
+        "other_to_caj": "Diğerinden CAJ'a"
+      },
+      "drop_zone": {
+        "hint": "Eklemek için tıklayın / Dosyaları buraya sürükleyin",
+        "caj_to_other_support": "CAJ'dan PDF, DOC, DOCX, TXT desteği",
+        "caj_to_image_support": "CAJ'dan JPG, PNG, BMP desteği",
+        "other_to_caj_support": "PDF, Word, TXT, Görselden CAJ'a desteği"
+      },
+      "steps": {
+        "step1_title": "Dosyaları Ekle",
+        "step1_desc": "Sürükle-bırak veya toplu ekleme desteği",
+        "step2_title": "Çıktı Ayarları",
+        "step2_desc": "Biçimi ve kayıt yolunu ayarlayın",
+        "step3_title": "Dönüştürmeyi Başlat",
+        "step3_desc": "Tek tıkla verimli dönüştürme"
+      },
+      "toolbar": {
+        "add_files": "Dosyaları Ekle",
+        "add_folder": "Klasör Ekle",
+        "clear_all": "Tümünü Temizle"
+      },
+      "bottom": {
+        "output_format": "Biçim",
+        "output_dir": "Çıktı Dizini",
+        "change_dir": "Değiştir",
+        "open_dir": "Aç",
+        "start_convert": "Dönüştür",
+        "quality": "Kalite",
+        "high": "Yüksek",
+        "medium": "Orta",
+        "low": "Düşük",
+        "long_image": "Uzun görsel olarak dışa aktar"
+      },
+      "dialogs": {
+        "select_files": "Dosyaları seçin",
+        "select_folder": "Klasör seçin",
+        "no_files": "Uygun dosya bulunamadı"
+      },
+      "list_header": {
+        "name": "Dosya Adı",
+        "size": "Boyut",
+        "pages": "Sayfalar",
+        "page_select": "Aralık",
+        "status": "Durum",
+        "operation": "Eylem"
+      },
+      "all_pages": "Tümü",
+      "first_pages": "İlk ",
+      "pages_unit": " sayfa",
+      "custom_range": "Özel:",
+      "custom_placeholder": "ör: 1-5,8,10-12",
+      "hint": "Biçim: 1-5, 8, 10-12",
+      "cancel": "İptal",
+      "confirm": "Tamam",
+      "all": "Tümü",
+      "first_n_pages": "İlk {num} sayfa",
+      "status_pending": "Bekliyor",
+      "status_converting": "Dönüştürülüyor %{percent}",
+      "status_success": "Başarılı ✓",
+      "status_failure": "Başarısız",
+      "status_waiting": "Bekliyor",
+      "wait_pages": "Lütfen sayfa sayısının yüklenmesini bekleyin",
+      "unknown_size": "Bilinmiyor",
+      "total_pages": "Sayfa Aralığı Seçin (Toplam {total} sayfa)",
+      "output_same_as_source": "Kaynakla aynı",
+      "output_custom": "Özel klasör",
+      "select_output_dir": "Çıktı dizinini seçin",
+      "no_files_added": "Lütfen önce dosyaları ekleyin",
+      "convert_complete": "Tamamlandı",
+      "convert_success_msg": "Tüm {count} dosya başarıyla dönüştürüldü!\nÇıktı: {dir}",
+      "convert_result_msg": "Dönüştürme bitti\nBaşarılı: {success}\nBaşarısız: {fail}",
+      "step1_title": "Ekle",
+      "step1_desc": "Dosyaları toplu olarak ekleme",
+      "step2_title": "Yapılandırma",
+      "step2_desc": "Biçimi veya klasörü yapılandırın",
+      "step3_title": "Başlat",
+      "step3_desc": "Düğmeye tıklayın ve bitmesini bekleyin"
+    }
+  },
+  "converter": {
+    "error_not_found": "CAJ dosyası bulunamadı",
+    "error_extract_pdf": "Gömülü PDF çıkarılamadı",
+    "error_unsupported_format": "Desteklenmeyen biçim: {format}",
+    "success": "Başarılı",
+    "failure": "Başarısız: {error}",
+    "error_import": "Modül içe aktarılamadı: {error}",
+    "error_pdf_failed": "PDF oluşturulamadı",
+    "error_caj2pdf_import": "caj2pdf içe aktarılamadı",
+    "error_missing_lib": "Gerekli kütüphane bulunamadı: {error}",
+    "error_pdf2docx_import": "pdf2docx bulunamadı",
+    "error_pymupdf_missing": "PyMuPDF bulunamadı",
+    "error_java_missing": "Java bulunamadı, lütfen JDK 17+ kurun",
+    "error_timeout": "Zaman aşımı",
+    "txt_page_header": "--- Sayfa {page} ---",
+    "long_image_suffix": "_UzunGorsel",
+    "long_image_suffix_n": "_UzunGorsel_{index}"
+  },
+  "common": {
+    "error": "Hata",
+    "success": "Başarılı",
+    "hint": "İpucu"
+  },
+  "ad": {
+    "loading": "Reklam yükleniyor...",
+    "fallback_text": "Reklam Görseli",
+    "fallback_position": "Reklam Alanı"
+  },
+  "update": {
+    "error_format": "Sunucudan geçersiz veri biçimi",
+    "error_check_failed": "Kontrol başarısız: {error}",
+    "error_updater_not_found": "Güncelleyici bulunamadı: {path}",
+    "error_start_failed": "Güncelleme başlatılamadı: {error}"
+  }
+}

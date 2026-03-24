@@ -1,0 +1,266 @@
+{
+  "main_window": {
+    "title": "CAJ कनवर्टर",
+    "subtitle": "Kunqiong AI का उत्पाद",
+    "brand_text": "Kunqiong AI का उत्पाद",
+    "version": "संस्करण: V{version}",
+    "customize": "सॉफ्टवेयर कस्टमाइज़ेशन/संपर्क करें",
+    "feedback": "फीडबैक",
+    "menu": {
+      "settings": "सामान्य सेटिंग्स",
+      "tutorial": "ट्यूटोरियल",
+      "update": "अपडेट की जाँच करें",
+      "about": "हमारे बारे में"
+    },
+    "tutorial": {
+      "title": "ट्यूटोरियल",
+      "content": "ट्यूटोरियल फ़ंक्शन विकास के अधीन है...\n\nबुनियादी चरण:\n1. रूपांतरण प्रकार चुनें (CAJ से अन्य/CAJ से छवि/अन्य से CAJ)\n2. कनवर्ट की जाने वाली फ़ाइलें जोड़ें\n3. आउटपुट स्वरूप और निर्देशिका सेट करें\n4. 'रूपांतरण शुरू करें' पर क्लिक करें"
+    },
+    "update_dialog": {
+      "found_title": "नया संस्करण मिला",
+      "found_message": "नया संस्करण V{version} मिला, क्या अभी अपडेट करें?",
+      "fail_title": "अपडेट विफल",
+      "no_update_title": "अपडेट की जाँच करें",
+      "no_update_message": "वर्तमान संस्करण: V{version}\n\nआप पहले से ही नवीनतम संस्करण पर हैं!",
+      "check_fail_title": "अपडेट जाँच विफल"
+    },
+    "about": {
+      "title": "हमारे बारे में",
+      "app_name": "CAJ कनवर्टर",
+      "version_prefix": "संस्करण: V",
+      "desc": "एक पेशेवर CAJ फ़ाइल स्वरूप रूपांतरण उपकरण",
+      "features_title": "विशेषताएं:",
+      "feature_list": "<li>CAJ से PDF, DOC, DOCX, TXT</li><li>CAJ से JPG, PNG, BMP चित्र</li><li>PDF, Word, छवि से CAJ</li>",
+      "copyright": "© 2024 Kunqiong AI | KunqiongAI"
+    },
+    "errors": {
+      "feedback_fail": "फीडबैक पेज प्राप्त करने में विफल, कृपया अपना नेटवर्क जांचें।",
+      "customize_fail": "कस्टमाइज़ेशन लिंक प्राप्त करने में विफल, कृपया अपना नेटवर्क जांचें।",
+      "login_flow_fail": "लॉगिन प्रक्रिया शुरू करने में विफल, कृपया अपना नेटवर्क जांचें।",
+      "browser_open_fail": "ब्राउज़र खोलने में विफल: {error}"
+    },
+    "home": {
+      "title_prefix": "एक क्लिक में CAJ प्रोसेसिंग",
+      "title_highlight": "कुशल रूपांतरण",
+      "cards": {
+        "caj_to_other": {
+          "title": "CAJ से अन्य",
+          "desc": "CAJ को PDF, DOC,\nDOCX, TXT स्वरूपों में बदलें"
+        },
+        "caj_to_image": {
+          "title": "CAJ से छवि",
+          "desc": "CAJ को JPG, PNG,\nBMP स्वरूपों में बदलें"
+        },
+        "other_to_caj": {
+          "title": "अन्य से CAJ",
+          "desc": "PDF, Word, TXT, छवि को\nCAJ स्वरूप में बदलें"
+        }
+      }
+    },
+    "settings": {
+      "title": "सामान्य सेटिंग्स",
+      "file_count": "एक साथ फ़ाइलें",
+      "auto_folder": "प्रोसेसिंग के बाद आउटपुट निर्देशिका में स्वचालित रूप से\nसॉफ्टवेयर फ़ोल्डर बनाएं",
+      "cancel": "रद्द करें",
+      "confirm": "पुष्टि करें",
+      "language": "Language"
+    },
+    "languages": {
+      "ar": "阿拉伯语 (Arabic)",
+      "bn": "孟加拉语 (Bengali)",
+      "de": "德语 (German)",
+      "en": "英语 (English)",
+      "es": "西班牙语 (Spanish)",
+      "fa": "波斯语 (Farsi/Persian)",
+      "fr": "法语 (French)",
+      "he": "希伯来语 (Hebrew)",
+      "hi": "印地语 (Hindi)",
+      "id": "印度尼西亚语 (Indonesian)",
+      "it": "意大利语 (Italian)",
+      "ja": "日语 (Japanese)",
+      "ko": "韩语 (Korean)",
+      "ms": "马来语 (Malay)",
+      "nl": "荷兰语 (Dutch)",
+      "pl": "波兰语 (Polish)",
+      "pt": "葡萄牙语 (Portuguese)",
+      "pt_BR": "巴西葡萄牙语 (Brazilian Portuguese)",
+      "ru": "俄语 (Russian)",
+      "sw": "斯瓦希里语 (Swahili)",
+      "ta": "泰米尔语 (Tamil)",
+      "th": "泰语 (Thai)",
+      "tl": "他加禄语 (Tagalog)",
+      "tr": "土耳其语 (Turkish)",
+      "uk": "乌克兰语 (Ukrainian)",
+      "ur": "乌尔都语 (Urdu)",
+      "vi": "越南语 (Vietnamese)",
+      "zh_CN": "简体中文 (Simplified Chinese)",
+      "zh_TW": "繁体中文 (Traditional Chinese)"
+    }
+  },
+  "login": {
+    "user_button": {
+      "default_nickname": "उपयोगकर्ता",
+      "login_text": "लॉगिन",
+      "logged_in": "लॉग इन किया",
+      "logout_text": "लॉगआउट"
+    },
+    "dialog": {
+      "title": "उपयोगकर्ता लॉगिन",
+      "waiting": "लॉगिन की प्रतीक्षा की जा रही है...",
+      "remaining_time": "शेष समय: {time}s",
+      "cancel": "रद्द करें",
+      "cancel_login": "लॉगिन रद्द करें",
+      "browser_login": "ब्राउज़र के माध्यम से लॉगिन करें",
+      "instructions": "अपने ब्राउज़र में लॉगिन पेज खोलने के लिए नीचे दिए गए बटन पर क्लिक करें।\nलॉगिन करने के बाद, सॉफ्टवेयर स्वचालित रूप से आपकी स्थिति को सिंक कर देगा।",
+      "error_start": "लॉगिन शुरू करने में विफल, कृपया अपना नेटवर्क जांचें",
+      "error_browser": "ब्राउज़र खोलने में विफल: {error}",
+      "success": "लॉगिन सफल!",
+      "failure": "लॉगिन विफल",
+      "logging_in_title": "लॉग इन हो रहा है",
+      "logging_in_message": "ब्राउज़र खुल गया है, कृपया ब्राउज़र में लॉगिन पूरा करें।\n\nसॉफ्टवेयर स्वचालित रूप से आपकी स्थिति का पता लगा लेगा..."
+    },
+    "logout": {
+      "confirm_title": "लॉगआउट की पुष्टि करें",
+      "confirm_message": "क्या आप वाकई लॉगआउट करना चाहते हैं?",
+      "title": "लॉगआउट",
+      "success": "सफलतापूर्वक लॉगआउट किया गया।",
+      "stale": "लॉगिन सत्र समाप्त हो गया, स्थानीय खाता जानकारी साफ़ कर दी गई।"
+    }
+  },
+  "auth": {
+    "dialog": {
+      "title": "Kunqiong AI टूलबॉक्स · सक्रियण",
+      "instructions": "आपके द्वारा इंस्टॉल किया गया टूल Kunqiong AI टूलबॉक्स का एक अनुप्रयोग है।\nपूर्ण सुविधाओं को सक्षम करने के लिए इसे प्राधिकरण कोड के माध्यम से सक्रिय करने की आवश्यकता है।",
+      "input_placeholder": "कृपया प्राधिकरण कोड दर्ज करें",
+      "verify_button": "सत्यापित करें",
+      "no_code": "कोड नहीं है?",
+      "get_code": "प्राप्त करने के लिए क्लिक करें",
+      "success": "सक्रियण सफल!",
+      "failure": "अमान्य या समाप्त हो चुका प्राधिकरण कोड, कृपया पुनः प्रयास करें",
+      "error": "कोड सत्यापित करने में त्रुटि: {error}",
+      "page_error": "सक्रियण पृष्ठ लिंक प्राप्त करने में विफल",
+      "page_failure": "सक्रियण पृष्ठ विफल: {error}",
+      "timeout": "नेटवर्क टाइमआउट, कृपया अपना कनेक्शन जांचें",
+      "open_error": "पेज खोलने में त्रुटि: {error}"
+    }
+  },
+  "convert": {
+    "page": {
+      "sidebar": {
+        "home": "होम",
+        "caj_to_other": "CAJ से अन्य",
+        "caj_to_image": "CAJ से छवि",
+        "other_to_caj": "अन्य से CAJ"
+      },
+      "drop_zone": {
+        "hint": "जोड़ने के लिए क्लिक करें / फ़ाइलों को यहाँ खींचें",
+        "caj_to_other_support": "CAJ से PDF, DOC, DOCX, TXT का समर्थन करता है",
+        "caj_to_image_support": "CAJ से JPG, PNG, BMP का समर्थन करता है",
+        "other_to_caj_support": "PDF, Word, TXT, छवि से CAJ का समर्थन करता है"
+      },
+      "steps": {
+        "step1_title": "फ़ाइलें जोड़ें",
+        "step1_desc": "ड्रैग एंड ड्रॉप या बैच जोड़ें का समर्थन करता है",
+        "step2_title": "आउटपुट सेटिंग्स",
+        "step2_desc": "स्वरूप और सेव पाथ सेट करें",
+        "step3_title": "रूपांतरण शुरू करें",
+        "step3_desc": "एक-क्लिक कुशल रूपांतरण"
+      },
+      "toolbar": {
+        "add_files": "फ़ाइलें जोड़ें",
+        "add_folder": "फ़ोल्डर जोड़ें",
+        "clear_all": "सभी साफ़ करें"
+      },
+      "bottom": {
+        "output_format": "स्वरूप",
+        "output_dir": "आउटपुट निर्देशिका",
+        "change_dir": "बदलें",
+        "open_dir": "खोलें",
+        "start_convert": "अभी बदलें",
+        "quality": "गुणवत्ता",
+        "high": "उच्च",
+        "medium": "मध्यम",
+        "low": "निम्न",
+        "long_image": "लंबी छवि के रूप में निर्यात करें"
+      },
+      "dialogs": {
+        "select_files": "फ़ाइलें चुनें",
+        "select_folder": "फ़ोल्डर चुनें",
+        "no_files": "कोई मिलान वाली फ़ाइलें नहीं मिलीं"
+      },
+      "list_header": {
+        "name": "फ़ाइल का नाम",
+        "size": "आकार",
+        "pages": "पृष्ठ",
+        "page_select": "रेंज",
+        "status": "स्थिति",
+        "operation": "कार्रवाई"
+      },
+      "all_pages": "सभी",
+      "first_pages": "प्रथम ",
+      "pages_unit": " पृष्ठ",
+      "custom_range": "कस्टम:",
+      "custom_placeholder": "उदा., 1-5,8,10-12",
+      "hint": "स्वरूप: 1-5, 8, 10-12",
+      "cancel": "रद्द करें",
+      "confirm": "ठीक",
+      "all": "सभी",
+      "first_n_pages": "प्रथम {num} पृष्ठ",
+      "status_pending": "लंबित",
+      "status_converting": "बदला जा रहा है {percent}%",
+      "status_success": "सफल ✓",
+      "status_failure": "विफल",
+      "status_waiting": "प्रतीक्षा",
+      "wait_pages": "कृपया पृष्ठ गणना लोड होने की प्रतीक्षा करें",
+      "unknown_size": "अज्ञात",
+      "total_pages": "पृष्ठ सीमा चुनें (कुल {total} पृष्ठ)",
+      "output_same_as_source": "स्रोत के समान",
+      "output_custom": "कस्टम फ़ोल्डर",
+      "select_output_dir": "आउटपुट निर्देशिका चुनें",
+      "no_files_added": "कृपया पहले फ़ाइलें जोड़ें",
+      "convert_complete": "पूरा हुआ",
+      "convert_success_msg": "सभी {count} फ़ाइलें सफलतापूर्वक कनवर्ट की गईं!\nआउटपुट निर्देशिका: {dir}",
+      "convert_result_msg": "रूपांतरण समाप्त हुआ\nसफल: {success}\nविफल: {fail}",
+      "step1_title": "जोड़ें",
+      "step1_desc": "बैच में फ़ाइलें जोड़ना",
+      "step2_title": "कॉन्फ़िगरेशन",
+      "step2_desc": "स्वरूप या फ़ोल्डर कॉन्फ़िगर करें",
+      "step3_title": "शुरू करें",
+      "step3_desc": "बटन पर क्लिक करें और पूरा होने तक प्रतीक्षा करें"
+    }
+  },
+  "converter": {
+    "error_not_found": "CAJ फ़ाइल नहीं मिली",
+    "error_extract_pdf": "एम्बेडेड PDF निकालने में विफल",
+    "error_unsupported_format": "असमर्थित स्वरूप: {format}",
+    "success": "सफल",
+    "failure": "विफल: {error}",
+    "error_import": "रूपांतरण मॉड्यूल आयात करने में विफल: {error}",
+    "error_pdf_failed": "PDF निर्माण विफल",
+    "error_caj2pdf_import": "caj2pdf आयात करने में विफल: {error}",
+    "error_missing_lib": "आवश्यक लाइब्रेरी नहीं मिली: {error}",
+    "error_pdf2docx_import": "pdf2docx नहीं मिला",
+    "error_pymupdf_missing": "PyMuPDF लाइब्रेरी नहीं मिली",
+    "error_java_missing": "जावा वातावरण नहीं मिला, कृपया JDK 17 या उच्चतर स्थापित करें",
+    "error_timeout": "रूपांतरण टाइमआउट",
+    "txt_page_header": "--- पृष्ठ {page} ---",
+    "long_image_suffix": "_लंबीछवि",
+    "long_image_suffix_n": "_लंबीछवि_{index}"
+  },
+  "common": {
+    "error": "त्रुटि",
+    "success": "सफल",
+    "hint": "संकेत"
+  },
+  "ad": {
+    "loading": "विज्ञापन लोड हो रहा है...",
+    "fallback_text": "विज्ञापन छवि",
+    "fallback_position": "विज्ञापन स्थिति"
+  },
+  "update": {
+    "error_format": "सर्वर से अमान्य डेटा स्वरूप",
+    "error_check_failed": "अपडेट जाँच विफल: {error}",
+    "error_updater_not_found": "अपडेटर नहीं मिला: {path}",
+    "error_start_failed": "अपडेट शुरू करने में विफल: {error}"
+  }
+}

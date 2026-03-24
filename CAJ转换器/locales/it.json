@@ -1,0 +1,266 @@
+{
+  "main_window": {
+    "title": "Convertitore CAJ",
+    "subtitle": "Un prodotto di Kunqiong AI",
+    "brand_text": "Un prodotto di Kunqiong AI",
+    "version": "Versione: V{version}",
+    "customize": "Personalizzazione/Contatti",
+    "feedback": "Commenti",
+    "menu": {
+      "settings": "Impostazioni Generali",
+      "tutorial": "Tutorial",
+      "update": "Cerca Aggiornamenti",
+      "about": "Chi Siamo"
+    },
+    "tutorial": {
+      "title": "Tutorial",
+      "content": "La funzione tutorial è in fase di sviluppo...\n\nPassaggi base:\n1. Seleziona il tipo di conversione (CAJ a altro/CAJ a immagine/Altro a CAJ)\n2. Aggiungi i file da convertire\n3. Imposta formato e directory di output\n4. Clicca su Avvia Conversione"
+    },
+    "update_dialog": {
+      "found_title": "Nuova Versione Trovata",
+      "found_message": "È stata trovata la versione V{version}, aggiornare ora?",
+      "fail_title": "Aggiornamento Fallito",
+      "no_update_title": "Cerca Aggiornamenti",
+      "no_update_message": "Versione attuale: V{version}\n\nHai già l'ultima versione!",
+      "check_fail_title": "Controllo Fallito"
+    },
+    "about": {
+      "title": "Chi Siamo",
+      "app_name": "Convertitore CAJ",
+      "version_prefix": "Versione: V",
+      "desc": "Uno strumento professionale per la conversione di file CAJ",
+      "features_title": "Funzionalità:",
+      "feature_list": "<li>CAJ a PDF, DOC, DOCX, TXT</li><li>CAJ a immagini JPG, PNG, BMP</li><li>PDF, Word, Immagini a CAJ</li>",
+      "copyright": "© 2024 Kunqiong AI | KunqiongAI"
+    },
+    "errors": {
+      "feedback_fail": "Errore nell'ottenere la pagina dei commenti, controlla la connessione.",
+      "customize_fail": "Errore nell'ottenere il link di personalizzazione.",
+      "login_flow_fail": "Errore nell'avviare il processo di accesso.",
+      "browser_open_fail": "Impossibile aprire il browser: {error}"
+    },
+    "home": {
+      "title_prefix": "Elaborazione CAJ in un clic",
+      "title_highlight": "Conversione Efficiente",
+      "cards": {
+        "caj_to_other": {
+          "title": "CAJ a Altro",
+          "desc": "Converte CAJ nei formati PDF, DOC,\nDOCX, TXT"
+        },
+        "caj_to_image": {
+          "title": "CAJ a Immagine",
+          "desc": "Converte CAJ nei formati JPG, PNG,\nBMP"
+        },
+        "other_to_caj": {
+          "title": "Altro a CAJ",
+          "desc": "Converte PDF, Word, TXT, Immagini\nnel formato CAJ"
+        }
+      }
+    },
+    "settings": {
+      "title": "Impostazioni Generali",
+      "file_count": "File simultanei",
+      "auto_folder": "Crea automaticamente una cartella\nnella directory di output dopo l'elaborazione",
+      "cancel": "Annulla",
+      "confirm": "Conferma",
+      "language": "Language"
+    },
+    "languages": {
+      "ar": "阿拉伯语 (Arabic)",
+      "bn": "孟加拉语 (Bengali)",
+      "de": "德语 (German)",
+      "en": "英语 (English)",
+      "es": "西班牙语 (Spanish)",
+      "fa": "波斯语 (Farsi/Persian)",
+      "fr": "法语 (French)",
+      "he": "希伯来语 (Hebrew)",
+      "hi": "印地语 (Hindi)",
+      "id": "印度尼西亚语 (Indonesian)",
+      "it": "意大利语 (Italian)",
+      "ja": "日语 (Japanese)",
+      "ko": "韩语 (Korean)",
+      "ms": "马来语 (Malay)",
+      "nl": "荷兰语 (Dutch)",
+      "pl": "波兰语 (Polish)",
+      "pt": "葡萄牙语 (Portuguese)",
+      "pt_BR": "巴西葡萄牙语 (Brazilian Portuguese)",
+      "ru": "俄语 (Russian)",
+      "sw": "斯瓦希里语 (Swahili)",
+      "ta": "泰米尔语 (Tamil)",
+      "th": "泰语 (Thai)",
+      "tl": "他加禄语 (Tagalog)",
+      "tr": "土耳其语 (Turkish)",
+      "uk": "乌克兰语 (Ukrainian)",
+      "ur": "乌尔都语 (Urdu)",
+      "vi": "越南语 (Vietnamese)",
+      "zh_CN": "简体中文 (Simplified Chinese)",
+      "zh_TW": "繁体中文 (Traditional Chinese)"
+    }
+  },
+  "login": {
+    "user_button": {
+      "default_nickname": "Utente",
+      "login_text": "Accedi",
+      "logged_in": "Identificato",
+      "logout_text": "Esci"
+    },
+    "dialog": {
+      "title": "Accesso Utente",
+      "waiting": "In attesa di accesso...",
+      "remaining_time": "Tempo rimanente: {time}s",
+      "cancel": "Annulla",
+      "cancel_login": "Annulla Accesso",
+      "browser_login": "Accedi via Browser",
+      "instructions": "Clicca sotto per aprire la pagina di accesso nel tuo browser.\nDopo l'accesso, il software sincronizzerà il tuo stato.",
+      "error_start": "Fallo all'avvio, controlla la rete",
+      "error_browser": "Impossibile aprire il browser: {error}",
+      "success": "Accesso corretto!",
+      "failure": "Accesso fallito",
+      "logging_in_title": "Accesso in corso",
+      "logging_in_message": "Browser aperto, completa l'accesso.\n\nIl software rileverà il tuo stato automaticamente..."
+    },
+    "logout": {
+      "confirm_title": "Conferma Uscita",
+      "confirm_message": "Sei sicuro di voler chiudere la sessione?",
+      "title": "Chiudi Sessione",
+      "success": "Sessione chiusa correttamente.",
+      "stale": "Sessione scaduta, informazioni locali cancellate."
+    }
+  },
+  "auth": {
+    "dialog": {
+      "title": "Cassetta degli Attrezzi Kunqiong AI · Attivazione",
+      "instructions": "Questo strumento è un'applicazione di Kunqiong AI.\nRichiede l'attivazione tramite un codice per abilitare tutte le funzioni.",
+      "input_placeholder": "Inserisci il codice di autorizzazione",
+      "verify_button": "Verifica",
+      "no_code": "Non hai un codice?",
+      "get_code": "Clicca per ottenerlo",
+      "success": "Attivazione corretta!",
+      "failure": "Codice non valido o scaduto",
+      "error": "Errore nella verifica del codice: {error}",
+      "page_error": "Link alla pagina di attivazione non trovato",
+      "page_failure": "Errore nel caricamento della pagina: {error}",
+      "timeout": "Tempo di attesa di rete scaduto",
+      "open_error": "Errore nell'aprire la pagina: {error}"
+    }
+  },
+  "convert": {
+    "page": {
+      "sidebar": {
+        "home": "Inizio",
+        "caj_to_other": "CAJ a Altro",
+        "caj_to_image": "CAJ a Immagine",
+        "other_to_caj": "Altro a CAJ"
+      },
+      "drop_zone": {
+        "hint": "Clicca per aggiungere / Trascina i file qui",
+        "caj_to_other_support": "Supporta CAJ a PDF, DOC, DOCX, TXT",
+        "caj_to_image_support": "Supporta CAJ a JPG, PNG, BMP",
+        "other_to_caj_support": "Supporta PDF, Word, TXT, Immagini a CAJ"
+      },
+      "steps": {
+        "step1_title": "Aggiungi file",
+        "step1_desc": "Supporta trascinamento o aggiunta multipla",
+        "step2_title": "Impostazioni",
+        "step2_desc": "Definisci formato e percorso",
+        "step3_title": "Avvia",
+        "step3_desc": "Conversione efficiente in un clic"
+      },
+      "toolbar": {
+        "add_files": "Aggiungi file",
+        "add_folder": "Aggiungi cartella",
+        "clear_all": "Cancella tutto"
+      },
+      "bottom": {
+        "output_format": "Formato",
+        "output_dir": "Directory",
+        "change_dir": "Cambia",
+        "open_dir": "Apri",
+        "start_convert": "Converti",
+        "quality": "Qualità",
+        "high": "Alta",
+        "medium": "Media",
+        "low": "Bassa",
+        "long_image": "Esporta come immagine lunga"
+      },
+      "dialogs": {
+        "select_files": "Seleziona file",
+        "select_folder": "Seleziona cartella",
+        "no_files": "Nessun file compatibile trovato"
+      },
+      "list_header": {
+        "name": "Nome",
+        "size": "Dimensione",
+        "pages": "Pagine",
+        "page_select": "Intervallo",
+        "status": "Stato",
+        "operation": "Azione"
+      },
+      "all_pages": "Tutte",
+      "first_pages": "Prime ",
+      "pages_unit": " pagine",
+      "custom_range": "Personalizzato:",
+      "custom_placeholder": "es: 1-5,8,10-12",
+      "hint": "Formato: 1-5, 8, 10-12",
+      "cancel": "Annulla",
+      "confirm": "OK",
+      "all": "Tutte",
+      "first_n_pages": "Prime {num} pagine",
+      "status_pending": "In attesa",
+      "status_converting": "Conversione {percent}%",
+      "status_success": "Riuscito ✓",
+      "status_failure": "Fallito",
+      "status_waiting": "Attesa",
+      "wait_pages": "Caricamento pagine...",
+      "unknown_size": "Sconosciuto",
+      "total_pages": "Intervallo pagine (Totale {total})",
+      "output_same_as_source": "Come origine",
+      "output_custom": "Cartella propria",
+      "select_output_dir": "Scegli directory di uscita",
+      "no_files_added": "Per favore, aggiungi prima i file",
+      "convert_complete": "Terminato",
+      "convert_success_msg": "¡{count} file convertiti!\nUscita: {dir}",
+      "convert_result_msg": "Conversione terminata\nRiusciti: {success}\nFalliti: {fail}",
+      "step1_title": "Aggiungi",
+      "step1_desc": "Aggiunta di file multipli",
+      "step2_title": "Configurazione",
+      "step2_desc": "Configura formato o cartella",
+      "step3_title": "Inizio",
+      "step3_desc": "Clicca e attendi"
+    }
+  },
+  "converter": {
+    "error_not_found": "File CAJ non trovato",
+    "error_extract_pdf": "Fallo nell'estrarre PDF",
+    "error_unsupported_format": "Formato non supportato: {format}",
+    "success": "Riuscito",
+    "failure": "Fallo: {error}",
+    "error_import": "Error nell'importare modulo: {error}",
+    "error_pdf_failed": "Fallo nel generare PDF",
+    "error_caj2pdf_import": "Impossibile importare caj2pdf",
+    "error_missing_lib": "Manca libreria: {error}",
+    "error_pdf2docx_import": "Manca pdf2docx",
+    "error_pymupdf_missing": "Manca PyMuPDF",
+    "error_java_missing": "Manca Java, installa JDK 17+",
+    "error_timeout": "Tempo scaduto",
+    "txt_page_header": "--- Pagina {page} ---",
+    "long_image_suffix": "_ImmagineLunga",
+    "long_image_suffix_n": "_ImmagineLunga_{index}"
+  },
+  "common": {
+    "error": "Errore",
+    "success": "Riuscito",
+    "hint": "Avviso"
+  },
+  "ad": {
+    "loading": "Caricamento annuncio...",
+    "fallback_text": "Immagine pubblicitaria",
+    "fallback_position": "Spazio pubblicitario"
+  },
+  "update": {
+    "error_format": "Formato dati non valido",
+    "error_check_failed": "Controllo fallito: {error}",
+    "error_updater_not_found": "Aggiornamento non trovato: {path}",
+    "error_start_failed": "Fallo all'avvio aggiornamento: {error}"
+  }
+}

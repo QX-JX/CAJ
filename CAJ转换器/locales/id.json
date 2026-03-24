@@ -1,0 +1,266 @@
+{
+  "main_window": {
+    "title": "Konverter CAJ",
+    "subtitle": "Produk Kunqiong AI",
+    "brand_text": "Produk Kunqiong AI",
+    "version": "Versi: V{version}",
+    "customize": "Kustomisasi Perangkat Lunak/Hubungi Kami",
+    "feedback": "Umpan Balik",
+    "menu": {
+      "settings": "Pengaturan Umum",
+      "tutorial": "Tutorial",
+      "update": "Periksa Pembaruan",
+      "about": "Tentang Kami"
+    },
+    "tutorial": {
+      "title": "Tutorial",
+      "content": "Fungsi tutorial sedang dikembangkan...\n\nLangkah-langkah dasar:\n1. Pilih jenis konversi (CAJ ke lainnya/CAJ ke gambar/Lainnya ke CAJ)\n2. Tambahkan berkas yang akan dikonversi\n3. Atur format keluaran dan direktori\n4. Klik Mulai Konversi"
+    },
+    "update_dialog": {
+      "found_title": "Versi Baru Ditemukan",
+      "found_message": "Versi baru V{version} ditemukan, perbarui sekarang?",
+      "fail_title": "Pembaruan Gagal",
+      "no_update_title": "Periksa Pembaruan",
+      "no_update_message": "Versi saat ini: V{version}\n\nAnda sudah menggunakan versi terbaru!",
+      "check_fail_title": "Pemeriksaan Pembaruan Gagal"
+    },
+    "about": {
+      "title": "Tentang Kami",
+      "app_name": "Konverter CAJ",
+      "version_prefix": "Versi: V",
+      "desc": "Alat konversi format berkas CAJ profesional",
+      "features_title": "Fitur:",
+      "feature_list": "<li>CAJ ke PDF, DOC, DOCX, TXT</li><li>CAJ ke gambar JPG, PNG, BMP</li><li>PDF, Word, Gambar ke CAJ</li>",
+      "copyright": "© 2024 Kunqiong AI | KunqiongAI"
+    },
+    "errors": {
+      "feedback_fail": "Gagal memuat halaman umpan balik, periksa koneksi jaringan Anda.",
+      "customize_fail": "Gagal memuat tautan kustomisasi, periksa koneksi jaringan Anda.",
+      "login_flow_fail": "Gagal memulai proses masuk, periksa koneksi jaringan Anda.",
+      "browser_open_fail": "Tidak dapat membuka peramban: {error}"
+    },
+    "home": {
+      "title_prefix": "Pemrosesan CAJ sekali klik",
+      "title_highlight": "Konversi Efisien",
+      "cards": {
+        "caj_to_other": {
+          "title": "CAJ ke lainnya",
+          "desc": "Konversi CAJ ke format PDF, DOC,\nDOCX, TXT"
+        },
+        "caj_to_image": {
+          "title": "CAJ ke gambar",
+          "desc": "Konversi CAJ ke format JPG, PNG,\nBMP"
+        },
+        "other_to_caj": {
+          "title": "Lainnya ke CAJ",
+          "desc": "Konversi PDF, Word, TXT, Gambar\nke format CAJ"
+        }
+      }
+    },
+    "settings": {
+      "title": "Pengaturan Umum",
+      "file_count": "Jumlah berkas yang diproses bersamaan",
+      "auto_folder": "Secara otomatis membuat folder perangkat lunak\ndi direktori keluaran setelah pemrosesan",
+      "cancel": "Batal",
+      "confirm": "Konfirmasi",
+      "language": "Language"
+    },
+    "languages": {
+      "ar": "阿拉伯语 (Arabic)",
+      "bn": "孟加拉语 (Bengali)",
+      "de": "德语 (German)",
+      "en": "英语 (English)",
+      "es": "西班牙语 (Spanish)",
+      "fa": "波斯语 (Farsi/Persian)",
+      "fr": "法语 (French)",
+      "he": "希伯来语 (Hebrew)",
+      "hi": "印地语 (Hindi)",
+      "id": "印度尼西亚语 (Indonesian)",
+      "it": "意大利语 (Italian)",
+      "ja": "日语 (Japanese)",
+      "ko": "韩语 (Korean)",
+      "ms": "马来语 (Malay)",
+      "nl": "荷兰语 (Dutch)",
+      "pl": "波兰语 (Polish)",
+      "pt": "葡萄牙语 (Portuguese)",
+      "pt_BR": "巴西葡萄牙语 (Brazilian Portuguese)",
+      "ru": "俄语 (Russian)",
+      "sw": "斯瓦希里语 (Swahili)",
+      "ta": "泰米尔语 (Tamil)",
+      "th": "泰语 (Thai)",
+      "tl": "他加禄语 (Tagalog)",
+      "tr": "土耳其语 (Turkish)",
+      "uk": "乌克兰语 (Ukrainian)",
+      "ur": "乌尔都语 (Urdu)",
+      "vi": "越南语 (Vietnamese)",
+      "zh_CN": "简体中文 (Simplified Chinese)",
+      "zh_TW": "繁体中文 (Traditional Chinese)"
+    }
+  },
+  "login": {
+    "user_button": {
+      "default_nickname": "Pengguna",
+      "login_text": "Masuk",
+      "logged_in": "Sudah masuk",
+      "logout_text": "Keluar"
+    },
+    "dialog": {
+      "title": "Masuk Pengguna",
+      "waiting": "Menunggu masuk...",
+      "remaining_time": "Sisa waktu: {time} detik",
+      "cancel": "Batal",
+      "cancel_login": "Batalkan Masuk",
+      "browser_login": "Masuk melalui Peramban",
+      "instructions": "Klik tombol di bawah untuk membuka halaman masuk di peramban.\nSetelah masuk, perangkat lunak akan secara otomatis menyinkronkan status Anda.",
+      "error_start": "Gagal memulai masuk, periksa koneksi jaringan Anda",
+      "error_browser": "Tidak dapat membuka peramban: {error}",
+      "success": "Masuk berhasil!",
+      "failure": "Masuk gagal",
+      "logging_in_title": "Sedang masuk",
+      "logging_in_message": "Peramban telah terbuka, silakan selesaikan masuk di peramban.\n\nPerangkat lunak akan secara otomatis mendeteksi status..."
+    },
+    "logout": {
+      "confirm_title": "Konfirmasi Keluar",
+      "confirm_message": "Apakah Anda yakin ingin keluar dari akun ini?",
+      "title": "Keluar",
+      "success": "Berhasil keluar dari akun.",
+      "stale": "Sesi masuk berakhir, informasi akun lokal dihapus."
+    }
+  },
+  "auth": {
+    "dialog": {
+      "title": "Kunqiong AI Toolbox · Aktivasi",
+      "instructions": "Alat yang terpasang adalah aplikasi dari Kunqiong AI Toolbox.\nPerlu diaktifkan dengan kode untuk mengaktifkan fitur lengkap.",
+      "input_placeholder": "Silakan masukkan kode otorisasi",
+      "verify_button": "Verifikasi",
+      "no_code": "Belum punya kode?",
+      "get_code": "Klik untuk mendapatkan",
+      "success": "Aktivasi berhasil!",
+      "failure": "Kode tidak valid atau kedaluwarsa, silakan coba lagi",
+      "error": "Kesalahan verifikasi kode: {error}",
+      "page_error": "Tidak dapat memuat tautan halaman aktivasi",
+      "page_failure": "Gagal memuat halaman aktivasi: {error}",
+      "timeout": "Batas waktu jaringan, periksa koneksi Anda",
+      "open_error": "Kesalahan membuka halaman: {error}"
+    }
+  },
+  "convert": {
+    "page": {
+      "sidebar": {
+        "home": "Beranda",
+        "caj_to_other": "CAJ ke lainnya",
+        "caj_to_image": "CAJ ke gambar",
+        "other_to_caj": "Lainnya ke CAJ"
+      },
+      "drop_zone": {
+        "hint": "Klik untuk menambah / Seret berkas ke sini",
+        "caj_to_other_support": "Mendukung CAJ ke PDF, DOC, DOCX, TXT",
+        "caj_to_image_support": "Mendukung CAJ ke JPG, PNG, BMP",
+        "other_to_caj_support": "Mendukung PDF, Word, TXT, Gambar ke CAJ"
+      },
+      "steps": {
+        "step1_title": "Tambah berkas",
+        "step1_desc": "Mendukung seret dan lepaskan atau tambah massal",
+        "step2_title": "Pengaturan keluaran",
+        "step2_desc": "Atur format dan jalur penyimpanan",
+        "step3_title": "Mulai konversi",
+        "step3_desc": "Konversi efisien dalam satu klik"
+      },
+      "toolbar": {
+        "add_files": "Tambah berkas",
+        "add_folder": "Tambah folder",
+        "clear_all": "Bersihkan semua"
+      },
+      "bottom": {
+        "output_format": "Format",
+        "output_dir": "Direktori keluaran",
+        "change_dir": "Ubah",
+        "open_dir": "Buka",
+        "start_convert": "Konversi sekarang",
+        "quality": "Kualitas",
+        "high": "Tinggi",
+        "medium": "Sedang",
+        "low": "Rendah",
+        "long_image": "Ekspor sebagai gambar panjang"
+      },
+      "dialogs": {
+        "select_files": "Pilih berkas",
+        "select_folder": "Pilih folder",
+        "no_files": "Tidak ditemukan berkas yang sesuai"
+      },
+      "list_header": {
+        "name": "Nama berkas",
+        "size": "Ukuran",
+        "pages": "Halaman",
+        "page_select": "Rentang",
+        "status": "Status",
+        "operation": "Tindakan"
+      },
+      "all_pages": "Semua",
+      "first_pages": "Beberapa halaman pertama ",
+      "pages_unit": " halaman",
+      "custom_range": "Kustom:",
+      "custom_placeholder": "misal: 1-5,8,10-12",
+      "hint": "Format: 1-5, 8, 10-12",
+      "cancel": "Batal",
+      "confirm": "Oke",
+      "all": "Semua",
+      "first_n_pages": "{num} halaman pertama",
+      "status_pending": "Tertunda",
+      "status_converting": "Sedang konversi {percent}%",
+      "status_success": "Berhasil ✓",
+      "status_failure": "Gagal",
+      "status_waiting": "Menunggu",
+      "wait_pages": "Harap tunggu pemuatan jumlah halaman",
+      "unknown_size": "Tidak diketahui",
+      "total_pages": "Pilih rentang halaman (total {total} halaman)",
+      "output_same_as_source": "Sama dengan folder sumber",
+      "output_custom": "Folder kustom",
+      "select_output_dir": "Pilih direktori keluaran",
+      "no_files_added": "Silakan tambahkan berkas terlebih dahulu",
+      "convert_complete": "Selesai",
+      "convert_success_msg": "Semua {count} berkas berhasil dikonversi!\nDirektori keluaran: {dir}",
+      "convert_result_msg": "Konversi selesai\nBerhasil: {success}\nGagal: {fail}",
+      "step1_title": "Tambah",
+      "step1_desc": "Penambahan berkas secara massal",
+      "step2_title": "Konfigurasi",
+      "step2_desc": "Konfigurasi format atau folder",
+      "step3_title": "Mulai",
+      "step3_desc": "Klik tombol dan tunggu hingga selesai"
+    }
+  },
+  "converter": {
+    "error_not_found": "Berkas CAJ tidak ada",
+    "error_extract_pdf": "Gagal mengambil PDF yang tersemat",
+    "error_unsupported_format": "Format tidak didukung: {format}",
+    "success": "Berhasil",
+    "failure": "Gagal: {error}",
+    "error_import": "Gagal memuat modul konversi: {error}",
+    "error_pdf_failed": "Gagal membuat berkas PDF",
+    "error_caj2pdf_import": "Tidak dapat memuat pustaka caj2pdf: {error}",
+    "error_missing_lib": "Pustaka yang diperlukan tidak ditemukan: {error}",
+    "error_pdf2docx_import": "Tidak ditemukan pustaka pdf2docx",
+    "error_pymupdf_missing": "Tidak ditemukan pustaka PyMuPDF",
+    "error_java_missing": "Tidak ditemukan lingkungan Java, silakan instal JDK 17 atau lebih tinggi",
+    "error_timeout": "Batas waktu konversi habis",
+    "txt_page_header": "--- Halaman {page} ---",
+    "long_image_suffix": "_GambarPanjang",
+    "long_image_suffix_n": "_GambarPanjang_{index}"
+  },
+  "common": {
+    "error": "Kesalahan",
+    "success": "Berhasil",
+    "hint": "Petunjuk"
+  },
+  "ad": {
+    "loading": "Memuat iklan...",
+    "fallback_text": "Gambar iklan",
+    "fallback_position": "Posisi iklan"
+  },
+  "update": {
+    "error_format": "Format data tidak valid dari server",
+    "error_check_failed": "Pemeriksaan pembaruan gagal: {error}",
+    "error_updater_not_found": "Program pembaru tidak ditemukan: {path}",
+    "error_start_failed": "Gagal memulai pembaruan: {error}"
+  }
+}

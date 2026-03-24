@@ -1,0 +1,266 @@
+{
+  "main_window": {
+    "title": "CAJ மாற்றி",
+    "subtitle": "Kunqiong AI இன் தயாரிப்பு",
+    "brand_text": "Kunqiong AI இன் தயாரிப்பு",
+    "version": "பதிப்பு: V{version}",
+    "customize": "மென்பொருள் தனிப்பயனாக்கம்/எங்களைத் தொடர்பு கொள்ளவும்",
+    "feedback": "கருத்து",
+    "menu": {
+      "settings": "பொதுவான அமைப்புகள்",
+      "tutorial": "டுடோரியல்",
+      "update": "புதுப்பிப்புகளைச் சரிபார்க்கவும்",
+      "about": "எங்களைப் பற்றி"
+    },
+    "tutorial": {
+      "title": "டுடோரியல்",
+      "content": "டுடோரியல் செயல்பாடு உருவாக்கத்தில் உள்ளது...\n\nஅடிப்படை படிகள்:\n1. மாற்றும் வகையைத் தேர்ந்தெடுக்கவும் (CAJ to Other/CAJ to Image/Other to CAJ)\n2. மாற்றப்பட வேண்டிய கோப்புகளைச் சேர்க்கவும்\n3. வெளியீட்டு வடிவம் மற்றும் கோப்பகத்தை அமைக்கவும்\n4. மாற்றத்தைத் தொடங்கு என்பதைக் கிளிக் செய்யவும்"
+    },
+    "update_dialog": {
+      "found_title": "புதிய பதிப்பு கண்டறியப்பட்டது",
+      "found_message": "புதிய பதிப்பு V{version} கண்டறியப்பட்டது, இப்போது புதுப்பிக்கவா?",
+      "fail_title": "புதுப்பிப்பு தோல்வியடைந்தது",
+      "no_update_title": "புதுப்பிப்பு சரிபார்ப்பு",
+      "no_update_message": "தற்போதைய பதிப்பு: V{version}\n\nநீங்கள் ஏற்கனவே சமீபத்திய பதிப்பில் உள்ளீர்கள்!",
+      "check_fail_title": "புதுப்பிப்பு சரிபார்ப்பு தோல்வியடைந்தது"
+    },
+    "about": {
+      "title": "எங்களைப் பற்றி",
+      "app_name": "CAJ மாற்றி",
+      "version_prefix": "பதிப்பு: V",
+      "desc": "ஒரு தொழில்முறை CAJ கோப்பு வடிவமைப்பு மாற்றும் கருவி",
+      "features_title": "அம்சங்கள்:",
+      "feature_list": "<li>CAJ to PDF, DOC, DOCX, TXT</li><li>CAJ to JPG, PNG, BMP படங்கள்</li><li>PDF, Word, Image to CAJ</li>",
+      "copyright": "© 2024 Kunqiong AI | KunqiongAI"
+    },
+    "errors": {
+      "feedback_fail": "கருத்துப் பக்கத்தைப் பெற முடியவில்லை, உங்கள் நெட்வொர்க்கைச் சரிபார்க்கவும்.",
+      "customize_fail": "தனிப்பயனாக்க இணைப்பைப் பெற முடியவில்லை.",
+      "login_flow_fail": "உள்நுழைவு செயல்முறையைத் தொடங்க முடியவில்லை.",
+      "browser_open_fail": "உலாவியைத் திறக்க முடியவில்லை: {error}"
+    },
+    "home": {
+      "title_prefix": "ஒரே கிளிக்கில் CAJ செயலாக்கம்",
+      "title_highlight": "திறமையான மாற்றம்",
+      "cards": {
+        "caj_to_other": {
+          "title": "CAJ to Other",
+          "desc": "CAJ ஐ PDF, DOC,\nDOCX, TXT வடிவங்களுக்கு மாற்றவும்"
+        },
+        "caj_to_image": {
+          "title": "CAJ to Image",
+          "desc": "CAJ ஐ JPG, PNG,\nBMP வடிவங்களுக்கு மாற்றவும்"
+        },
+        "other_to_caj": {
+          "title": "Other to CAJ",
+          "desc": "PDF, Word, TXT, Image ஐ\nCAJ வடிவத்திற்கு மாற்றவும்"
+        }
+      }
+    },
+    "settings": {
+      "title": "பொதுவான அமைப்புகள்",
+      "file_count": "ஒரே நேரத்தில் கோப்புகள்",
+      "auto_folder": "செயலாக்கத்திற்குப் பிறகு வெளியீட்டு கோப்பகத்தில் தானாகவே\nமென்பொருள் கோப்புறையை உருவாக்கவும்",
+      "cancel": "ரத்துசெய்",
+      "confirm": "உறுதிப்படுத்து",
+      "language": "Language"
+    },
+    "languages": {
+      "ar": "阿拉伯语 (Arabic)",
+      "bn": "孟加拉语 (Bengali)",
+      "de": "德语 (German)",
+      "en": "英语 (English)",
+      "es": "西班牙语 (Spanish)",
+      "fa": "波斯语 (Farsi/Persian)",
+      "fr": "法语 (French)",
+      "he": "希伯来语 (Hebrew)",
+      "hi": "印地语 (Hindi)",
+      "id": "印度尼西亚语 (Indonesian)",
+      "it": "意大利语 (Italian)",
+      "ja": "日语 (Japanese)",
+      "ko": "韩语 (Korean)",
+      "ms": "马来语 (Malay)",
+      "nl": "荷兰语 (Dutch)",
+      "pl": "波兰语 (Polish)",
+      "pt": "葡萄牙语 (Portuguese)",
+      "pt_BR": "巴西葡萄牙语 (Brazilian Portuguese)",
+      "ru": "俄语 (Russian)",
+      "sw": "斯瓦希里语 (Swahili)",
+      "ta": "泰米尔语 (Tamil)",
+      "th": "泰语 (Thai)",
+      "tl": "他加禄语 (Tagalog)",
+      "tr": "土耳其语 (Turkish)",
+      "uk": "乌克兰语 (Ukrainian)",
+      "ur": "乌尔都语 (Urdu)",
+      "vi": "越南语 (Vietnamese)",
+      "zh_CN": "简体中文 (Simplified Chinese)",
+      "zh_TW": "繁体中文 (Traditional Chinese)"
+    }
+  },
+  "login": {
+    "user_button": {
+      "default_nickname": "பயனர்",
+      "login_text": "உள்நுழை",
+      "logged_in": "உள்நுழைந்துள்ளீர்கள்",
+      "logout_text": "வெளியேறு"
+    },
+    "dialog": {
+      "title": "பயனர் உள்நுழைவு",
+      "waiting": "உள்நுழைவுக்காக காத்திருக்கிறது...",
+      "remaining_time": "மீதமுள்ள நேரம்: {time} வினாடிகள்",
+      "cancel": "ரத்துசெய்",
+      "cancel_login": "உள்நுழைவை ரத்துசெய்",
+      "browser_login": "உலாவி மூலம் உள்நுழை",
+      "instructions": "உங்கள் உலாவியில் உள்நுழைவு பக்கத்தைத் திறக்க கீழே உள்ள பொத்தானைக் கிளிக் செய்யவும்.\nஉள்நுழைந்த பிறகு, மென்பொருள் தானாகவே உங்கள் நிலையை ஒத்திசைக்கும்.",
+      "error_start": "உள்நுழைவைத் தொடங்க முடியவில்லை, உங்கள் நெட்வொர்க்கைச் சரிபார்க்கவும்",
+      "error_browser": "உலாவியைத் திறக்க முடியவில்லை: {error}",
+      "success": "உள்நுழைவு வெற்றி!",
+      "failure": "உள்நுழைவு தோல்வி",
+      "logging_in_title": "உள்நுழைகிறது",
+      "logging_in_message": "உலாவி திறக்கப்பட்டது, உலாவியில் உள்நுழைவை முடிக்கவும்.\n\nமென்பொருள் தானாகவே உங்கள் நிலையை கண்டறியும்..."
+    },
+    "logout": {
+      "confirm_title": "வெளியேறுவதை உறுதிப்படுத்து",
+      "confirm_message": "நிச்சயமாக வெளியேற வேண்டுமா?",
+      "title": "வெளியேறு",
+      "success": "வெற்றிகரமாக வெளியேறினீர்கள்.",
+      "stale": "உள்நுழைவு அமர்வு முடிந்தது, உள்ளூர் கணக்கு தகவல் அழிக்கப்பட்டது."
+    }
+  },
+  "auth": {
+    "dialog": {
+      "title": "Kunqiong AI Toolbox · செயல்படுத்தல்",
+      "instructions": "நீங்கள் நிறுவியுள்ள கருவி Kunqiong AI Toolbox இன் ஒரு பயன்பாடாகும்.\nமுழு அம்சங்களையும் இயக்க அங்கீகாரக் குறியீடு மூலம் இதைச் செயல்படுத்த வேண்டும்.",
+      "input_placeholder": "அங்கீகாரக் குறியீட்டை உள்ளிடவும்",
+      "verify_button": "சரிபார்",
+      "no_code": "குறியீடு இல்லையா?",
+      "get_code": "பெற கிளிக் செய்யவும்",
+      "success": "செயல்படுத்தல் வெற்றி!",
+      "failure": "தவறான அல்லது காலாவதியான அங்கீகாரக் குறியீடு, மீண்டும் முயற்சிக்கவும்",
+      "error": "குறியீட்டைச் சரிபார்ப்பதில் பிழை: {error}",
+      "page_error": "செயல்படுத்தும் பக்க இணைப்பைப் பெற முடியவில்லை",
+      "page_failure": "செயல்படுத்தும் பக்கம் தோல்வியடைந்தது: {error}",
+      "timeout": "நெட்வொர்க் காலாவதியானது, இணைப்பைச் சரிபார்க்கவும்",
+      "open_error": "பக்கத்தைத் திறப்பதில் பிழை: {error}"
+    }
+  },
+  "convert": {
+    "page": {
+      "sidebar": {
+        "home": "முகப்பு",
+        "caj_to_other": "CAJ to Other",
+        "caj_to_image": "CAJ to Image",
+        "other_to_caj": "Other to CAJ"
+      },
+      "drop_zone": {
+        "hint": "சேர்க்க கிளிக் செய்யவும் / கோப்புகளை இங்கே இழுக்கவும்",
+        "caj_to_other_support": "CAJ to PDF, DOC, DOCX, TXT ஐ ஆதரிக்கிறது",
+        "caj_to_image_support": "CAJ to JPG, PNG, BMP ஐ ஆதரிக்கிறது",
+        "other_to_caj_support": "PDF, Word, TXT, Image to CAJ ஐ ஆதரிக்கிறது"
+      },
+      "steps": {
+        "step1_title": "கோப்புகளைச் சேர்க்கவும்",
+        "step1_desc": "இழுத்து விடுதல் அல்லது மொத்தமாகச் சேர்ப்பதை ஆதரிக்கிறது",
+        "step2_title": "வெளியீட்டு அமைப்புகள்",
+        "step2_desc": "வடிவம் மற்றும் சேமிக்கும் பாதையை அமைக்கவும்",
+        "step3_title": "மாற்றத்தைத் தொடங்கு",
+        "step3_desc": "ஒரே கிளிக்கில் திறமையான மாற்றம்"
+      },
+      "toolbar": {
+        "add_files": "கோப்புகளைச் சேர்க்கவும்",
+        "add_folder": "கோப்புறையைச் சேர்க்கவும்",
+        "clear_all": "அனைத்தையும் அழி"
+      },
+      "bottom": {
+        "output_format": "வடிவம்",
+        "output_dir": "வெளியீட்டு கோப்பகம்",
+        "change_dir": "மாற்று",
+        "open_dir": "திற",
+        "start_convert": "இப்போதே மாற்று",
+        "quality": "தரம்",
+        "high": "உயர்ந்த",
+        "medium": "நடுத்தர",
+        "low": "குறைந்த",
+        "long_image": "நீண்ட படமாக ஏற்றுமதி செய்"
+      },
+      "dialogs": {
+        "select_files": "கோப்புகளைத் தேர்ந்தெடுக்கவும்",
+        "select_folder": "கோப்புறையைத் தேர்ந்தெடுக்கவும்",
+        "no_files": "பொருந்தும் கோப்புகள் எதுவும் இல்லை"
+      },
+      "list_header": {
+        "name": "கோப்பு பெயர்",
+        "size": "அளவு",
+        "pages": "பக்கங்கள்",
+        "page_select": "வரம்பு",
+        "status": "நிலை",
+        "operation": "நடவடிக்கை"
+      },
+      "all_pages": "அனைத்தும்",
+      "first_pages": "முதல் ",
+      "pages_unit": " பக்கங்கள்",
+      "custom_range": "தனிப்பயன்:",
+      "custom_placeholder": "உதாரணமாக, 1-5,8,10-12",
+      "hint": "வடிவம்: 1-5, 8, 10-12",
+      "cancel": "ரத்துசெய்",
+      "confirm": "சரி",
+      "all": "அனைத்தும்",
+      "first_n_pages": "முதல் {num} பக்கங்கள்",
+      "status_pending": "காத்திருக்கிறது",
+      "status_converting": "மாற்றப்படுகிறது {percent}%",
+      "status_success": "வெற்றி ✓",
+      "status_failure": "தோல்வி",
+      "status_waiting": "காத்திருப்பு",
+      "wait_pages": "பக்க எண்ணிக்கை ஏற்றப்படும் வரை காத்திருக்கவும்",
+      "unknown_size": "தெரியவில்லை",
+      "total_pages": "பக்க வரம்பைத் தேர்ந்தெடுக்கவும் (மொத்தம் {total} பக்கங்கள்)",
+      "output_same_as_source": "மூலக் கோப்புறையைப் போலவே",
+      "output_custom": "தனிப்பயன் கோப்புறை",
+      "select_output_dir": "வெளியீட்டு கோப்பகத்தைத் தேர்ந்தெடுக்கவும்",
+      "no_files_added": "தயவுசெய்து முதலில் கோப்புகளைச் சேர்க்கவும்",
+      "convert_complete": "முடிந்தது",
+      "convert_success_msg": "அனைத்து {count} கோப்புகளும் வெற்றிகரமாக மாற்றப்பட்டன!\nவெளியீட்டு கோப்பகம்: {dir}",
+      "convert_result_msg": "மாற்றம் முடிந்தது\nவெற்றி: {success}\nதோல்வி: {fail}",
+      "step1_title": "சேர்",
+      "step1_desc": "கோப்புகளை மொத்தமாகச் சேர்த்தல்",
+      "step2_title": "கட்டமைப்பு",
+      "step2_desc": "வடிவம் அல்லது கோப்புறையை உள்ளமைக்கவும்",
+      "step3_title": "தொடங்கு",
+      "step3_desc": "பொத்தானைக் கிளிக் செய்து முடியும் வரை காத்திருக்கவும்"
+    }
+  },
+  "converter": {
+    "error_not_found": "CAJ கோப்பு இல்லை",
+    "error_extract_pdf": "உள்ளமைக்கப்பட்ட PDF ஐப் பிரித்தெடுக்க முடியவில்லை",
+    "error_unsupported_format": "ஆதரிக்கப்படாத வடிவம்: {format}",
+    "success": "வெற்றி",
+    "failure": "தோல்வி: {error}",
+    "error_import": "மாற்றும் தொகுதியை இறக்குமதி செய்ய முடியவில்லை: {error}",
+    "error_pdf_failed": "PDF உருவாக்கம் தோல்வியடைந்தது",
+    "error_caj2pdf_import": "caj2pdf நூலகத்தை இறக்குமதி செய்ய முடியவில்லை: {error}",
+    "error_missing_lib": "தேவையான நூலகம் இல்லை: {error}",
+    "error_pdf2docx_import": "pdf2docx நூலகம் இல்லை",
+    "error_pymupdf_missing": "PyMuPDF நூலகம் இல்லை",
+    "error_java_missing": "Java சூழல் இல்லை, தயவுசெய்து JDK 17 அல்லது அதற்கு மேற்பட்டவற்றை நிறுவவும்",
+    "error_timeout": "மாற்றம் காலாவதியானது",
+    "txt_page_header": "--- பக்கம் {page} ---",
+    "long_image_suffix": "_நீண்டபடம்",
+    "long_image_suffix_n": "_நீண்டபடம்_{index}"
+  },
+  "common": {
+    "error": "பிழை",
+    "success": "வெற்றி",
+    "hint": "குறிப்பு"
+  },
+  "ad": {
+    "loading": "விளம்பரம் ஏற்றப்படுகிறது...",
+    "fallback_text": "விளம்பரப் படம்",
+    "fallback_position": "விளம்பர இடம்"
+  },
+  "update": {
+    "error_format": "சேவையகத்திலிருந்து தவறான தரவு வடிவம்",
+    "error_check_failed": "புதுப்பிப்பு சரிபார்ப்பு தோல்வியடைந்தது: {error}",
+    "error_updater_not_found": "புதுப்பிக்கும் மென்பொருள் இல்லை: {path}",
+    "error_start_failed": "புதுப்பிப்பைத் தொடங்க முடியவில்லை: {error}"
+  }
+}

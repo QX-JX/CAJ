@@ -1,0 +1,266 @@
+{
+  "main_window": {
+    "title": "CAJ کنورٹر",
+    "subtitle": "Kunqiong AI کی ایک پروڈکٹ",
+    "brand_text": "Kunqiong AI کی ایک پروڈکٹ",
+    "version": "ورژن: V{version}",
+    "customize": "سافٹ ویئر حسب ضرورت/ہم سے رابطہ کریں",
+    "feedback": "فیڈ بیک",
+    "menu": {
+      "settings": "عمومی ترتیبات",
+      "tutorial": "ٹیوٹوریل",
+      "update": "اپ ڈیٹ کے لیے چیک کریں",
+      "about": "ہمارے بارے میں"
+    },
+    "tutorial": {
+      "title": "ٹیوٹوریل",
+      "content": "ٹیوٹوریل فنکشن زیر تعمیر ہے...\n\nبنیادی اقدامات:\n1. تبدیلی کی قسم منتخب کریں (CAJ سے دیگر/CAJ سے تصویر/دیگر سے CAJ)\n2. تبدیل کرنے کے لیے فائلیں شامل کریں\n3. آؤٹ پٹ فارمیٹ اور ڈائریکٹری سیٹ کریں\n4. تبدیلی شروع کریں پر کلک کریں"
+    },
+    "update_dialog": {
+      "found_title": "نیا ورژن مل گیا",
+      "found_message": "نیا ورژن V{version} مل گیا ہے، کیا ابھی اپ ڈیٹ کریں؟",
+      "fail_title": "اپ ڈیٹ ناکام ہو گیا",
+      "no_update_title": "اپ ڈیٹ چیک",
+      "no_update_message": "موجودہ ورژن: V{version}\n\nآپ پہلے ہی تازہ ترین ورژن پر ہیں!",
+      "check_fail_title": "اپ ڈیٹ چیک ناکام ہو گیا"
+    },
+    "about": {
+      "title": "ہمارے بارے میں",
+      "app_name": "CAJ کنورٹر",
+      "version_prefix": "ورژن: V",
+      "desc": "ایک پیشہ ور CAJ فائل فارمیٹ کنورژن ٹول",
+      "features_title": "خصوصیات:",
+      "feature_list": "<li>CAJ سے PDF، DOC، DOCX، TXT،</li><li>CAJ سے JPG، PNG، BMP تصاویر</li><li>PDF، Word، تصویر سے CAJ</li>",
+      "copyright": "© 2024 Kunqiong AI | KunqiongAI"
+    },
+    "errors": {
+      "feedback_fail": "فیڈ بیک صفحہ حاصل کرنے میں ناکامی، براہ کرم اپنا نیٹ ورک چیک کریں۔",
+      "customize_fail": "حسب ضرورت لنک حاصل کرنے میں ناکامی، براہ کرم اپنا نیٹ ورک چیک کریں۔",
+      "login_flow_fail": "لاگ ان عمل شروع کرنے میں ناکامی، براہ کرم اپنا نیٹ ورک چیک کریں۔",
+      "browser_open_fail": "براؤزر کھولنے میں ناکامی: {error}"
+    },
+    "home": {
+      "title_prefix": "ایک کلک میں CAJ پروسیسنگ",
+      "title_highlight": "موثر تبدیلی",
+      "cards": {
+        "caj_to_other": {
+          "title": "CAJ سے دیگر",
+          "desc": "CAJ کو PDF، DOC،\nDOCX، TXT، فارمیٹس میں تبدیل کریں"
+        },
+        "caj_to_image": {
+          "title": "CAJ سے تصویر",
+          "desc": "CAJ کو JPG، PNG،\nBMP فارمیٹس میں تبدیل کریں"
+        },
+        "other_to_caj": {
+          "title": "دیگر سے CAJ",
+          "desc": "PDF، Word، TXT، تصویر کو\nCAJ فارمیٹ میں تبدیل کریں"
+        }
+      }
+    },
+    "settings": {
+      "title": "عمومی ترتیبات",
+      "file_count": "ایک ساتھ فائلیں",
+      "auto_folder": "پروسیسنگ کے بعد آؤٹ پٹ ڈائریکٹری میں خود بخود\nسافٹ ویئر فولڈر بنائیں",
+      "cancel": "منسوخ کریں",
+      "confirm": "تصدیق کریں",
+      "language": "Language"
+    },
+    "languages": {
+      "ar": "阿拉伯语 (Arabic)",
+      "bn": "孟加拉语 (Bengali)",
+      "de": "德语 (German)",
+      "en": "英语 (English)",
+      "es": "西班牙语 (Spanish)",
+      "fa": "波斯语 (Farsi/Persian)",
+      "fr": "法语 (French)",
+      "he": "希伯来语 (Hebrew)",
+      "hi": "印地语 (Hindi)",
+      "id": "印度尼西亚语 (Indonesian)",
+      "it": "意大利语 (Italian)",
+      "ja": "日语 (Japanese)",
+      "ko": "韩语 (Korean)",
+      "ms": "马来语 (Malay)",
+      "nl": "荷兰语 (Dutch)",
+      "pl": "波兰语 (Polish)",
+      "pt": "葡萄牙语 (Portuguese)",
+      "pt_BR": "巴西葡萄牙语 (Brazilian Portuguese)",
+      "ru": "俄语 (Russian)",
+      "sw": "斯瓦希里语 (Swahili)",
+      "ta": "泰米尔语 (Tamil)",
+      "th": "泰语 (Thai)",
+      "tl": "他加禄语 (Tagalog)",
+      "tr": "土耳其语 (Turkish)",
+      "uk": "乌克兰语 (Ukrainian)",
+      "ur": "乌尔都语 (Urdu)",
+      "vi": "越南语 (Vietnamese)",
+      "zh_CN": "简体中文 (Simplified Chinese)",
+      "zh_TW": "繁体中文 (Traditional Chinese)"
+    }
+  },
+  "login": {
+    "user_button": {
+      "default_nickname": "صارف",
+      "login_text": "لاگ ان",
+      "logged_in": "لاگ ان ہو گیا",
+      "logout_text": "لاگ آؤٹ"
+    },
+    "dialog": {
+      "title": "صارف لاگ ان",
+      "waiting": "لاگ ان کا انتظار ہے...",
+      "remaining_time": "باقی وقت: {time} سیکنڈ",
+      "cancel": "منسوخ کریں",
+      "cancel_login": "لاگ ان منسوخ کریں",
+      "browser_login": "براؤزر کے ذریعے لاگ ان کریں",
+      "instructions": "اپنے براؤزر میں لاگ ان صفحہ کھولنے کے لیے نیچے دیے گئے بٹن پر کلک کریں۔\nلاگ ان کرنے کے بعد، سافٹ ویئر خود بخود آپ کی حیثیت کو سنک کر دے گا۔",
+      "error_start": "لاگ ان شروع کرنے میں ناکامی، براہ کرم اپنا نیٹ ورک چیک کریں",
+      "error_browser": "براؤزر کھولنے میں ناکامی: {error}",
+      "success": "لاگ ان کامیاب رہا!",
+      "failure": "لاگ ان ناکام ہو گیا",
+      "logging_in_title": "لاگ ان ہو رہا ہے",
+      "logging_in_message": "براؤزر کھل گیا ہے، براہ کرم براؤزر میں لاگ ان مکمل کریں۔\n\nسافٹ ویئر خود بخود آپ کی حیثیت کا پتہ لگا لے گا..."
+    },
+    "logout": {
+      "confirm_title": "لاگ آؤٹ کی تصدیق کریں",
+      "confirm_message": "کیا آپ واقعی لاگ آؤٹ کرنا چاہتے ہیں؟",
+      "title": "لاگ آؤٹ",
+      "success": "کامیابی سے لاگ آؤٹ ہو گیا۔",
+      "stale": "لاگ ان سیشن ختم ہو گیا، مقامی اکاؤنٹ کی معلومات صاف کر دی گئی۔"
+    }
+  },
+  "auth": {
+    "dialog": {
+      "title": "Kunqiong AI ٹول بکس · ایکٹیویشن",
+      "instructions": "آپ کا انسٹال کردہ ٹول Kunqiong AI ٹول بکس کی ایک ایپلی کیشن ہے۔\nتمام خصوصیات کو فعال کرنے کے لیے اسے اتھارٹی کوڈ کے ذریعے ایکٹیویٹ کرنے کی ضرورت ہے۔",
+      "input_placeholder": "براہ کرم اتھارٹی کوڈ درج کریں",
+      "verify_button": "تصدیق کریں",
+      "no_code": "کوڈ نہیں ہے؟",
+      "get_code": "حاصل کرنے کے لیے کلک کریں",
+      "success": "ایکٹیویشن کامیاب رہی!",
+      "failure": "غلط یا میعاد ختم شدہ کوڈ، دوبارہ کوشش کریں",
+      "error": "کوڈ کی تصدیق میں غلطی: {error}",
+      "page_error": "ایکٹیویشن صفحہ کا لنک حاصل کرنے میں ناکامی",
+      "page_failure": "ایکٹیویشن صفحہ ناکام: {error}",
+      "timeout": "نیٹ ورک ٹائم آؤٹ، براہ کرم اپنا کنکشن چیک کریں",
+      "open_error": "صفحہ کھولنے میں غلطی: {error}"
+    }
+  },
+  "convert": {
+    "page": {
+      "sidebar": {
+        "home": "ہوم",
+        "caj_to_other": "CAJ سے دیگر",
+        "caj_to_image": "CAJ سے تصویر",
+        "other_to_caj": "دیگر سے CAJ"
+      },
+      "drop_zone": {
+        "hint": "شامل کرنے کے لیے کلک کریں / فائلوں کو یہاں کھینچیں",
+        "caj_to_other_support": "CAJ سے PDF، DOC، DOCX، TXT کی حمایت کرتا ہے",
+        "caj_to_image_support": "CAJ سے JPG، PNG، BMP کی حمایت کرتا ہے",
+        "other_to_caj_support": "PDF، Word، TXT، تصویر سے CAJ کی حمایت کرتا ہے"
+      },
+      "steps": {
+        "step1_title": "فائلیں شامل کریں",
+        "step1_desc": "ڈریگ اینڈ ڈراپ یا بیچ ایڈ کی حمایت کرتا ہے",
+        "step2_title": "آؤٹ پٹ ترتیبات",
+        "step2_desc": "فارمیٹ اور محفوظ کرنے کا راستہ سیٹ کریں",
+        "step3_title": "تبدیلی شروع کریں",
+        "step3_desc": "ایک کلک میں موثر تبدیلی"
+      },
+      "toolbar": {
+        "add_files": "فائلیں شامل کریں",
+        "add_folder": "فولڈر شامل کریں",
+        "clear_all": "سب صاف کریں"
+      },
+      "bottom": {
+        "output_format": "فارمیٹ",
+        "output_dir": "آؤٹ پٹ ڈائریکٹری",
+        "change_dir": "تبدیل کریں",
+        "open_dir": "کھولیں",
+        "start_convert": "ابھی تبدیل کریں",
+        "quality": "معیار",
+        "high": "اعلی",
+        "medium": "درمیانہ",
+        "low": "کم",
+        "long_image": "لمبی تصویر کے طور پر ایکسپورٹ کریں"
+      },
+      "dialogs": {
+        "select_files": "فائلیں منتخب کریں",
+        "select_folder": "فولڈر منتخب کریں",
+        "no_files": "کوئی مماثل فائلیں نہیں ملیں"
+      },
+      "list_header": {
+        "name": "فائل کا نام",
+        "size": "سائز",
+        "pages": "صفحات",
+        "page_select": "رینج",
+        "status": "حیثیت",
+        "operation": "کارروائی"
+      },
+      "all_pages": "تمام",
+      "first_pages": "پہلے ",
+      "pages_unit": " صفحات",
+      "custom_range": "حسب ضرورت:",
+      "custom_placeholder": "مثلاً 1-5,8,10-12",
+      "hint": "فارمیٹ: 1-5, 8, 10-12",
+      "cancel": "منسوخ کریں",
+      "confirm": "ٹھیک ہے",
+      "all": "تمام",
+      "first_n_pages": "پہلے {num} صفحات",
+      "status_pending": "زیر التواء",
+      "status_converting": "تبدیل ہو رہا ہے {percent}%",
+      "status_success": "کامیاب ✓",
+      "status_failure": "ناکام ہو گیا",
+      "status_waiting": "انتظار",
+      "wait_pages": "براہ کرم صفحات کی گنتی لوڈ ہونے کا انتظار کریں",
+      "unknown_size": "نامعلوم",
+      "total_pages": "صفحات کی رینج منتخب کریں (کل {total} صفحات)",
+      "output_same_as_source": "ماخذ کے جیسا",
+      "output_custom": "حسب ضرورت فولڈر",
+      "select_output_dir": "آؤٹ پٹ ڈائریکٹری منتخب کریں",
+      "no_files_added": "براہ کرم پہلے فائلیں شامل کریں",
+      "convert_complete": "مکمل ہو گیا",
+      "convert_success_msg": "تمام {count} فائلیں کامیابی سے تبدیل ہو گئیں!\nآؤٹ پٹ ڈائریکٹری: {dir}",
+      "convert_result_msg": "تبدیلی ختم ہوئی\nکامیاب: {success}\nناکام: {fail}",
+      "step1_title": "شامل کریں",
+      "step1_desc": "بیچ میں فائلیں شامل کرنا",
+      "step2_title": "کنفیگریشن",
+      "step2_desc": "فارمیٹ یا فولڈر کنفیگر کریں",
+      "step3_title": "شروع کریں",
+      "step3_desc": "بٹن پر کلک کریں اور ختم ہونے تک انتظار کریں"
+    }
+  },
+  "converter": {
+    "error_not_found": "CAJ فائل نہیں ملی",
+    "error_extract_pdf": "ایمبیڈڈ PDF نکالنے میں ناکامی",
+    "error_unsupported_format": "غیر تعاون یافتہ فارمیٹ: {format}",
+    "success": "کامیاب",
+    "failure": "ناکام: {error}",
+    "error_import": "کنورژن ماڈیول امپورٹ کرنے میں ناکامی: {error}",
+    "error_pdf_failed": "PDF بنانا ناکام ہو گیا",
+    "error_caj2pdf_import": "caj2pdf امپورٹ کرنے میں ناکامی: {error}",
+    "error_missing_lib": "مطلوبہ لائبریری نہیں ملی: {error}",
+    "error_pdf2docx_import": "pdf2docx نہیں ملی",
+    "error_pymupdf_missing": "PyMuPDF لائبریری نہیں ملی",
+    "error_java_missing": "جاوا ماحول نہیں ملا، براہ کرم JDK 17 یا اس سے اوپر والا انسٹال کریں",
+    "error_timeout": "تبدیلی کا وقت ختم ہو گیا",
+    "txt_page_header": "--- صفحہ {page} ---",
+    "long_image_suffix": "_لمبی_تصویر",
+    "long_image_suffix_n": "_لمبی_تصویر_{index}"
+  },
+  "common": {
+    "error": "غلطی",
+    "success": "کامیاب",
+    "hint": "اشارہ"
+  },
+  "ad": {
+    "loading": "اشتہار لوڈ ہو رہا ہے...",
+    "fallback_text": "اشتہار کی تصویر",
+    "fallback_position": "اشتہار کی جگہ"
+  },
+  "update": {
+    "error_format": "سرور سے غلط ڈیٹا فارمیٹ",
+    "error_check_failed": "اپ ڈیٹ چیک ناکام ہو گیا: {error}",
+    "error_updater_not_found": "اپ ڈیٹر نہیں ملا: {path}",
+    "error_start_failed": "اپ ڈیٹ شروع کرنے میں ناکامی: {error}"
+  }
+}

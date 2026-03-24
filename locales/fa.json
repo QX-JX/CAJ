@@ -1,0 +1,266 @@
+{
+  "main_window": {
+    "title": "مبدل CAJ",
+    "subtitle": "محصولی از Kunqiong AI",
+    "brand_text": "محصولی از Kunqiong AI",
+    "version": "نسخه: V{version}",
+    "customize": "سفارشی‌سازی نرم‌افزار/تماس با ما",
+    "feedback": "بازخورد",
+    "menu": {
+      "settings": "تنظیمات عمومی",
+      "tutorial": "آموزش",
+      "update": "بررسی به‌روزرسانی",
+      "about": "درباره ما"
+    },
+    "tutorial": {
+      "title": "آموزش",
+      "content": "عملکرد آموزش در حال توسعه است...\n\nمراحل اساسی:\n1. نوع تبدیل را انتخاب کنید (CAJ به دیگر/CAJ به تصویر/دیگر به CAJ)\n2. فایل‌ها را برای تبدیل اضافه کنید\n3. فرمت خروجی و دایرکتوری را تنظیم کنید\n4. روی شروع تبدیل کلیک کنید"
+    },
+    "update_dialog": {
+      "found_title": "نسخه جدید پیدا شد",
+      "found_message": "نسخه جدید V{version} پیدا شد، همین حالا به‌روزرسانی شود؟",
+      "fail_title": "به‌روزرسانی ناموفق بود",
+      "no_update_title": "بررسی به‌روزرسانی",
+      "no_update_message": "نسخه فعلی: V{version}\n\nشما از آخرین نسخه استفاده می‌کنید!",
+      "check_fail_title": "بررسی به‌روزرسانی ناموفق بود"
+    },
+    "about": {
+      "title": "درباره ما",
+      "app_name": "مبدل CAJ",
+      "version_prefix": "نسخه: V",
+      "desc": "ابزاری حرفه‌ای برای تبدیل فرمت فایل‌های CAJ",
+      "features_title": "ویژگی‌ها:",
+      "feature_list": "<li>CAJ به PDF، DOC، DOCX، TXT</li><li>CAJ به تصاویر JPG، PNG، BMP</li><li>PDF، Word، تصویر به CAJ</li>",
+      "copyright": "© 2024 Kunqiong AI | KunqiongAI"
+    },
+    "errors": {
+      "feedback_fail": "دریافت صفحه بازخورد ناموفق بود، لطفاً شبکه خود را بررسی کنید.",
+      "customize_fail": "دریافت لینک سفارشی‌سازی ناموفق بود، لطفاً شبکه خود را بررسی کنید.",
+      "login_flow_fail": "شروع فرآیند ورود ناموفق بود، لطفاً شبکه خود را بررسی کنید.",
+      "browser_open_fail": "باز کردن مرورگر ناموفق بود: {error}"
+    },
+    "home": {
+      "title_prefix": "پردازش CAJ با یک کلیک",
+      "title_highlight": "تبدیل کارآمد",
+      "cards": {
+        "caj_to_other": {
+          "title": "CAJ به دیگر",
+          "desc": "تبدیل CAJ به فرمت‌های PDF، DOC،\nDOCX، TXT"
+        },
+        "caj_to_image": {
+          "title": "CAJ به تصویر",
+          "desc": "تبدیل CAJ به فرمت‌های JPG، PNG،\nBMP"
+        },
+        "other_to_caj": {
+          "title": "دیگر به CAJ",
+          "desc": "تبدیل PDF، Word، TXT، تصویر\nبه فرمت CAJ"
+        }
+      }
+    },
+    "settings": {
+      "title": "تنظیمات عمومی",
+      "file_count": "فایل‌های همزمان",
+      "auto_folder": "ایجاد خودکار پوشه نرم‌افزار\nدر دایرکتوری خروجی پس از پردازش",
+      "cancel": "لغو",
+      "confirm": "تأیید",
+      "language": "Language"
+    },
+    "languages": {
+      "ar": "阿拉伯语 (Arabic)",
+      "bn": "孟加拉语 (Bengali)",
+      "de": "德语 (German)",
+      "en": "英语 (English)",
+      "es": "西班牙语 (Spanish)",
+      "fa": "波斯语 (Farsi/Persian)",
+      "fr": "法语 (French)",
+      "he": "希伯来语 (Hebrew)",
+      "hi": "印地语 (Hindi)",
+      "id": "印度尼西亚语 (Indonesian)",
+      "it": "意大利语 (Italian)",
+      "ja": "日语 (Japanese)",
+      "ko": "韩语 (Korean)",
+      "ms": "马来语 (Malay)",
+      "nl": "荷兰语 (Dutch)",
+      "pl": "波兰语 (Polish)",
+      "pt": "葡萄牙语 (Portuguese)",
+      "pt_BR": "巴西葡萄牙语 (Brazilian Portuguese)",
+      "ru": "俄语 (Russian)",
+      "sw": "斯瓦希里语 (Swahili)",
+      "ta": "泰米尔语 (Tamil)",
+      "th": "泰语 (Thai)",
+      "tl": "他加禄语 (Tagalog)",
+      "tr": "土耳其语 (Turkish)",
+      "uk": "乌克兰语 (Ukrainian)",
+      "ur": "乌尔都语 (Urdu)",
+      "vi": "越南语 (Vietnamese)",
+      "zh_CN": "简体中文 (Simplified Chinese)",
+      "zh_TW": "繁体中文 (Traditional Chinese)"
+    }
+  },
+  "login": {
+    "user_button": {
+      "default_nickname": "کاربر",
+      "login_text": "ورود",
+      "logged_in": "وارد شده",
+      "logout_text": "خروج"
+    },
+    "dialog": {
+      "title": "ورود کاربر",
+      "waiting": "در انتظار ورود...",
+      "remaining_time": "زمان باقی‌مانده: {time} ثانیه",
+      "cancel": "لغو",
+      "cancel_login": "لغو ورود",
+      "browser_login": "ورود از طریق مرورگر",
+      "instructions": "روی دکمه زیر کلیک کنید تا صفحه ورود در مرورگر شما باز شود.\nپس از ورود، نرم‌افزار به طور خودکار وضعیت شما را همگام‌سازی می‌کند.",
+      "error_start": "شروع ورود ناموفق بود، لطفاً شبکه خود را بررسی کنید",
+      "error_browser": "باز کردن مرورگر ناموفق بود: {error}",
+      "success": "ورود موفقیت‌آمیز بود!",
+      "failure": "ورود ناموفق بود",
+      "logging_in_title": "در حال ورود",
+      "logging_in_message": "مرورگر باز شده است، لطفاً ورود را در مرورگر کامل کنید.\n\nنرم‌افزار به طور خودکار وضعیت شما را تشخیص می‌دهد..."
+    },
+    "logout": {
+      "confirm_title": "تأیید خروج",
+      "confirm_message": "آیا مطمئن هستید که می‌خواهید خارج شوید؟",
+      "title": "خروج",
+      "success": "خروج با موفقیت انجام شد.",
+      "stale": "نشست ورود منقضی شده است، اطلاعات حساب محلی پاک شد."
+    }
+  },
+  "auth": {
+    "dialog": {
+      "title": "جعبه ابزار Kunqiong AI · فعال‌سازی",
+      "instructions": "ابزار نصب شده برنامه‌ای از جعبه ابزار Kunqiong AI است.\nبرای فعال کردن تمامی ویژگی‌ها باید با کد مجوز فعال شود.",
+      "input_placeholder": "لطفاً کد مجوز را وارد کنید",
+      "verify_button": "بررسی",
+      "no_code": "کد ندارید؟",
+      "get_code": "کلیک برای دریافت",
+      "success": "فعال‌سازی موفقیت‌آمیز بود!",
+      "failure": "کد مجوز نامعتبر یا منقضی شده است، لطفاً دوباره تلاش کنید",
+      "error": "خطا در بررسی کد: {error}",
+      "page_error": "دریافت لینک صفحه فعال‌سازی ناموفق بود",
+      "page_failure": "صفحه فعال‌سازی ناموفق بود: {error}",
+      "timeout": "زمان شبکه تمام شد، لطفاً اتصال خود را بررسی کنید",
+      "open_error": "خطا در باز کردن صفحه: {error}"
+    }
+  },
+  "convert": {
+    "page": {
+      "sidebar": {
+        "home": "خانه",
+        "caj_to_other": "CAJ به دیگر",
+        "caj_to_image": "CAJ به تصویر",
+        "other_to_caj": "دیگر به CAJ"
+      },
+      "drop_zone": {
+        "hint": "کلیک برای افزودن / کشیدن فایل‌ها به اینجا",
+        "caj_to_other_support": "پشتیبانی از تبدیل CAJ به PDF، DOC، DOCX، TXT",
+        "caj_to_image_support": "پشتیبانی از تبدیل CAJ به JPG، PNG، BMP",
+        "other_to_caj_support": "پشتیبانی از تبدیل PDF، Word، TXT، تصویر به CAJ"
+      },
+      "steps": {
+        "step1_title": "افزودن فایل‌ها",
+        "step1_desc": "پشتیبانی از کشیدن و رها کردن یا افزودن دسته‌ای",
+        "step2_title": "تنظیمات خروجی",
+        "step2_desc": "تعیین فرمت و مسیر ذخیره سازی",
+        "step3_title": "شروع تبدیل",
+        "step3_desc": "تبدیل کارآمد با یک کلیک"
+      },
+      "toolbar": {
+        "add_files": "افزودن فایل‌ها",
+        "add_folder": "افزودن پوشه",
+        "clear_all": "پاک کردن همه"
+      },
+      "bottom": {
+        "output_format": "فرمت",
+        "output_dir": "دایرکتوری خروجی",
+        "change_dir": "تغییر",
+        "open_dir": "باز کردن",
+        "start_convert": "همین حالا تبدیل کن",
+        "quality": "کیفیت",
+        "high": "بالا",
+        "medium": "متوسط",
+        "low": "پایین",
+        "long_image": "خروجی به صورت تصویر طولانی"
+      },
+      "dialogs": {
+        "select_files": "انتخاب فایل‌ها",
+        "select_folder": "انتخاب پوشه",
+        "no_files": "هیچ فایل مطابقی پیدا نشد"
+      },
+      "list_header": {
+        "name": "نام فایل",
+        "size": "اندازه",
+        "pages": "صفحات",
+        "page_select": "محدوده",
+        "status": "وضعیت",
+        "operation": "عملیات"
+      },
+      "all_pages": "همه",
+      "first_pages": "اولین ",
+      "pages_unit": " صفحات",
+      "custom_range": "سفارشی:",
+      "custom_placeholder": "مثلاً 1-5,8,10-12",
+      "hint": "فرمت: 1-5, 8, 10-12",
+      "cancel": "لغو",
+      "confirm": "تأیید",
+      "all": "همه",
+      "first_n_pages": "اولین {num} صفحه",
+      "status_pending": "در انتظار",
+      "status_converting": "در حال تبدیل {percent}%",
+      "status_success": "موفقیت ✓",
+      "status_failure": "ناموفق بود",
+      "status_waiting": "انتظار",
+      "wait_pages": "لطفاً منتظر بارگذاری تعداد صفحات باشید",
+      "unknown_size": "نامعلوم",
+      "total_pages": "انتخاب محدوده صفحات (در مجموع {total} صفحه)",
+      "output_same_as_source": "همان پوشه منبع",
+      "output_custom": "پوشه سفارشی",
+      "select_output_dir": "انتخاب دایرکتوری خروجی",
+      "no_files_added": "لطفاً ابتدا فایل‌ها را اضافه کنید",
+      "convert_complete": "انجام شد",
+      "convert_success_msg": "تمام {count} فایل با موفقیت تبدیل شدند!\nدایرکتوری خروجی: {dir}",
+      "convert_result_msg": "تبدیل پایان یافت\nموفق: {success}\nناموفق: {fail}",
+      "step1_title": "افزودن",
+      "step1_desc": "افزودن فایل‌ها به صورت دسته‌ای",
+      "step2_title": "پیکربندی",
+      "step2_desc": "پیکربندی فرمت یا پوشه",
+      "step3_title": "شروع",
+      "step3_desc": "روی دکمه کلیک کنید و تا پایان منتظر بمانید"
+    }
+  },
+  "converter": {
+    "error_not_found": "فایل CAJ پیدا نشد",
+    "error_extract_pdf": "استخراج PDF داخلی ناموفق بود",
+    "error_unsupported_format": "فرمت پشتیبانی نشده: {format}",
+    "success": "موفقیت",
+    "failure": "ناموفق: {error}",
+    "error_import": "وارد کردن ماژول تبدیل ناموفق بود: {error}",
+    "error_pdf_failed": "ایجاد فایل PDF ناموفق بود",
+    "error_caj2pdf_import": "وارد کردن کتابخانه caj2pdf ناموفق بود: {error}",
+    "error_missing_lib": "کتابخانه مورد نیاز پیدا نشد: {error}",
+    "error_pdf2docx_import": "pdf2docx پیدا نشد",
+    "error_pymupdf_missing": "کتابخانه PyMuPDF پیدا نشد",
+    "error_java_missing": "محیط جاوا پیدا نشد، لطفاً JDK 17 یا بالاتر را نصب کنید",
+    "error_timeout": "زمان تبدیل تمام شد",
+    "txt_page_header": "--- صفحه {page} ---",
+    "long_image_suffix": "_تصویر_طولانی",
+    "long_image_suffix_n": "_تصویر_طولانی_{index}"
+  },
+  "common": {
+    "error": "خطا",
+    "success": "موفقیت",
+    "hint": "نکته"
+  },
+  "ad": {
+    "loading": "در حال بارگذاری تبلیغ...",
+    "fallback_text": "تصویر تبلیغاتی",
+    "fallback_position": "موقعیت تبلیغ"
+  },
+  "update": {
+    "error_format": "فرمت داده نامعتبر از سرور",
+    "error_check_failed": "بررسی به‌روزرسانی ناموفق بود: {error}",
+    "error_updater_not_found": "برنامه به‌روزرسانی پیدا نشد: {path}",
+    "error_start_failed": "شروع به‌روزرسانی ناموفق بود: {error}"
+  }
+}

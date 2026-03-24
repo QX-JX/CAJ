@@ -1,0 +1,266 @@
+{
+  "main_window": {
+    "title": "CAJ轉換器",
+    "subtitle": "鯤穹AI旗下產品",
+    "brand_text": "鯤穹AI旗下產品",
+    "version": "版本號：V{version}",
+    "customize": "軟體定制/聯繫我們",
+    "feedback": "問題反饋",
+    "menu": {
+      "settings": "通用設置",
+      "tutorial": "軟體教程",
+      "update": "檢查更新",
+      "about": "關於我們"
+    },
+    "tutorial": {
+      "title": "軟體教程",
+      "content": "軟體教程功能正在開發中...\n\n基本使用步驟：\n1. 選擇轉換類型（CAJ轉其他/CAJ轉圖片/其他轉CAJ）\n2. 添加需要轉換的文件\n3. 設置輸出格式和目錄\n4. 點擊開始轉換"
+    },
+    "update_dialog": {
+      "found_title": "發現新版本",
+      "found_message": "發現新版本 V{version}，是否立即更新？",
+      "fail_title": "更新失敗",
+      "no_update_title": "檢查更新",
+      "no_update_message": "當前版本：V{version}\n\n已是最新版本！",
+      "check_fail_title": "檢查更新失敗"
+    },
+    "about": {
+      "title": "關於我們",
+      "app_name": "CAJ轉換器",
+      "version_prefix": "版本：V",
+      "desc": "一款專業的CAJ文件格式轉換工具",
+      "features_title": "支持功能：",
+      "feature_list": "<li>CAJ轉PDF、DOC、DOCX、TXT</li><li>CAJ轉JPG、PNG、BMP圖片</li><li>PDF、Word、圖片轉CAJ</li>",
+      "copyright": "© 2024 鯤穹AI | KunqiongAI"
+    },
+    "errors": {
+      "feedback_fail": "獲取問題反饋頁面失敗，請檢查網路連接或稍後重試。",
+      "customize_fail": "無法獲取定制頁面鏈接，請檢查網路連接",
+      "login_flow_fail": "無法啟動登錄流程，請檢查網路連接",
+      "browser_open_fail": "無法打開瀏覽器: {error}"
+    },
+    "home": {
+      "title_prefix": "CAJ格式處理  一鍵",
+      "title_highlight": "高效轉換",
+      "cards": {
+        "caj_to_other": {
+          "title": "CAJ轉其他",
+          "desc": "支持CAJ格式轉PDF、DOC、\nDOCX、TXT格式"
+        },
+        "caj_to_image": {
+          "title": "CAJ轉圖片",
+          "desc": "支持CAJ格式轉JPG、PNG、\nBMP格式"
+        },
+        "other_to_caj": {
+          "title": "其他轉CAJ",
+          "desc": "支持PDF、Word、TXT、圖片\n格式轉CAJ格式"
+        }
+      }
+    },
+    "settings": {
+      "title": "通用設置",
+      "file_count": "同時處理文件數量",
+      "auto_folder": "文件處理完成後，在輸出目錄自動新建軟體\n文件夾",
+      "cancel": "取消",
+      "confirm": "確定",
+      "language": "語言切換"
+    },
+    "languages": {
+      "ar": "阿拉伯语 (Arabic)",
+      "bn": "孟加拉语 (Bengali)",
+      "de": "德语 (German)",
+      "en": "英语 (English)",
+      "es": "西班牙语 (Spanish)",
+      "fa": "波斯语 (Farsi/Persian)",
+      "fr": "法语 (French)",
+      "he": "希伯来语 (Hebrew)",
+      "hi": "印地语 (Hindi)",
+      "id": "印度尼西亚语 (Indonesian)",
+      "it": "意大利语 (Italian)",
+      "ja": "日语 (Japanese)",
+      "ko": "韩语 (Korean)",
+      "ms": "马来语 (Malay)",
+      "nl": "荷兰语 (Dutch)",
+      "pl": "波兰语 (Polish)",
+      "pt": "葡萄牙语 (Portuguese)",
+      "pt_BR": "巴西葡萄牙语 (Brazilian Portuguese)",
+      "ru": "俄语 (Russian)",
+      "sw": "斯瓦希里语 (Swahili)",
+      "ta": "泰米尔语 (Tamil)",
+      "th": "泰语 (Thai)",
+      "tl": "他加禄语 (Tagalog)",
+      "tr": "土耳其语 (Turkish)",
+      "uk": "乌克兰语 (Ukrainian)",
+      "ur": "乌尔都语 (Urdu)",
+      "vi": "越南语 (Vietnamese)",
+      "zh_CN": "简体中文 (Simplified Chinese)",
+      "zh_TW": "繁体中文 (Traditional Chinese)"
+    }
+  },
+  "login": {
+    "user_button": {
+      "default_nickname": "用戶",
+      "login_text": "登錄",
+      "logged_in": "已登錄",
+      "logout_text": "退出登錄"
+    },
+    "dialog": {
+      "title": "用戶登錄",
+      "waiting": "正在等待登錄...",
+      "remaining_time": "剩餘時間: {time}秒",
+      "cancel": "取消",
+      "cancel_login": "取消登錄",
+      "browser_login": "打開瀏覽器登錄",
+      "instructions": "點擊下方按鈕，將在瀏覽器中打開登錄頁面。\n完成登錄後，軟體將自動同步登錄狀態。",
+      "error_start": "無法啟動登錄流程，請檢查網路連接",
+      "error_browser": "無法打開瀏覽器: {error}",
+      "success": "登錄成功！",
+      "failure": "登錄失敗",
+      "logging_in_title": "登錄中",
+      "logging_in_message": "瀏覽器已打開，請在瀏覽器中完成登錄。\n\n軟體將自動檢測登錄狀態..."
+    },
+    "logout": {
+      "confirm_title": "確認退出",
+      "confirm_message": "確定要退出當前賬號嗎？",
+      "title": "退出登錄",
+      "success": "已成功退出當前賬號。",
+      "stale": "登錄狀態已失效，已為你清除本地賬號信息。"
+    }
+  },
+  "auth": {
+    "dialog": {
+      "title": "鯤穹AI工具箱·軟體授權驗證",
+      "instructions": "您當前安裝的工具為鯤穹AI工具箱生態應用，需通過工具箱授權碼\n完成激活，以啟用完整功能。",
+      "input_placeholder": "請輸入授權碼",
+      "verify_button": "驗證授權",
+      "no_code": "還沒有授權碼？",
+      "get_code": "點擊獲取",
+      "success": "授權碼驗證成功！",
+      "failure": "授權碼無效或已過期，請重新輸入",
+      "error": "驗證授權碼時出錯: {error}",
+      "page_error": "無法獲取授權碼頁面鏈接",
+      "page_failure": "獲取授權碼頁面失敗: {error}",
+      "timeout": "網路請求超時，請檢查網路連接",
+      "open_error": "打開授權碼頁面時出錯: {error}"
+    }
+  },
+  "convert": {
+    "page": {
+      "sidebar": {
+        "home": "返回首頁",
+        "caj_to_other": "CAJ轉其他",
+        "caj_to_image": "CAJ轉圖片",
+        "other_to_caj": "其他轉CAJ"
+      },
+      "drop_zone": {
+        "hint": "點擊添加/拖拽文件到此處",
+        "caj_to_other_support": "支持caj格式轉pdf、doc、docx、txt格式",
+        "caj_to_image_support": "支持caj格式轉jpg、png、bmp格式",
+        "other_to_caj_support": "支持pdf、doc、docx、txt、jpg、png等格式轉caj格式"
+      },
+      "steps": {
+        "step1_title": "添加文件",
+        "step1_desc": "支持拖拽或批量添加",
+        "step2_title": "輸出設置",
+        "step2_desc": "設置格式和保存路徑",
+        "step3_title": "開始轉換",
+        "step3_desc": "一鍵轉換高效便捷"
+      },
+      "toolbar": {
+        "add_files": "添加文件",
+        "add_folder": "添加文件夾",
+        "clear_all": "清空全部"
+      },
+      "bottom": {
+        "output_format": "輸出格式",
+        "output_dir": "輸出目錄",
+        "change_dir": "更改",
+        "open_dir": "打開",
+        "start_convert": "開始轉換",
+        "quality": "清晰度",
+        "high": "高",
+        "medium": "中",
+        "low": "低",
+        "long_image": "導出為長圖"
+      },
+      "dialogs": {
+        "select_files": "選擇文件",
+        "select_folder": "選擇文件夾",
+        "no_files": "未找到符合條件的文件"
+      },
+      "list_header": {
+        "name": "文件名稱",
+        "size": "大小",
+        "pages": "頁數",
+        "page_select": "頁碼選擇",
+        "status": "狀態",
+        "operation": "操作"
+      },
+      "all_pages": "全部頁面",
+      "first_pages": "前",
+      "pages_unit": "頁",
+      "custom_range": "自定義:",
+      "custom_placeholder": "如: 1-5,8,10-12",
+      "hint": "支持格式: 1-5, 8, 10-12",
+      "cancel": "取消",
+      "confirm": "確定",
+      "all": "全部",
+      "first_n_pages": "前{num}頁",
+      "status_pending": "待轉換",
+      "status_converting": "轉換中 {percent}%",
+      "status_success": "轉換成功 ✓",
+      "status_failure": "轉換失敗",
+      "status_waiting": "等待轉換",
+      "wait_pages": "請等待文件頁數加載完成",
+      "unknown_size": "未知",
+      "total_pages": "選擇頁碼範圍 (共{total}頁)",
+      "output_same_as_source": "與源文件夾相同",
+      "output_custom": "自定義文件夾",
+      "select_output_dir": "選擇輸出目錄",
+      "no_files_added": "請先添加文件",
+      "convert_complete": "完成",
+      "convert_success_msg": "全部 {count} 個文件轉換成功！\n輸出目錄：{dir}",
+      "convert_result_msg": "轉換完成\n成功：{success} 個\n失敗：{fail} 個",
+      "step1_title": "添加文件",
+      "step1_desc": "支持批量添加文件",
+      "step2_title": "配置輸出",
+      "step2_desc": "配置輸出格式或目錄",
+      "step3_title": "開始轉換",
+      "step3_desc": "點擊轉換按鈕後等待轉換完成"
+    }
+  },
+  "converter": {
+    "error_not_found": "CAJ 文件不存在",
+    "error_extract_pdf": "無法提取嵌入的 PDF",
+    "error_unsupported_format": "不支持的文件格式: {format}",
+    "success": "轉換成功",
+    "failure": "轉換失敗: {error}",
+    "error_import": "導入轉換模塊失敗: {error}",
+    "error_pdf_failed": "PDF 文件生成失敗",
+    "error_caj2pdf_import": "無法導入 caj2pdf 庫: {error}",
+    "error_missing_lib": "未找到必要的庫: {error}",
+    "error_pdf2docx_import": "未找到 pdf2docx 庫: {error}",
+    "error_pymupdf_missing": "未找到 PyMuPDF 庫",
+    "error_java_missing": "未找到 Java 運行環境，請安裝 JDK 17 或更高版本",
+    "error_timeout": "轉換超時",
+    "txt_page_header": "--- 第 {page} 頁 ---",
+    "long_image_suffix": "_長圖",
+    "long_image_suffix_n": "_長圖_{index}"
+  },
+  "common": {
+    "error": "錯誤",
+    "success": "成功",
+    "hint": "提示"
+  },
+  "ad": {
+    "loading": "廣告加載中...",
+    "fallback_text": "廣告圖片",
+    "fallback_position": "廣告位置"
+  },
+  "update": {
+    "error_format": "返回數據格式錯誤",
+    "error_check_failed": "檢查更新失敗: {error}",
+    "error_updater_not_found": "未找到更新程序: {path}",
+    "error_start_failed": "啟動更新失敗: {error}"
+  }
+}

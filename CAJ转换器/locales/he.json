@@ -1,0 +1,266 @@
+{
+  "main_window": {
+    "title": "ממיר CAJ",
+    "subtitle": "מוצר מבית Kunqiong AI",
+    "brand_text": "מוצר מבית Kunqiong AI",
+    "version": "גרסה: V{version}",
+    "customize": "התאמה אישית/צור קשר",
+    "feedback": "משוב",
+    "menu": {
+      "settings": "הגדרות כלליות",
+      "tutorial": "מדריך",
+      "update": "בדוק עדכונים",
+      "about": "אודותינו"
+    },
+    "tutorial": {
+      "title": "מדריך",
+      "content": "פונקציית המדריך נמצאת בפיתוח...\n\nשלבים בסיסיים:\n1. בחר סוג המרה (CAJ לאחר/CAJ לתמונה/אחר ל-CAJ)\n2. הוסף קבצים להמרה\n3. קבע פורמט פלט ותיקייה\n4. לחץ על התחל המרה"
+    },
+    "update_dialog": {
+      "found_title": "נמצאה גרסה חדשה",
+      "found_message": "נמצאה גרסה חדשה V{version}, לעדכן כעת?",
+      "fail_title": "העדכון נכשל",
+      "no_update_title": "בדיקת עדכונים",
+      "no_update_message": "גרסה נוכחית: V{version}\n\nאתה כבר משתמש בגרסה העדכנית ביותר!",
+      "check_fail_title": "בדיקת עדכונים נכשלה"
+    },
+    "about": {
+      "title": "אודותינו",
+      "app_name": "ממיר CAJ",
+      "version_prefix": "גרסה: V",
+      "desc": "כלי מקצועי להמרת פורמט קבצי CAJ",
+      "features_title": "תכונות:",
+      "feature_list": "<li>CAJ ל-PDF, DOC, DOCX, TXT</li><li>CAJ לתמונות JPG, PNG, BMP</li><li>PDF, Word, תמונה ל-CAJ</li>",
+      "copyright": "© 2024 Kunqiong AI | KunqiongAI"
+    },
+    "errors": {
+      "feedback_fail": "כשל בקבלת דף המשוב, בדוק את חיבור הרשת.",
+      "customize_fail": "כשל בקבלת קישור להתאמה אישית.",
+      "login_flow_fail": "כשל בהפעלת תהליך ההתחברות.",
+      "browser_open_fail": "לא ניתן לפתוח את הדפדפן: {error}"
+    },
+    "home": {
+      "title_prefix": "עיבוד CAJ בלחיצה אחת",
+      "title_highlight": "המרה יעילה",
+      "cards": {
+        "caj_to_other": {
+          "title": "CAJ לאחר",
+          "desc": "המיר CAJ לפורמטים PDF, DOC,\nDOCX, TXT"
+        },
+        "caj_to_image": {
+          "title": "CAJ לתמונה",
+          "desc": "המיר CAJ לפורמטים JPG, PNG,\nBMP"
+        },
+        "other_to_caj": {
+          "title": "אחר ל-CAJ",
+          "desc": "המיר PDF, Word, TXT, תמונה\nלפורמט CAJ"
+        }
+      }
+    },
+    "settings": {
+      "title": "הגדרות כלליות",
+      "file_count": "קבצים במקביל",
+      "auto_folder": "צור אוטומטית תיקיית תוכנה\nבתיקיית הפלט לאחר העיבוד",
+      "cancel": "ביטול",
+      "confirm": "אישור",
+      "language": "Language"
+    },
+    "languages": {
+      "ar": "阿拉伯语 (Arabic)",
+      "bn": "孟加拉语 (Bengali)",
+      "de": "德语 (German)",
+      "en": "英语 (English)",
+      "es": "西班牙语 (Spanish)",
+      "fa": "波斯语 (Farsi/Persian)",
+      "fr": "法语 (French)",
+      "he": "希伯来语 (Hebrew)",
+      "hi": "印地语 (Hindi)",
+      "id": "印度尼西亚语 (Indonesian)",
+      "it": "意大利语 (Italian)",
+      "ja": "日语 (Japanese)",
+      "ko": "韩语 (Korean)",
+      "ms": "马来语 (Malay)",
+      "nl": "荷兰语 (Dutch)",
+      "pl": "波兰语 (Polish)",
+      "pt": "葡萄牙语 (Portuguese)",
+      "pt_BR": "巴西葡萄牙语 (Brazilian Portuguese)",
+      "ru": "俄语 (Russian)",
+      "sw": "斯瓦希里语 (Swahili)",
+      "ta": "泰米尔语 (Tamil)",
+      "th": "泰语 (Thai)",
+      "tl": "他加禄语 (Tagalog)",
+      "tr": "土耳其语 (Turkish)",
+      "uk": "乌克兰语 (Ukrainian)",
+      "ur": "乌尔都语 (Urdu)",
+      "vi": "越南语 (Vietnamese)",
+      "zh_CN": "简体中文 (Simplified Chinese)",
+      "zh_TW": "繁体中文 (Traditional Chinese)"
+    }
+  },
+  "login": {
+    "user_button": {
+      "default_nickname": "משתמש",
+      "login_text": "התחבר",
+      "logged_in": "מחובר",
+      "logout_text": "התנתק"
+    },
+    "dialog": {
+      "title": "התחברות משתמש",
+      "waiting": "ממתין להתחברות...",
+      "remaining_time": "זמן נותר: {time} שניות",
+      "cancel": "ביטול",
+      "cancel_login": "בטל התחברות",
+      "browser_login": "התחבר דרך הדפדפן",
+      "instructions": "לחץ על הכפתור למטה כדי לפתוח את דף ההתחברות בדפדפן.\nלאחר ההתחברות, התוכנה תסנכרן אוטומטית את הסטטוס שלך.",
+      "error_start": "כשל בהפעלת ההתחברות, בדוק את חיבור הרשת",
+      "error_browser": "לא ניתן לפתוח את הדפדפן: {error}",
+      "success": "התחברות הצליחה!",
+      "failure": "התחברות נכשלה",
+      "logging_in_title": "מתחבר",
+      "logging_in_message": "הדפדפן נפתח, נא השלם את ההתחברות בדפדפן.\n\nהתוכנה תזהה אוטומטית את הסטטוס שלך..."
+    },
+    "logout": {
+      "confirm_title": "אשר התנתקות",
+      "confirm_message": "האם אתה בטוח שברצונך להתנתק?",
+      "title": "התנתקות",
+      "success": "התנתקות הצליחה.",
+      "stale": "סשן ההתחברות פג, פרטי החשבון המקומי נמחקו."
+    }
+  },
+  "auth": {
+    "dialog": {
+      "title": "ארגז הכלים Kunqiong AI · הפעלה",
+      "instructions": "הכלי המותקן הוא אפליקציה מבית ארגז הכלים Kunqiong AI.\nיש להפעילו באמצעות קוד הפעלה כדי לאפשר את כל התכונות.",
+      "input_placeholder": "נא להזין קוד הפעלה",
+      "verify_button": "אימות",
+      "no_code": "אין לך קוד?",
+      "get_code": "לחץ לקבלת קוד",
+      "success": "ההפעלה הצליחה!",
+      "failure": "קוד הפעלה לא חוקי או פג תוקף, נסה שוב",
+      "error": "שגיאה באימות הקוד: {error}",
+      "page_error": "כשל בקבלת קישור לדף ההפעלה",
+      "page_failure": "דף ההפעלה נכשל: {error}",
+      "timeout": "פסק זמן רשת, בדוק את החיבור",
+      "open_error": "שגיאה בפתיחת הדף: {error}"
+    }
+  },
+  "convert": {
+    "page": {
+      "sidebar": {
+        "home": "בית",
+        "caj_to_other": "CAJ לאחר",
+        "caj_to_image": "CAJ לתמונה",
+        "other_to_caj": "אחר ל-CAJ"
+      },
+      "drop_zone": {
+        "hint": "לחץ להוספה / גרור קבצים לכאן",
+        "caj_to_other_support": "תומך ב-CAJ ל-PDF, DOC, DOCX, TXT",
+        "caj_to_image_support": "תומך ב-CAJ ל-JPG, PNG, BMP",
+        "other_to_caj_support": "תומך ב-PDF, Word, TXT, תמונה ל-CAJ"
+      },
+      "steps": {
+        "step1_title": "הוסף קבצים",
+        "step1_desc": "תומך בגרירה או בהוספה קבוצתית",
+        "step2_title": "הגדרות פלט",
+        "step2_desc": "קבע פורמט ונתיב שמירה",
+        "step3_title": "התחל המרה",
+        "step3_desc": "המרה יעילה בלחיצה אחת"
+      },
+      "toolbar": {
+        "add_files": "הוסף קבצים",
+        "add_folder": "הוסף תיקייה",
+        "clear_all": "נקה הכל"
+      },
+      "bottom": {
+        "output_format": "פורמט",
+        "output_dir": "תיקיית פלט",
+        "change_dir": "שנה",
+        "open_dir": "פתח",
+        "start_convert": "המר כעת",
+        "quality": "איכות",
+        "high": "גבוהה",
+        "medium": "בינונית",
+        "low": "נמוכה",
+        "long_image": "ייצא כתמונה ארוכה"
+      },
+      "dialogs": {
+        "select_files": "בחר קבצים",
+        "select_folder": "בחר תיקייה",
+        "no_files": "לא נמצאו קבצים מתאימים"
+      },
+      "list_header": {
+        "name": "שם הקובץ",
+        "size": "גודל",
+        "pages": "דפים",
+        "page_select": "טווח",
+        "status": "סטטוס",
+        "operation": "פעולה"
+      },
+      "all_pages": "הכל",
+      "first_pages": "ראשונים ",
+      "pages_unit": " דפים",
+      "custom_range": "מותאם אישית:",
+      "custom_placeholder": "למשל, 1-5,8,10-12",
+      "hint": "פורמט: 1-5, 8, 10-12",
+      "cancel": "ביטול",
+      "confirm": "אישור",
+      "all": "הכל",
+      "first_n_pages": "{num} דפים ראשונים",
+      "status_pending": "בהמתנה",
+      "status_converting": "ממיר {percent}%",
+      "status_success": "הצלחה ✓",
+      "status_failure": "נכשל",
+      "status_waiting": "ממתין",
+      "wait_pages": "נא להמתין לטעינת מספר הדפים",
+      "unknown_size": "לא ידוע",
+      "total_pages": "בחר טווח דפים (סה\"כ {total} דפים)",
+      "output_same_as_source": "כמו בתיקיית המקור",
+      "output_custom": "תיקייה מותאמת אישית",
+      "select_output_dir": "בחר תיקיית פלט",
+      "no_files_added": "נא להוסיף קבצים תחילה",
+      "convert_complete": "הושלם",
+      "convert_success_msg": "כל {count} הקבצים הומרו בהצלחה!\nתיקיית פלט: {dir}",
+      "convert_result_msg": "ההמרה הסתיימה\nהצלחה: {success}\nכישלון: {fail}",
+      "step1_title": "הוספה",
+      "step1_desc": "הוספת קבצים בקבוצה",
+      "step2_title": "תצורה",
+      "step2_desc": "קבע פורמט או תיקייה",
+      "step3_title": "התחל",
+      "step3_desc": "לחץ על הכפתור והמתן לסיום"
+    }
+  },
+  "converter": {
+    "error_not_found": "קובץ CAJ לא נמצא",
+    "error_extract_pdf": "כשל בחילוץ PDF מוטמע",
+    "error_unsupported_format": "פורמט לא נתמך: {format}",
+    "success": "הצלחה",
+    "failure": "כישלון: {error}",
+    "error_import": "כשל בייבוא מודול ההמרה: {error}",
+    "error_pdf_failed": "כשל ביצירת קובץ PDF",
+    "error_caj2pdf_import": "לא ניתן לייבא את ספריית caj2pdf: {error}",
+    "error_missing_lib": "ספרייה דרושה לא נמצאה: {error}",
+    "error_pdf2docx_import": "pdf2docx לא נמצאה",
+    "error_pymupdf_missing": "ספריית PyMuPDF לא נמצאה",
+    "error_java_missing": "סביבת Java לא נמצאה, נא להתקין JDK 17 ומעלה",
+    "error_timeout": "פסק זמן להמרה",
+    "txt_page_header": "--- דף {page} ---",
+    "long_image_suffix": "_תמונהארוכה",
+    "long_image_suffix_n": "_תמונהארוכה_{index}"
+  },
+  "common": {
+    "error": "שגיאה",
+    "success": "הצלחה",
+    "hint": "טיפ"
+  },
+  "ad": {
+    "loading": "טוען פרסומת...",
+    "fallback_text": "תמונת פרסומת",
+    "fallback_position": "מיקום פרסומת"
+  },
+  "update": {
+    "error_format": "פורמט נתונים לא תקין מהשרת",
+    "error_check_failed": "בדיקת עדכונים נכשלה: {error}",
+    "error_updater_not_found": "תוכנת העדכון לא נמצאה: {path}",
+    "error_start_failed": "כשל בהפעלת העדכון: {error}"
+  }
+}

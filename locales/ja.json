@@ -1,0 +1,266 @@
+{
+  "main_window": {
+    "title": "CAJコンバーター",
+    "subtitle": "鯤穹AI傘下製品",
+    "brand_text": "鯤穹AI傘下製品",
+    "version": "バージョン: V{version}",
+    "customize": "ソフトウェアカスタマイズ/お問い合わせ",
+    "feedback": "フィードバック",
+    "menu": {
+      "settings": "一般設定",
+      "tutorial": "チュートリアル",
+      "update": "アップデートを確認",
+      "about": "私たちについて"
+    },
+    "tutorial": {
+      "title": "チュートリアル",
+      "content": "チュートリアル機能は開発中です...\n\n基本的な手順:\n1. 変換タイプを選択 (CAJから他へ/CAJから画像へ/他からCAJへ)\n2. 変換するファイルを追加\n3. 出力形式とディレクトリを設定\n4. 変換開始をクリック"
+    },
+    "update_dialog": {
+      "found_title": "新しいバージョンが見つかりました",
+      "found_message": "新しいバージョン V{version} が見つかりました。今すぐアップデートしますか？",
+      "fail_title": "アップデート失敗",
+      "no_update_title": "アップデートを確認",
+      "no_update_message": "現在のバージョン: V{version}\n\nすでに最新バージョンです！",
+      "check_fail_title": "アップデート確認失敗"
+    },
+    "about": {
+      "title": "私たちについて",
+      "app_name": "CAJコンバーター",
+      "version_prefix": "バージョン: V",
+      "desc": "プロフェッショナルなCAJファイル形式変換ツール",
+      "features_title": "サポート機能:",
+      "feature_list": "<li>CAJからPDF、DOC、DOCX、TXTへ</li><li>CAJからJPG、PNG、BMP画像へ</li><li>PDF、Word、画像からCAJへ</li>",
+      "copyright": "© 2024 鯤穹AI | KunqiongAI"
+    },
+    "errors": {
+      "feedback_fail": "フィードバックページの取得に失敗しました。ネットワーク接続を確認するか、後でもう一度お試しください。",
+      "customize_fail": "カスタマイズリンクの取得に失敗しました。ネットワーク接続を確認してください",
+      "login_flow_fail": "ログインプロセスの開始に失敗しました。ネットワーク接続を確認してください",
+      "browser_open_fail": "ブラウザを開けませんでした: {error}"
+    },
+    "home": {
+      "title_prefix": "CAJ処理 ワンクリックで",
+      "title_highlight": "効率的な変換",
+      "cards": {
+        "caj_to_other": {
+          "title": "CAJから他へ",
+          "desc": "CAJからPDF、DOC、\nDOCX、TXT形式へ変換"
+        },
+        "caj_to_image": {
+          "title": "CAJから画像へ",
+          "desc": "CAJからJPG、PNG、\nBMP形式へ変換"
+        },
+        "other_to_caj": {
+          "title": "他からCAJへ",
+          "desc": "PDF、Word、TXT、画像を\nCAJ形式へ変換"
+        }
+      }
+    },
+    "settings": {
+      "title": "一般設定",
+      "file_count": "同時処理ファイル数",
+      "auto_folder": "処理完了後、出力ディレクトリにソフトウェア\nフォルダを自動作成する",
+      "cancel": "キャンセル",
+      "confirm": "確認",
+      "language": "言語切換"
+    },
+    "languages": {
+      "ar": "阿拉伯语 (Arabic)",
+      "bn": "孟加拉语 (Bengali)",
+      "de": "德语 (German)",
+      "en": "英语 (English)",
+      "es": "西班牙语 (Spanish)",
+      "fa": "波斯语 (Farsi/Persian)",
+      "fr": "法语 (French)",
+      "he": "希伯来语 (Hebrew)",
+      "hi": "印地语 (Hindi)",
+      "id": "印度尼西亚语 (Indonesian)",
+      "it": "意大利语 (Italian)",
+      "ja": "日语 (Japanese)",
+      "ko": "韩语 (Korean)",
+      "ms": "马来语 (Malay)",
+      "nl": "荷兰语 (Dutch)",
+      "pl": "波兰语 (Polish)",
+      "pt": "葡萄牙语 (Portuguese)",
+      "pt_BR": "巴西葡萄牙语 (Brazilian Portuguese)",
+      "ru": "俄语 (Russian)",
+      "sw": "斯瓦希里语 (Swahili)",
+      "ta": "泰米尔语 (Tamil)",
+      "th": "泰语 (Thai)",
+      "tl": "他加禄语 (Tagalog)",
+      "tr": "土耳其语 (Turkish)",
+      "uk": "乌克兰语 (Ukrainian)",
+      "ur": "乌尔都语 (Urdu)",
+      "vi": "越南语 (Vietnamese)",
+      "zh_CN": "简体中文 (Simplified Chinese)",
+      "zh_TW": "繁体中文 (Traditional Chinese)"
+    }
+  },
+  "login": {
+    "user_button": {
+      "default_nickname": "ユーザー",
+      "login_text": "ログイン",
+      "logged_in": "ログイン済み",
+      "logout_text": "ログアウト"
+    },
+    "dialog": {
+      "title": "ユーザーログイン",
+      "waiting": "ログインを待機中...",
+      "remaining_time": "残り時間: {time}秒",
+      "cancel": "キャンセル",
+      "cancel_login": "ログインをキャンセル",
+      "browser_login": "ブラウザでログイン",
+      "instructions": "下のボタンをクリックして、ブラウザでログインページを開きます。\nログイン後、ソフトウェアは自動的にステータスを同期します。",
+      "error_start": "ログインを開始できませんでした。ネットワーク接続を確認してください",
+      "error_browser": "ブラウザを開けませんでした: {error}",
+      "success": "ログイン成功！",
+      "failure": "ログイン失敗",
+      "logging_in_title": "ログイン中",
+      "logging_in_message": "ブラウザが開きました。ブラウザでログインを完了してください。\n\nソフトウェアは自動的にログイン状態を検出します..."
+    },
+    "logout": {
+      "confirm_title": "ログアウトの確認",
+      "confirm_message": "現在の有効なアカウントからログアウトしますか？",
+      "title": "ログアウト",
+      "success": "ログアウトに成功しました。",
+      "stale": "ログイン状態が無効になりました。ローカルアカウント情報をクリアしました。"
+    }
+  },
+  "auth": {
+    "dialog": {
+      "title": "鯤穹AIツールボックス・ソフトウェア認証",
+      "instructions": "現在インストールされているツールは、鯤穹AIツールボックスのエコシステムアプリケーションです。\nフル機能を有効にするには、認証コードによるアクティベーションが必要です。",
+      "input_placeholder": "認証コードを入力してください",
+      "verify_button": "認証",
+      "no_code": "認証コードをお持ちでない場合",
+      "get_code": "クリックして取得",
+      "success": "認証に成功しました！",
+      "failure": "認証コードが無効または期限切れです。再入力してください",
+      "error": "認証コードの確認中にエラーが発生しました: {error}",
+      "page_error": "認証コードページのリンクを取得できませんでした",
+      "page_failure": "認証コードページの取得に失敗しました: {error}",
+      "timeout": "ネットワークタイムアウト。ネットワーク接続を確認してください",
+      "open_error": "認証コードページを開く際にエラーが発生しました: {error}"
+    }
+  },
+  "convert": {
+    "page": {
+      "sidebar": {
+        "home": "ホームに戻る",
+        "caj_to_other": "CAJから他へ",
+        "caj_to_image": "CAJから画像へ",
+        "other_to_caj": "他からCAJへ"
+      },
+      "drop_zone": {
+        "hint": "クリックして追加 / ファイルをここにドラッグ",
+        "caj_to_other_support": "CAJからPDF、DOC、DOCX、TXT形式への変換をサポート",
+        "caj_to_image_support": "CAJからJPG、PNG、BMP形式への変換をサポート",
+        "other_to_caj_support": "PDF、Word、TXT、画像からCAJ形式への変換をサポート"
+      },
+      "steps": {
+        "step1_title": "ファイル追加",
+        "step1_desc": "ドラッグ＆ドロップまたは一括追加をサポート",
+        "step2_title": "出力設定",
+        "step2_desc": "形式と保存パスを設定",
+        "step3_title": "変換開始",
+        "step3_desc": "ワンクリックで効率的に変換"
+      },
+      "toolbar": {
+        "add_files": "ファイル追加",
+        "add_folder": "フォルダ追加",
+        "clear_all": "すべてクリア"
+      },
+      "bottom": {
+        "output_format": "出力形式",
+        "output_dir": "出力ディレクトリ",
+        "change_dir": "変更",
+        "open_dir": "開く",
+        "start_convert": "変換開始",
+        "quality": "鮮明度",
+        "high": "高",
+        "medium": "中",
+        "low": "低",
+        "long_image": "長尺画像として書き出し"
+      },
+      "dialogs": {
+        "select_files": "ファイルを選択",
+        "select_folder": "フォルダを選択",
+        "no_files": "条件に一致するファイルが見つかりませんでした"
+      },
+      "list_header": {
+        "name": "ファイル名",
+        "size": "サイズ",
+        "pages": "ページ数",
+        "page_select": "ページ選択",
+        "status": "ステータス",
+        "operation": "操作"
+      },
+      "all_pages": "全ページ",
+      "first_pages": "最初の",
+      "pages_unit": "ページ",
+      "custom_range": "カスタム:",
+      "custom_placeholder": "例: 1-5,8,10-12",
+      "hint": "サポート形式: 1-5, 8, 10-12",
+      "cancel": "キャンセル",
+      "confirm": "確定",
+      "all": "すべて",
+      "first_n_pages": "最初の{num}ページ",
+      "status_pending": "待機中",
+      "status_converting": "変換中 {percent}%",
+      "status_success": "変換成功 ✓",
+      "status_failure": "変換失敗",
+      "status_waiting": "変換待ち",
+      "wait_pages": "ページの読み込み完了までお待ちください",
+      "unknown_size": "不明",
+      "total_pages": "ページ範囲を選択 (合計{total}ページ)",
+      "output_same_as_source": "元のフォルダと同じ",
+      "output_custom": "カスタムフォルダ",
+      "select_output_dir": "出力フォルダを選択",
+      "no_files_added": "まずファイルを追加してください",
+      "convert_complete": "完了",
+      "convert_success_msg": "全 {count} 個のファイルの変換に成功しました！\n出力ディレクトリ：{dir}",
+      "convert_result_msg": "変換完了\n成功：{success} 個\n失敗：{fail} 個",
+      "step1_title": "ファイル追加",
+      "step1_desc": "ファイルの批量追加をサポート",
+      "step2_title": "出力構成",
+      "step2_desc": "形式またはディレクトリを構成",
+      "step3_title": "開始",
+      "step3_desc": "変換ボタンをクリックして完了を待つ"
+    }
+  },
+  "converter": {
+    "error_not_found": "CAJファイルが存在しません",
+    "error_extract_pdf": "埋め込まれたPDFを抽出できませんでした",
+    "error_unsupported_format": "サポートされていない形式: {format}",
+    "success": "変換成功",
+    "failure": "変換失敗: {error}",
+    "error_import": "変換モジュールのインポートに失敗しました: {error}",
+    "error_pdf_failed": "PDFファイルの生成に失敗しました",
+    "error_caj2pdf_import": "caj2pdfライブラリをインポートできませんでした: {error}",
+    "error_missing_lib": "必要なライブラリが見つかりません: {error}",
+    "error_pdf2docx_import": "pdf2docxライブラリが見つかりません: {error}",
+    "error_pymupdf_missing": "PyMuPDFライブラリが見つかりません",
+    "error_java_missing": "Java実行環境が見つかりません。JDK 17以降をインストールしてください",
+    "error_timeout": "変換タイムアウト",
+    "txt_page_header": "--- 第 {page} ページ ---",
+    "long_image_suffix": "_長尺画像",
+    "long_image_suffix_n": "_長尺画像_{index}"
+  },
+  "common": {
+    "error": "エラー",
+    "success": "成功",
+    "hint": "ヒント"
+  },
+  "ad": {
+    "loading": "広告読み込み中...",
+    "fallback_text": "広告画像",
+    "fallback_position": "広告位置"
+  },
+  "update": {
+    "error_format": "サーバーからのデータ形式が正しくありません",
+    "error_check_failed": "アップデートの確認に失敗しました: {error}",
+    "error_updater_not_found": "更新プログラムが見つかりません: {path}",
+    "error_start_failed": "アップデートの開始に失敗しました: {error}"
+  }
+}
