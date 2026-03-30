@@ -1,4 +1,4 @@
-name: Build CAJ Converter for Linux and macOS
+name: Build CAJ Converter for macOS
 
 on:
   push:
@@ -8,58 +8,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-linux:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.10"
-
-      - name: Install Linux system packages
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libegl1 libgl1 libglib2.0-0 libxkbcommon-x11-0
-
-      - name: Install Python dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt PyInstaller PyPDF2
-
-      - name: Prepare Linux icon
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          from PIL import Image
-
-          root = Path.cwd()
-          output_dir = root / "build_assets"
-          output_dir.mkdir(exist_ok=True)
-
-          with Image.open(root / "CAJ转换器.ico") as icon:
-              icon.save(output_dir / "CAJConverter.png")
-          PY
-
-      - name: Build Linux version
-        env:
-          CI_APP_ICON: ${{ github.workspace }}/build_assets/CAJConverter.png
-        run: python build_ci.py
-
-      - name: Create artifact
-        run: |
-          cd dist
-          tar -czf CAJConverter_Linux.tar.gz CAJConverter
-
-      - name: Upload Linux artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: CAJConverter_Linux
-          path: dist/CAJConverter_Linux.tar.gz
-
-  build-macos:
-    runs-on: macos-latest
+  build-macos-intel:
+    runs-on: macos-13
     steps:
       - uses: actions/checkout@v4
 
@@ -95,18 +45,73 @@ jobs:
           PY
           iconutil -c icns build_assets/CAJConverter.iconset -o build_assets/CAJConverter.icns
 
-      - name: Build macOS version
+      - name: Build macOS Intel version
         env:
           CI_APP_ICON: ${{ github.workspace }}/build_assets/CAJConverter.icns
+          CI_TARGET_ARCH: x86_64
         run: python build_ci.py
 
-      - name: Create artifact
+      - name: Create Intel artifact
         run: |
           cd dist
-          tar -czf CAJConverter_macOS.tar.gz CAJConverter.app
+          tar -czf CAJConverter_macOS_Intel.tar.gz CAJConverter.app
 
-      - name: Upload macOS artifact
+      - name: Upload macOS Intel artifact
         uses: actions/upload-artifact@v4
         with:
-          name: CAJConverter_macOS
-          path: dist/CAJConverter_macOS.tar.gz
+          name: CAJConverter_macOS_Intel
+          path: dist/CAJConverter_macOS_Intel.tar.gz
+
+  build-macos-apple-silicon:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt PyInstaller PyPDF2
+
+      - name: Prepare macOS icon
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+
+          root = Path.cwd()
+          output_dir = root / "build_assets"
+          iconset_dir = output_dir / "CAJConverter.iconset"
+          output_dir.mkdir(exist_ok=True)
+          iconset_dir.mkdir(exist_ok=True)
+
+          sizes = [16, 32, 64, 128, 256, 512]
+          with Image.open(root / "CAJ转换器.ico") as icon:
+              for size in sizes:
+                  resized = icon.resize((size, size))
+                  resized.save(iconset_dir / f"icon_{size}x{size}.png")
+                  resized_2x = icon.resize((size * 2, size * 2))
+                  resized_2x.save(iconset_dir / f"icon_{size}x{size}@2x.png")
+          PY
+          iconutil -c icns build_assets/CAJConverter.iconset -o build_assets/CAJConverter.icns
+
+      - name: Build macOS Apple Silicon version
+        env:
+          CI_APP_ICON: ${{ github.workspace }}/build_assets/CAJConverter.icns
+          CI_TARGET_ARCH: arm64
+        run: python build_ci.py
+
+      - name: Create Apple Silicon artifact
+        run: |
+          cd dist
+          tar -czf CAJConverter_macOS_AppleSilicon.tar.gz CAJConverter.app
+
+      - name: Upload macOS Apple Silicon artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: CAJConverter_macOS_AppleSilicon
+          path: dist/CAJConverter_macOS_AppleSilicon.tar.gz

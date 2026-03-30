@@ -11,6 +11,7 @@ ENTRYPOINT = ROOT / "main.py"
 APP_NAME = "CAJConverter"
 DEFAULT_ICON = ROOT / "CAJ转换器.ico"
 ENV_ICON = os.environ.get("CI_APP_ICON")
+TARGET_ARCH = os.environ.get("CI_TARGET_ARCH")
 
 
 def add_data_argument(source: Path, destination: str) -> str:
@@ -36,6 +37,9 @@ def build_command() -> list[str]:
         command.extend(["--icon", str(icon_path)])
     elif DEFAULT_ICON.exists() and sys.platform != "darwin":
         command.extend(["--icon", str(DEFAULT_ICON)])
+
+    if TARGET_ARCH and sys.platform == "darwin":
+        command.extend(["--target-architecture", TARGET_ARCH])
 
     for source, destination in [
         (ROOT / "locales", "locales"),
